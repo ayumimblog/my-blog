@@ -1,0 +1,28 @@
+baseURL = "https://example.pages.dev/"
+languageCode = "ja"
+title = "わたしの子育てブログ"
+theme = "PaperMod"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+paginate = 10
+
+[params]
+  author = "あなたの名前"
+  description = "日々の子育てをつづるブログです"
+  homeInfoParams = {Title = "ようこそ！", Content = "子育ての日々をのんびり記録しています。"}
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+
+[menu]
+  [[menu.main]]
+    name = "記事一覧"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "プロフィール"
+    url = "/about/"
+    weight = 20
