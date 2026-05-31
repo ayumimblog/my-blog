@@ -4,7 +4,7 @@ title = "わたしの子育てブログ"
 theme = "PaperMod"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
-paginate = 10
+
 
 [params]
   author = "あなたの名前"
@@ -26,3 +26,5 @@ paginate = 10
     name = "プロフィール"
     url = "/about/"
     weight = 20
+[pagination]
+  pagerSize = 10
