@@ -5,17 +5,23 @@ theme = "PaperMod"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
 
+[pagination]
+  pagerSize = 10
 
 [params]
   author = "ドタバタ母さん"
   description = "3人の子供（小学１・４・６年生）を育てる、常にフル回転な母です！カオスすぎる我が家の日常を笑い飛ばしながら更新中。"
-  homeInfoParams = {Title = "ようこそ！", Content = "白目をむきながらも、今日もなんとか生きてる！そんな全国のママ・パパと繋がれたら嬉しいです😊"}
+  homeInfoParams = {Title = "🍺 ようこそ！ドタバタ母さんの奮闘日記へ", Content = "小学6・4・1年生の3人を育てる40代の訪問看護師です。白目をむきながらも今日もなんとか生きてる！そんな日常をのんびり綴っています😊"}
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowRssButtonInSectionTermList = true
+  ShowToc = false
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
   [[menu.main]]
@@ -26,10 +32,3 @@ hasCJKLanguage = true
     name = "プロフィール"
     url = "/about/"
     weight = 20
-[pagination]
-  pagerSize = 10
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
