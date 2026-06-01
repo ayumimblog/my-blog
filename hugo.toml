@@ -28,3 +28,8 @@ hasCJKLanguage = true
     weight = 20
 [pagination]
   pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
