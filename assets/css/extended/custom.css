@@ -1,0 +1,55 @@
+/* ドタバタ母さんカラー */
+:root {
+  --theme: #fff9f5;
+  --entry: #ffffff;
+  --primary: rgba(60, 40, 20, 0.88);
+  --secondary: rgba(60, 40, 20, 0.56);
+  --tertiary: rgba(60, 40, 20, 0.16);
+  --content: rgba(60, 40, 20, 0.88);
+  --hljs-bg: #fff3e0;
+  --code-bg: #fff3e0;
+  --border: rgba(60, 40, 20, 0.12);
+}
+
+/* アクセントカラー（オレンジ系） */
+.post-entry:hover {
+  border-left: 3px solid #ff8c42;
+  background: #fff9f5;
+}
+
+/* タイトルカラー */
+.logo a, .logo span {
+  color: #d4530a !important;
+}
+
+/* ヘッダー背景 */
+header {
+  background: #fff9f5 !important;
+  border-bottom: 2px solid #ffcba4;
+}
+
+/* ホームの挨拶部分 */
+.home-info {
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border-radius: 12px;
+  padding: 2rem;
+  border-left: 5px solid #ff8c42;
+}
+
+/* 記事カード */
+.post-entry {
+  border-radius: 8px;
+  border: 1px solid #ffe0c8;
+  transition: all 0.2s;
+}
+
+/* メニューリンク */
+.nav a:hover {
+  color: #d4530a !important;
+}
+
+/* フッター */
+footer {
+  border-top: 2px solid #ffcba4;
+  background: #fff9f5;
+}
