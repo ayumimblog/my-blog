@@ -3,6 +3,9 @@ title: "娘の「おじさん鑑定」が鋭すぎた話"
 date: 2026-06-03
 draft: true
 tags: ["長女", "子育て", "日常", "笑える話", "ドライブ"]
+cover:
+  image: "/images/musume-ojisan.png"
+  alt: "娘のおじさん鑑定"
 ---
 
 根拠はなんとも言えないのに、なぜか妙に説得力があった。
