@@ -3,6 +3,10 @@ title: "プロフィール"
 layout: "page"
 ---
 
+<div style="text-align: center; margin-bottom: 1.5rem;">
+  <img src="/images/profile.png" alt="ドタバタ母さん" style="width: 180px; border-radius: 50%;">
+</div>
+
 ## はじめまして！
 
 小学6・4・1年生の3人と夫と暮らす、40代のドタバタ母さんです。
