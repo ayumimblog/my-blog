@@ -4,7 +4,7 @@ date: 2026-06-04
 draft: true
 tags: ["次男", "ぬいぐるみ", "日常", "子どもの遊び", "笑える話"]
 cover:
-  image: "/images/kata-nori-panda.png"
+  image: "/images/katanoripanda.png"
   alt: "肩のりパンダと遊ぶ次男"
 ---
 
