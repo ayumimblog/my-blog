@@ -57,36 +57,41 @@ footer {
 /* ===== 文字サイズの統一・見やすさ調整 ===== */
 
 /* 本文 */
-.post-content {
-  font-size: 1rem;
+.post-content,
+.post-content p {
+  font-size: 1rem !important;
   line-height: 1.9;
 }
 
 /* 大見出し（## ）*/
 .post-content h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-top: 2.2rem;
-  margin-bottom: 0.8rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 2px solid #ffcba4;
+  font-size: 1.6rem !important;
+  font-weight: 700 !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  padding: 0.5rem 0.8rem !important;
+  background: linear-gradient(135deg, #fff3e0, #ffe8d0);
+  border-left: 5px solid #ff8c42 !important;
+  border-bottom: none !important;
+  border-radius: 0 6px 6px 0;
 }
 
 /* 中見出し（### ）*/
 .post-content h3 {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-top: 1.8rem;
-  margin-bottom: 0.6rem;
-  padding-left: 0.6rem;
-  border-left: 4px solid #ff8c42;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin-top: 2rem !important;
+  margin-bottom: 0.7rem !important;
+  padding-left: 0.7rem !important;
+  border-left: 4px solid #ffb07a !important;
+  color: #b34400;
 }
 
 /* 小見出し（#### ）*/
 .post-content h4 {
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin-top: 1.4rem;
-  margin-bottom: 0.4rem;
-  color: #d4530a;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #d4530a !important;
 }
