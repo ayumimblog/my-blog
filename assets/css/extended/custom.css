@@ -53,3 +53,40 @@ footer {
   border-top: 2px solid #ffcba4;
   background: #fff9f5;
 }
+
+/* ===== 文字サイズの統一・見やすさ調整 ===== */
+
+/* 本文 */
+.post-content {
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+/* 大見出し（## ）*/
+.post-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #ffcba4;
+}
+
+/* 中見出し（### ）*/
+.post-content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  padding-left: 0.6rem;
+  border-left: 4px solid #ff8c42;
+}
+
+/* 小見出し（#### ）*/
+.post-content h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-top: 1.4rem;
+  margin-bottom: 0.4rem;
+  color: #d4530a;
+}
