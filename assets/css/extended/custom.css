@@ -77,14 +77,19 @@ footer {
 }
 
 /* 中見出し（### ）*/
-.post-content h3 {
-  font-size: 1.25rem !important;
+.post-content h3,
+article h3,
+.post h3,
+main h3 {
+  font-size: 1.45rem !important;
   font-weight: 700 !important;
   margin-top: 2rem !important;
   margin-bottom: 0.7rem !important;
-  padding-left: 0.7rem !important;
+  padding: 0.4rem 0.7rem !important;
   border-left: 4px solid #ffb07a !important;
-  color: #b34400;
+  background: linear-gradient(135deg, #fff8f0, #fff0e0) !important;
+  border-radius: 0 4px 4px 0 !important;
+  color: #b34400 !important;
 }
 
 /* 小見出し（#### ）*/
