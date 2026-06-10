@@ -4,6 +4,7 @@ title = "３人子育てドタバタ母さんの奮闘日記"
 theme = "PaperMod"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
+timeZone = "Asia/Tokyo"
 
 [pagination]
   pagerSize = 10
