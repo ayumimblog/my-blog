@@ -14,10 +14,11 @@ hasCJKLanguage = true
   homeInfoParams = {Title = "🍺 ようこそ！ドタバタ母さんの奮闘日記へ", Content = "小6・小4・小1の3人育て中の訪問看護師です。長男は笑いにストイック、次男は自由奔放で完全たる末っ子気質、長女は毒舌系アイドル。仕事・育児・筋トレ・晩酌……毎日フル回転でカオスだけど、毎日がネタの宝庫です。「育児ってしんどいけどおもしろすぎる」と思えた瞬間を書き留めています。「うちだけじゃないんだ」とほっとできるブログを目指しています😊"}
 
   ShowReadingTime = true
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  ShowToc = false
+  ShowToc = true
+  TocOpen = false
 
   [params.fuseOpts]
     isCaseSensitive = false
