@@ -45,6 +45,10 @@ timeZone = "Asia/Tokyo"
     url = "/tags/"
     weight = 15
   [[menu.main]]
+    name = "シリーズ"
+    url = "/series/"
+    weight = 16
+  [[menu.main]]
     name = "アーカイブ"
     url = "/archives/"
     weight = 18
