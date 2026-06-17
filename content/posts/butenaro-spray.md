@@ -42,7 +42,7 @@ cover:
 ## 紹介したアイテム
 
 <div style="text-align:left; padding: 10px;">
-<a href="PLACEHOLDER_RAKUTEN_AFFILIATE_URL" target="_blank" rel="noopener">
+<a href="https://a.r10.to/hPCPIL" target="_blank" rel="noopener">
 【ブテナロック 消臭スプレー（楽天で見る）】
 </a>
 </div>
