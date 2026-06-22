@@ -10,3 +10,396 @@
 [2026-06-12 07:29:47] スキップ（未整形・Blogger形式）: content/posts/post-20260511-70.md
 [2026-06-12 07:29:47] スキップ（未整形・Blogger形式）: content/posts/post-20260518-26.md
 [2026-06-12 07:29:47] スキップ（未整形・Blogger形式）: content/posts/post-20260518-38.md
+[2026-06-15 09:11:48] 公開開始: content/posts/post-20260422-22.md (【給食参観】遅刻と、ファンサと、謎の自信。)
+📝 公開する記事: "【給食参観】遅刻と、ファンサと、謎の自信。"
+📅 公開日を 2026-06-15 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 238 
+ Paginator pages  │  10 
+ Non-page files   │   0 
+ Static files     │  37 
+ Processed images │   0 
+ Aliases          │  85 
+ Cleaned          │   0 
+
+Total in 421 ms
+✅ ビルド完了
+[main f8effe3] 記事を公開: "【給食参観】遅刻と、ファンサと、謎の自信。"
+ 337 files changed, 2780 insertions(+), 56987 deletions(-)
+ create mode 100644 public/images/offkai-ai-blog.png
+ create mode 100644 public/images/oikkowifi.png
+ create mode 100644 public/posts/post-20260422-22/index.html
+ create mode 100644 "public/tags/1\345\271\264\347\224\237/index.html"
+ create mode 100644 "public/tags/1\345\271\264\347\224\237/index.xml"
+ create mode 100644 "public/tags/1\345\271\264\347\224\237/page/1/index.html"
+ create mode 100644 "public/tags/\345\255\246\346\240\241\350\241\214\344\272\213/index.html"
+ create mode 100644 "public/tags/\345\255\246\346\240\241\350\241\214\344\272\213/index.xml"
+ create mode 100644 "public/tags/\345\255\246\346\240\241\350\241\214\344\272\213/page/1/index.html"
+ create mode 100644 "public/tags/\347\265\246\351\243\237\345\217\202\350\246\263/index.html"
+ create mode 100644 "public/tags/\347\265\246\351\243\237\345\217\202\350\246\263/index.xml"
+ create mode 100644 "public/tags/\347\265\246\351\243\237\345\217\202\350\246\263/page/1/index.html"
+error: RPC failed; curl 55 Send failure: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+[2026-06-15 09:27:53] 公開失敗: 【給食参観】遅刻と、ファンサと、謎の自信。 （詳細は auto-publish.log を確認）
+[2026-06-18 07:23:51] 公開開始: content/posts/post-20260425-69.md (【爆笑】そこまでやる！？長男流・タッチタイピング強制修行)
+📝 公開する記事: "【爆笑】そこまでやる！？長男流・タッチタイピング強制修行"
+📅 公開日を 2026-06-18 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 245 
+ Paginator pages  │  10 
+ Non-page files   │   0 
+ Static files     │  39 
+ Processed images │   0 
+ Aliases          │  88 
+ Cleaned          │   0 
+
+Total in 559 ms
+✅ ビルド完了
+[main fbcc7e1] 記事を公開: "【爆笑】そこまでやる！？長男流・タッチタイピング強制修行"
+ 40 files changed, 126 insertions(+), 61 deletions(-)
+ create mode 100644 public/images/sakotumadegakao.png
+ create mode 100644 public/images/tyonan-piano.png
+ create mode 100644 public/posts/post-20260425-69/index.html
+ create mode 100644 "public/tags/6\345\271\264\347\224\237/index.html"
+ create mode 100644 "public/tags/6\345\271\264\347\224\237/index.xml"
+ create mode 100644 "public/tags/6\345\271\264\347\224\237/page/1/index.html"
+ create mode 100644 "public/tags/\343\202\277\343\202\244\343\203\224\343\203\263\343\202\260/index.html"
+ create mode 100644 "public/tags/\343\202\277\343\202\244\343\203\224\343\203\263\343\202\260/index.xml"
+ create mode 100644 "public/tags/\343\202\277\343\202\244\343\203\224\343\203\263\343\202\260/page/1/index.html"
+ create mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\347\231\272\346\203\263/index.html"
+ create mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\347\231\272\346\203\263/index.xml"
+ create mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\347\231\272\346\203\263/page/1/index.html"
+To https://github.com/ayumimblog/my-blog.git
+   1fa0481..fbcc7e1  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.101.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+🌀 Building list of assets...
+✨ Read 725 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 37 new or modified static assets to upload. Proceeding with upload...
++ /tags/6年生/page/1/index.html
++ /tags/6年生/index.xml
++ /tags/クスッと笑える/index.xml
++ /.DS_Store
++ /tags/子どもの発想/index.html
++ /tags/長男/index.html
++ /posts/index.html
++ /posts/page/3/index.html
++ /page/2/index.html
++ /index.html
++ /posts/post-20260425-69/index.html
++ /tags/index.xml
++ /index.json
++ /tags/タイピング/page/1/index.html
++ /tags/タイピング/index.xml
++ /tags/育児あるある/index.xml
++ /tags/6年生/index.html
++ /tags/クスッと笑える/index.html
++ /posts/page/6/index.html
++ /posts/page/5/index.html
++ /posts/page/2/index.html
++ /posts/page/4/index.html
++ /posts/post-20260422-22/index.html
++ /tags/index.html
++ /posts/index.xml
++ /tags/子どもの発想/page/1/index.html
++ /tags/子どもの発想/index.xml
++ /tags/長男/index.xml
++ /tags/タイピング/index.html
++ /tags/育児あるある/index.html
++ /page/6/index.html
++ /page/5/index.html
++ /page/3/index.html
++ /page/4/index.html
++ /sitemap.xml
++ /archives/index.html
++ /index.xml
+Uploaded 12 of 37 assets
+Uploaded 25 of 37 assets
+Uploaded 37 of 37 assets
+✨ Success! Uploaded 37 files (347 already uploaded) (3.14 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (7.02 sec)
+Deployed my-blog triggers (0.98 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 8fabffe0-cd5d-492a-bcb6-8d1b7bdecd43
+npm notice
+npm notice New minor version of npm available! 11.12.1 -> 11.17.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+npm notice To update run: npm install -g npm@11.17.0
+npm notice
+
+🎉 公開作業がすべて完了しました！
+数分後に https://3nin-dotabata.com で確認してみてください。
+[2026-06-18 07:24:18] 公開成功: 【爆笑】そこまでやる！？長男流・タッチタイピング強制修行
+[2026-06-18 09:07:35] 公開開始: content/posts/post-20260426-11.md (【悲報】わが家に「自称モデル」が現れた結果)
+📝 公開する記事: "【悲報】わが家に「自称モデル」が現れた結果"
+📅 公開日を 2026-06-18 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 246 
+ Paginator pages  │  10 
+ Non-page files   │   0 
+ Static files     │  40 
+ Processed images │   0 
+ Aliases          │  88 
+ Cleaned          │   0 
+
+Total in 551 ms
+✅ ビルド完了
+[main 101638f] 記事を公開: "【悲報】わが家に「自称モデル」が現れた結果"
+ 35 files changed, 104 insertions(+), 70 deletions(-)
+ create mode 100644 public/images/butenarock.png
+ create mode 100644 public/posts/post-20260426-11/index.html
+error: unable to rewind rpc post data - try increasing http.postBuffer
+error: unable to rewind rpc post data - try increasing http.postBuffer
+[2026-06-22 07:26:40] 公開開始: content/posts/post-20260430-61.md (恐怖の「最終兵器」は封印せよ！車の中は超厳戒態勢！)
+📝 公開する記事: "恐怖の「最終兵器」は封印せよ！車の中は超厳戒態勢！"
+📅 公開日を 2026-06-22 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 249 
+ Paginator pages  │  10 
+ Non-page files   │   0 
+ Static files     │  48 
+ Processed images │   0 
+ Aliases          │  89 
+ Cleaned          │   0 
+
+Total in 416 ms
+✅ ビルド完了
+[main 20f38f9] 記事を公開: "恐怖の「最終兵器」は封印せよ！車の中は超厳戒態勢！"
+ 45 files changed, 104 insertions(+), 63 deletions(-)
+ create mode 100644 public/images/bouningen-jinan.png
+ create mode 100644 public/images/bouningen-tyojo.png
+ create mode 100644 public/images/bouningen-tyonan.png
+ create mode 100644 public/images/jinan-asakaradance.png
+ create mode 100644 public/images/makkurameiro-jinan.png
+ create mode 100644 public/images/thonan-hasibako.png
+ create mode 100644 public/images/tyonan-piano-zawatuki.png
+ create mode 100644 public/images/tyonan-sabayomi.png
+ create mode 100644 public/posts/post-20260430-61/index.html
+ create mode 100644 "public/tags/\343\201\212\345\207\272\343\201\213\343\201\221/index.html"
+ create mode 100644 "public/tags/\343\201\212\345\207\272\343\201\213\343\201\221/index.xml"
+ create mode 100644 "public/tags/\343\201\212\345\207\272\343\201\213\343\201\221/page/1/index.html"
+To https://github.com/ayumimblog/my-blog.git
+   99a355f..20f38f9  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.103.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+🌀 Building list of assets...
+✨ Read 744 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 40 new or modified static assets to upload. Proceeding with upload...
++ /tags/お出かけ/page/1/index.html
++ /tags/ドタバタ日常/index.xml
++ /tags/育児あるある/index.xml
++ /images/.DS_Store
++ /tags/ドタバタ日常/index.html
++ /tags/育児あるある/index.html
++ /posts/page/5/index.html
++ /posts/page/3/index.html
++ /posts/page/2/index.html
++ /posts/page/6/index.html
++ /posts/post-20260422-22/index.html
++ /posts/post-20260425-69/index.html
++ /tags/index.xml
++ /index.json
++ /tags/お出かけ/index.xml
++ /tags/次男/index.xml
++ /tags/長男/index.xml
++ /tags/お出かけ/index.html
++ /tags/クスッと笑える/index.html
++ /tags/長男/index.html
++ /page/5/index.html
++ /page/3/index.html
++ /page/4/index.html
++ /page/6/index.html
++ /posts/post-20260430-61/index.html
++ /tags/index.html
++ /posts/index.xml
++ /tags/6年生/index.xml
++ /tags/クスッと笑える/index.xml
++ /.DS_Store
++ /tags/6年生/index.html
++ /tags/次男/index.html
++ /posts/index.html
++ /index.html
++ /posts/page/4/index.html
++ /page/2/index.html
++ /posts/post-20260426-11/index.html
++ /sitemap.xml
++ /archives/index.html
++ /index.xml
+Uploaded 13 of 40 assets
+Uploaded 26 of 40 assets
+Uploaded 40 of 40 assets
+✨ Success! Uploaded 40 files (358 already uploaded) (1.65 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (5.01 sec)
+Deployed my-blog triggers (0.75 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: fed2a3d4-6478-442f-9c1c-605beddb0c30
+
+🎉 公開作業がすべて完了しました！
+数分後に https://3nin-dotabata.com で確認してみてください。
+[2026-06-22 07:27:09] 公開成功: 恐怖の「最終兵器」は封印せよ！車の中は超厳戒態勢！
+[2026-06-22 09:12:33] 公開開始: content/posts/post-20260504-12.md (無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日)
+📝 公開する記事: "無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日"
+📅 公開日を 2026-06-22 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 254 
+ Paginator pages  │  12 
+ Non-page files   │   0 
+ Static files     │  48 
+ Processed images │   0 
+ Aliases          │  91 
+ Cleaned          │   0 
+
+Total in 259 ms
+✅ ビルド完了
+[main 5c9e14b] 記事を公開: "無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日"
+ 39 files changed, 138 insertions(+), 68 deletions(-)
+ create mode 100644 public/page/7/index.html
+ create mode 100644 public/posts/page/7/index.html
+ create mode 100644 public/posts/post-20260504-12/index.html
+ create mode 100644 "public/tags/\344\274\221\346\227\245/index.html"
+ create mode 100644 "public/tags/\344\274\221\346\227\245/index.xml"
+ create mode 100644 "public/tags/\344\274\221\346\227\245/page/1/index.html"
+ create mode 100644 "public/tags/\345\205\254\345\234\222\351\201\212\343\201\263/index.html"
+ create mode 100644 "public/tags/\345\205\254\345\234\222\351\201\212\343\201\263/index.xml"
+ create mode 100644 "public/tags/\345\205\254\345\234\222\351\201\212\343\201\263/page/1/index.html"
+To https://github.com/ayumimblog/my-blog.git
+   20f38f9..5c9e14b  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.103.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 762 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 37 new or modified static assets to upload. Proceeding with upload...
++ /tags/休日/page/1/index.html
++ /tags/公園遊び/index.xml
++ /tags/クスッと笑える/index.xml
++ /tags/公園遊び/index.html
++ /tags/お出かけ/index.html
++ /tags/育児あるある/index.html
++ /posts/page/3/index.html
++ /page/3/index.html
++ /page/2/index.html
++ /page/6/index.html
++ /sitemap.xml
++ /archives/index.html
++ /index.xml
++ /tags/公園遊び/page/1/index.html
++ /tags/お出かけ/index.xml
++ /tags/育児あるある/index.xml
++ /posts/page/7/index.html
++ /tags/ドタバタ日常/index.html
++ /posts/index.html
++ /index.html
++ /posts/page/2/index.html
++ /page/4/index.html
++ /posts/post-20260430-61/index.html
++ /posts/post-20260504-12/index.html
++ /tags/index.xml
++ /tags/休日/index.xml
++ /tags/ドタバタ日常/index.xml
++ /tags/休日/index.html
++ /page/7/index.html
++ /tags/クスッと笑える/index.html
++ /posts/page/5/index.html
++ /page/5/index.html
++ /posts/page/4/index.html
++ /posts/page/6/index.html
++ /posts/post-20260425-69/index.html
++ /tags/index.html
++ /posts/index.xml
+Uploaded 12 of 37 assets
+Uploaded 24 of 37 assets
+Uploaded 37 of 37 assets
+✨ Success! Uploaded 37 files (370 already uploaded) (1.43 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (5.76 sec)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-06-22_00-29-43_248.log"
+[2026-06-22 09:47:10] 公開失敗: 無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日 （詳細は auto-publish.log を確認）
