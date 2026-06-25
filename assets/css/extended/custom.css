@@ -13,11 +13,26 @@
 
 /* ヘッダーのキャッチコピー */
 .site-tagline {
+  flex-basis: 100%;
   width: 100%;
-  margin: 0.2rem 0 0.5rem;
+  order: 1;
+  margin: 0.2rem 0 0;
   font-size: 0.8rem;
   line-height: 1.4;
   color: var(--secondary);
+}
+
+.header-nav .menu {
+  order: 2;
+}
+
+/* タグライン追加で生じたツールバーの高さ崩れを修正 */
+.logo-switches,
+.logo-switches > *,
+.theme-toggle {
+  height: auto;
+  min-height: 0;
+  align-items: center;
 }
 
 /* アクセントカラー（マットなテラコッタ） */

@@ -6,9 +6,6 @@
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
                 {{- $label_text -}}
             </a>
-            {{- with site.Params.tagline }}
-            <p class="site-tagline">{{ . }}</p>
-            {{- end }}
             {{- end }}
 
             {{- $lsenabled := (or (not site.Params.disableThemeToggle) (and (not site.Params.disableLangToggle) (hugo.IsMultilingual))) }}
@@ -39,6 +36,9 @@
             </div>
             {{- end }}
         </div>
+        {{- with site.Params.tagline }}
+        <p class="site-tagline">{{ . }}</p>
+        {{- end }}
         {{- $currentPage := . }}
         <ul id="menu" class="menu">
             {{- range site.Menus.main }}
