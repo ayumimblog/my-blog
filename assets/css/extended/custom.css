@@ -90,6 +90,118 @@ body.list main.main {
   }
 }
 
+/* ===== サイドバー ===== */
+.page-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--gap);
+}
+
+.page-wrap .main {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: var(--gap) 0;
+  max-width: none;
+}
+
+.page-wrap .main.main {
+  max-width: none;
+}
+
+.sidebar {
+  flex: 0 0 260px;
+  padding: var(--gap) 0;
+}
+
+.sidebar-box {
+  background: #fdf8f5;
+  border: 1px solid #ece4dd;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.sidebar-box h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  color: #c06b46;
+}
+
+.sidebar-profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-profile p {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  line-height: 1.6;
+  margin: 0.4rem 0 0.8rem;
+}
+
+.sidebar-list,
+.sidebar-tag-list {
+  list-style: none;
+  margin: 0 0 0.8rem;
+  padding: 0;
+  text-align: left;
+}
+
+.sidebar-list li,
+.sidebar-tag-list li {
+  border-bottom: 1px solid #ece4dd;
+  padding: 0.5rem 0.2rem;
+  font-size: 0.9rem;
+}
+
+.sidebar-list li:last-child,
+.sidebar-tag-list li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-tag-list li a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-tag-count {
+  color: var(--secondary);
+  font-size: 0.8rem;
+}
+
+.sidebar-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: #c06b46;
+}
+
+@media (max-width: 900px) {
+  .page-wrap {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
+  .sidebar-box {
+    text-align: left;
+  }
+
+  .sidebar-profile-img {
+    display: block;
+  }
+}
+
 /* カバー画像の比率を統一（グリッドでガタつかないように） */
 .post-entry .entry-cover {
   aspect-ratio: 4 / 3;

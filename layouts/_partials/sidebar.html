@@ -1,0 +1,28 @@
+<aside class="sidebar">
+  <div class="sidebar-box sidebar-profile">
+    <img src="/images/profile.png" alt="ドタバタ母さん" class="sidebar-profile-img">
+    <h3>ドタバタ母さん</h3>
+    <p>小6・小4・小1の3人を育てる訪問看護師。毎日フル回転のカオスな日常を笑い飛ばしながら更新中。</p>
+    <a href="/about/" class="sidebar-link">プロフィールを見る →</a>
+  </div>
+
+  <div class="sidebar-box">
+    <h3>シリーズ</h3>
+    <ul class="sidebar-list">
+      <li><a href="/tags/長男/">👦 長男シリーズ</a></li>
+      <li><a href="/tags/次男/">🧒 次男シリーズ</a></li>
+      <li><a href="/tags/長女/">👧 長女シリーズ</a></li>
+    </ul>
+    <a href="/series/" class="sidebar-link">シリーズ一覧 →</a>
+  </div>
+
+  <div class="sidebar-box">
+    <h3>カテゴリー</h3>
+    <ul class="sidebar-tag-list">
+      {{- range first 10 site.Taxonomies.tags.ByCount }}
+      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}<span class="sidebar-tag-count">{{ .Count }}</span></a></li>
+      {{- end }}
+    </ul>
+    <a href="/tags/" class="sidebar-link">すべてのタグを見る →</a>
+  </div>
+</aside>
