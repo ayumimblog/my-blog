@@ -90,6 +90,26 @@ body.list main.main {
   }
 }
 
+/* カバー画像の比率を統一（グリッドでガタつかないように） */
+.post-entry .entry-cover {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.post-entry .entry-cover img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 「続きを読む」ヒント */
+.post-entry:not(.tag-entry) .entry-footer::after {
+  content: "続きを読む →";
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: #c06b46;
+}
+
 /* メニューリンク */
 .nav a:hover {
   color: #c06b46 !important;

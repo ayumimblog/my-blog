@@ -403,3 +403,42 @@ Uploaded my-blog (5.76 sec)
 [32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
 🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-06-22_00-29-43_248.log"
 [2026-06-22 09:47:10] 公開失敗: 無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日 （詳細は auto-publish.log を確認）
+[2026-06-25 09:07:58] 公開開始: content/posts/post-20260504-12.md (無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日)
+📝 公開する記事: "無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日"
+📅 公開日を 2026-06-25 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 254 
+ Paginator pages  │  12 
+ Non-page files   │   0 
+ Static files     │  51 
+ Processed images │   0 
+ Aliases          │  91 
+ Cleaned          │   0 
+
+Total in 512 ms
+✅ ビルド完了
+[main f5209f0] 記事を公開: "無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日"
+ 38 files changed, 135 insertions(+), 65 deletions(-)
+ create mode 100644 public/page/7/index.html
+ create mode 100644 public/posts/page/7/index.html
+ create mode 100644 public/posts/post-20260504-12/index.html
+ create mode 100644 "public/tags/\344\274\221\346\227\245/index.html"
+ create mode 100644 "public/tags/\344\274\221\346\227\245/index.xml"
+ create mode 100644 "public/tags/\344\274\221\346\227\245/page/1/index.html"
+ create mode 100644 "public/tags/\345\205\254\345\234\222\351\201\212\343\201\263/index.html"
+ create mode 100644 "public/tags/\345\205\254\345\234\222\351\201\212\343\201\263/index.xml"
+ create mode 100644 "public/tags/\345\205\254\345\234\222\351\201\212\343\201\263/page/1/index.html"
+To https://github.com/ayumimblog/my-blog.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f5209f06d295de8d9dcf8a7824f85cb90c873939 but expected 55bb2bffdfd2c45b6d27e8243c1cac08618a469b)
+error: failed to push some refs to 'https://github.com/ayumimblog/my-blog.git'
+[2026-06-25 20:40:51] 公開失敗: 無限ループの罠！？ふわふわ遊具で1時間半遊び倒した休日 （詳細は auto-publish.log を確認）
