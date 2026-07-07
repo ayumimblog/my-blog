@@ -37,3 +37,13 @@ layout: "page"
 
 どうぞよろしくお願いします！
 
+---
+
+## 運営者情報
+
+- **ブログ名**: ３人子育てドタバタ母さんの奮闘日記
+- **URL**: https://3nin-dotabata.com
+- **運営者**: ドタバタ母さん
+- **Instagram**: [@ayumim54](https://www.instagram.com/ayumim54/)
+- **プライバシーポリシー**: [こちら](/privacy-policy/)
+
