@@ -9,6 +9,10 @@ timeZone = "Asia/Tokyo"
 [pagination]
   pagerSize = 9
 
+# Google Analytics 4 (2026-07-07導入)
+[services.googleAnalytics]
+  ID = "G-1LG2C005QF"
+
 [params]
   author = "ドタバタ母さん"
   tagline = "毎日カオス、それでも笑える子育て日記"
