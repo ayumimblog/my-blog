@@ -46,4 +46,5 @@ layout: "page"
 - **運営者**: ドタバタ母さん
 - **Instagram**: [@ayumim54](https://www.instagram.com/ayumim54/)
 - **プライバシーポリシー**: [こちら](/privacy-policy/)
+- **お問い合わせ**: [お問い合わせフォーム](/contact/)
 
