@@ -62,7 +62,19 @@ cover:
 
 2つ買っても2,000円しないので、「学校用とスイミング用を1つで兼用して傷むのが早い」より、用途で分けてしまう方が結果的に長持ちしそうです。
 
-<!-- PLACEHOLDER: 楽天アフィリエイトリンク(PVC手提げ/巾着リュックの商品リンク)をここに挿入 -->
+## 紹介したアイテム
+
+<div style="text-align:left; padding: 10px;">
+<a href="https://a.r10.to/h5FEpV" target="_blank" rel="noopener">
+【PVC素材の手提げプールバッグ（楽天で見る）】
+</a>
+</div>
+
+<div style="text-align:left; padding: 10px;">
+<a href="https://a.r10.to/hgn2hN" target="_blank" rel="noopener">
+【巾着リュックタイプのプールバッグ（楽天で見る）】
+</a>
+</div>
 
 ## まとめ：プールバッグ選びのチェックポイント
 
