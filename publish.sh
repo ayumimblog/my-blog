@@ -44,16 +44,30 @@ hugo --minify --gc --cleanDestinationDir
 
 echo "✅ ビルド完了"
 
+# ネットワークが一時的に切れても3回まで再試行する（間隔は60秒）
+retry() {
+  local n=1
+  until "$@"; do
+    if [ $n -ge 3 ]; then
+      echo "❌ 3回試しても失敗しました: $*"
+      return 1
+    fi
+    echo "⚠️ 失敗しました（$n回目）。60秒待って再試行します: $*"
+    sleep 60
+    n=$((n + 1))
+  done
+}
+
 # git add / commit / push
 git add "$FILE" public/
 git commit -m "記事を公開: $TITLE"
-git push origin main
+retry git push origin main
 
 echo "✅ git push 完了"
 
 # Cloudflareへデプロイ
 echo "🚀 Cloudflareへデプロイしています..."
-npx --yes wrangler@latest deploy
+retry npx --yes wrangler@latest deploy
 
 echo ""
 echo "🎉 公開作業がすべて完了しました！"
