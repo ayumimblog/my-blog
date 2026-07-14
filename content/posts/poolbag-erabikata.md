@@ -81,11 +81,20 @@ msmaflink({"n":"【まとめ割5%OFF】プールバッグ スイムバッグ ビ
 <div id="msmaflink-sp5bZ">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
 
-<div style="text-align:left; padding: 10px;">
-<a href="https://a.r10.to/hgn2hN" target="_blank" rel="noopener">
-【巾着リュックタイプのプールバッグ（楽天で見る）】
-</a>
-</div>
+**2層式の巾着リュックタイプ**
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"送料無料 ナップサック リュック 2層式 レディース メンズ 男女兼用 巾着 プールバッグ スイムバッグ シューズケース 撥水 軽量 大容量 カジュアル おしゃれ","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/plusnao\/cabinet\/itempic2293","p":["\/bag-90393.jpg","\/bag-90393_1.jpg","\/bag-90393_2.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/plusnao\/bag-90393\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/plusnao\/bag-90393\/","a_id":5686030,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1},{"id":2,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1&p=%E9%80%81%E6%96%99%E7%84%A1%E6%96%99%20%E3%83%8A%E3%83%83%E3%83%97%E3%82%B5%E3%83%83%E3%82%AF%20%E3%83%AA%E3%83%A5%E3%83%83%E3%82%AF%202%E5%B1%A4%E5%BC%8F%20%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B9%20%E3%83%A1%E3%83%B3%E3%82%BA%20%E7%94%B7%E5%A5%B3%E5%85%BC%E7%94%A8%20%E5%B7%BE%E7%9D%80%20%E3%83%97%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%B0%20%E3%82%B9%E3%82%A4%E3%83%A0%E3%83%90%E3%83%83%E3%82%B0%20%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA%E3%82%B1%E3%83%BC%E3%82%B9%20%E6%92%A5%E6%B0%B4%20%E8%BB%BD%E9%87%8F%20%E5%A4%A7%E5%AE%B9%E9%87%8F%20%E3%82%AB%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%20%E3%81%8A%E3%81%97%E3%82%83%E3%82%8C","a_id":5686032,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":2}],"eid":"WV2Pu","s":"s"});
+</script>
+<div id="msmaflink-WV2Pu">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ## まとめ：プールバッグ選びのチェックポイント
 
