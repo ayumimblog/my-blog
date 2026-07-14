@@ -64,13 +64,22 @@ cover:
 
 ## 似たタイプのアイテム
 
-私が購入したものと同じタイプ・同価格帯のものを楽天で探してみました。参考にしてみてください。
+私が購入したものと同じタイプ・同価格帯のものを探してみました。楽天・Yahoo!ショッピング、お好きな方でどうぞ。
 
-<div style="text-align:left; padding: 10px;">
-<a href="https://a.r10.to/h5FEpV" target="_blank" rel="noopener">
-【PVC素材の手提げプールバッグ（楽天で見る）】
-</a>
-</div>
+**透明タイプの手提げプールバッグ**
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【まとめ割5%OFF】プールバッグ スイムバッグ ビーチバッグ ビニールバッグ 女の子 男の子 キッズ 幼稚園 保育園 手提げバッグ 入園祝い 小学生 大人 おしゃれ 子供 ビーチバッグ ビニールバッグ 高学年 小学校 中学生 女子 透明 撥水 バッグ","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/cocolooq\/cabinet\/biiino","p":["\/thumbnailimage\/bag11.jpg","\/outdoor\/swimitem\/bag11_01.jpg","\/outdoor\/swimitem\/bag11_02.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/cocolooq\/bag11\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/cocolooq\/bag11\/","a_id":5686030,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1},{"id":2,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1&p=%E3%80%90%E3%81%BE%E3%81%A8%E3%82%81%E5%89%B25%25OFF%E3%80%91%E3%83%97%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%B0%20%E3%82%B9%E3%82%A4%E3%83%A0%E3%83%90%E3%83%83%E3%82%B0%20%E3%83%93%E3%83%BC%E3%83%81%E3%83%90%E3%83%83%E3%82%B0%20%E3%83%93%E3%83%8B%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%B0%20%E5%A5%B3%E3%81%AE%E5%AD%90%20%E7%94%B7%E3%81%AE%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E5%B9%BC%E7%A8%9A%E5%9C%92%20%E4%BF%9D%E8%82%B2%E5%9C%92%20%E6%89%8B%E6%8F%90%E3%81%92%E3%83%90%E3%83%83%E3%82%B0%20%E5%85%A5%E5%9C%92%E7%A5%9D%E3%81%84%20%E5%B0%8F%E5%AD%A6%E7%94%9F%20%E5%A4%A7%E4%BA%BA%20%E3%81%8A%E3%81%97%E3%82%83%E3%82%8C%20%E5%AD%90%E4%BE%9B%20%E3%83%93%E3%83%BC%E3%83%81%E3%83%90%E3%83%83%E3%82%B0%20%E3%83%93%E3%83%8B%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%B0%20%E9%AB%98%E5%AD%A6%E5%B9%B4%20%E5%B0%8F%E5%AD%A6%E6%A0%A1%20%E4%B8%AD%E5%AD%A6%E7%94%9F%20%E5%A5%B3%E5%AD%90%20%E9%80%8F%E6%98%8E%20%E6%92%A5%E6%B0%B4%20%E3%83%90%E3%83%83%E3%82%B0","a_id":5686032,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":2}],"eid":"sp5bZ","s":"s"});
+</script>
+<div id="msmaflink-sp5bZ">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 <div style="text-align:left; padding: 10px;">
 <a href="https://a.r10.to/hgn2hN" target="_blank" rel="noopener">
