@@ -79,6 +79,21 @@ msmaflink({"n":"【楽天1位&62冠】高評価★4.8 のどぐろだし塩 160g
 <div id="msmaflink-48GsT">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
 
+**ろく助白塩**(何にかけても間違いない万能選手)
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"ろく助 白塩 130g 顆粒タイプ 調味料 塩 おにぎり 食塩 東洋食品","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/worldnext\/cabinet\/11582840","p":["\/compass1737352663.jpg","\/compass1737352675.jpg","\/compass1737352684.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/worldnext\/jp241226-654-1-1\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/worldnext\/jp241226-654-1-1\/","a_id":5686030,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1},{"id":2,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1&p=%E3%82%8D%E3%81%8F%E5%8A%A9%20%E7%99%BD%E5%A1%A9%20130g%20%E9%A1%86%E7%B2%92%E3%82%BF%E3%82%A4%E3%83%97%20%E8%AA%BF%E5%91%B3%E6%96%99%20%E5%A1%A9%20%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%20%E9%A3%9F%E5%A1%A9%20%E6%9D%B1%E6%B4%8B%E9%A3%9F%E5%93%81","a_id":5686032,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":2}],"eid":"qbUmf","s":"s"});
+</script>
+<div id="msmaflink-qbUmf">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
 **白トリュフソルト**(じゃがいもにかければ、あのポテチの味)
 
 <!-- START MoshimoAffiliateEasyLink -->
