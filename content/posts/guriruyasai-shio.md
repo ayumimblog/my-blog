@@ -62,7 +62,22 @@ cover:
 
 特におすすめなのが、**じゃがいも×トリュフ塩**。これ、ハンターのポテトチップスまんまの味になります。おうちで再現できてしまうんです。
 
-<!-- PLACEHOLDER: 塩のかんたんリンク(ろく助白塩・トリュフ塩など)をここに挿入 -->
+## お気に入りの塩はこちら
+
+**のどぐろ塩**(グリル野菜との相性◎)
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【楽天1位&62冠】高評価★4.8 のどぐろだし塩 160g×3袋 \/ ほぼ1000円ポッキリ 送料無料 国産 のどぐろだし潮 のどぐろ塩 朝ごはん おにぎり はぎの食品 だし塩 のどぐろ ノドグロ 喉黒 赤ムツ 出汁塩 万能調味料 調味塩 塩 ポイント消化","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/livlan\/cabinet","p":["\/ranking\/10000589_logo.jpg","\/syouhin\/hagino\/kyoutuu\/r1.jpg","\/syouhin\/hagino\/kyoutuu\/1.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/livlan\/10000589\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/livlan\/10000589\/","a_id":5686030,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1},{"id":2,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1&p=%E3%80%90%E6%A5%BD%E5%A4%A91%E4%BD%8D%2662%E5%86%A0%E3%80%91%E9%AB%98%E8%A9%95%E4%BE%A1%E2%98%854.8%20%E3%81%AE%E3%81%A9%E3%81%90%E3%82%8D%E3%81%A0%E3%81%97%E5%A1%A9%20160g%C3%973%E8%A2%8B%20%2F%20%E3%81%BB%E3%81%BC1000%E5%86%86%E3%83%9D%E3%83%83%E3%82%AD%E3%83%AA%20%E9%80%81%E6%96%99%E7%84%A1%E6%96%99%20%E5%9B%BD%E7%94%A3%20%E3%81%AE%E3%81%A9%E3%81%90%E3%82%8D%E3%81%A0%E3%81%97%E6%BD%AE%20%E3%81%AE%E3%81%A9%E3%81%90%E3%82%8D%E5%A1%A9%20%E6%9C%9D%E3%81%94%E3%81%AF%E3%82%93%20%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%20%E3%81%AF%E3%81%8E%E3%81%AE%E9%A3%9F%E5%93%81%20%E3%81%A0%E3%81%97%E5%A1%A9%20%E3%81%AE%E3%81%A9%E3%81%90%E3%82%8D%20%E3%83%8E%E3%83%89%E3%82%B0%E3%83%AD%20%E5%96%89%E9%BB%92%20%E8%B5%A4%E3%83%A0%E3%83%84%20%E5%87%BA%E6%B1%81%E5%A1%A9%20%E4%B8%87%E8%83%BD%E8%AA%BF%E5%91%B3%E6%96%99%20%E8%AA%BF%E5%91%B3%E5%A1%A9%20%E5%A1%A9%20%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E6%B6%88%E5%8C%96","a_id":5686032,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":2}],"eid":"48GsT","s":"s"});
+</script>
+<div id="msmaflink-48GsT">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ## まとめ：グリル野菜×塩、おすすめです
 
