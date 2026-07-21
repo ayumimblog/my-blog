@@ -21,6 +21,19 @@ cover:
 
 長時間の宿題やテストでも疲れにくいのは、この「力を入れなくていい」感覚が大きいようです。長男の中で、間違いなくエース格の1本です。
 
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"パイロット シャープペンシル S20(エストゥエンティ) 0.3mm\/0.5mm","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/office-vender\/cabinet\/11446928","p":["\/imgrc0091244958.jpg","\/imgrc0091244960.jpg","\/imgrc0091244959.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/office-vender\/s20\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/office-vender\/s20\/","a_id":5686030,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1},{"id":2,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1&p=%E3%83%91%E3%82%A4%E3%83%AD%E3%83%83%E3%83%88%20%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%E3%83%9A%E3%83%B3%E3%82%B7%E3%83%AB%20S20(%E3%82%A8%E3%82%B9%E3%83%88%E3%82%A5%E3%82%A8%E3%83%B3%E3%83%86%E3%82%A3)%200.3mm%2F0.5mm","a_id":5686032,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":2}],"eid":"FeKfJ","s":"s"});
+</script>
+<div id="msmaflink-FeKfJ">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
 ## フリクションボール 3色ウッド — 多機能で採点にも便利
 
 **書いても消える多機能ペン**で、色々な場面で活躍しています。
