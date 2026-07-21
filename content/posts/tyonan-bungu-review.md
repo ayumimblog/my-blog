@@ -69,6 +69,19 @@ msmaflink({"n":"パイロット フリクションボール3 メタルFRIXION BA
 
 **使いやすく、軸がぶれない**のが良いところ。円をきれいに描きたいときに信頼できる1本だそうです。
 
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"ステッドラー　スクールコンパス＜School＞　550　550-50","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/bunsute\/cabinet\/bungu_jimu\/compass","p":["\/img68396438.gif","\/img68396437.jpg","\/img68384674.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/bunsute\/550-50\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/bunsute\/550-50\/","a_id":5686030,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1},{"id":2,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1&p=%E3%82%B9%E3%83%86%E3%83%83%E3%83%89%E3%83%A9%E3%83%BC%E3%80%80%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%91%E3%82%B9%EF%BC%9CSchool%EF%BC%9E%E3%80%80550%E3%80%80550-50","a_id":5686032,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":2}],"eid":"m1zmV","s":"s"});
+</script>
+<div id="msmaflink-m1zmV">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
 ## ステッドラーの三角定規 — 目盛りの見にくさが難点
 
 使う機会自体があまり多くないため評価は難しいものの、実際に使ってみると**三角の形状のため、少し身を乗り出さないと目盛りが見にくい**とのこと。地味に使い勝手に関わるポイントです。
