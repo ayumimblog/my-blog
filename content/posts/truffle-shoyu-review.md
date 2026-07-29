@@ -43,7 +43,20 @@ cover:
 
 家族で試した中で、一番合いそうだったのは**サラダ**でした。オリーブオイルと醤油の風味がドレッシングそのものなので、納得の相性です。
 
-<!-- PLACEHOLDER: トリュフ醤油のかんたんリンクをここに挿入 -->
+**使ったトリュフ醤油はこちら**
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"透明醤油でつくったトリュフ醤油","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/akomeyatokyo\/cabinet","p":["\/09698105\/imgrc0096236334.jpg","\/biiino\/award\/490262967bbb695e.jpg","\/09698105\/imgrc0096236337.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/akomeyatokyo\/4902626169290\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/akomeyatokyo\/4902626169290\/","a_id":5686030,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1},{"id":2,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1&p=%E9%80%8F%E6%98%8E%E9%86%A4%E6%B2%B9%E3%81%A7%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F%E3%83%88%E3%83%AA%E3%83%A5%E3%83%95%E9%86%A4%E6%B2%B9","a_id":5686032,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":2}],"eid":"ZTEcZ","s":"s"});
+</script>
+<div id="msmaflink-ZTEcZ">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ## まとめ
 
