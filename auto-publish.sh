@@ -34,6 +34,16 @@ notify() {
   osascript -e "display notification \"$1\" with title \"ブログ自動公開\"" 2>/dev/null || true
 }
 
+# --- 0. お休みの日かチェック ---
+# skip-dates.txt に「2026-08-10」のように日付を書いておくと、その日は自動公開しない。
+# （その日に別の記事を個別予約したいときに使う。#で始まる行はメモ扱い）
+SKIP_FILE="skip-dates.txt"
+TODAY=$(date '+%Y-%m-%d')
+if [ -f "$SKIP_FILE" ] && grep -q "^${TODAY}\b" "$SKIP_FILE"; then
+  log "お休み指定日（$TODAY）のため自動公開をスキップしました。"
+  exit 0
+fi
+
 # --- 1. 下書きを作成順（Gitに追加された順）で並べる ---
 TMPFILE=$(mktemp)
 for f in content/posts/*.md; do
