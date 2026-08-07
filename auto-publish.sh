@@ -34,6 +34,39 @@ notify() {
   osascript -e "display notification \"$1\" with title \"ブログ自動公開\"" 2>/dev/null || true
 }
 
+# 記事の「旬」を判定する。
+# frontmatter に season: "6-8" のように書いておくと、その月の間だけ公開対象になる。
+#   season: "6-8"       … 6月〜8月（夏のネタ）
+#   season: "11-2"      … 11月〜翌2月（年をまたぐ指定もできる）
+#   season: "4-7,9-12"  … 学期中だけ（夏休み・冬休みを避けたい学校ネタ）
+#   指定なし            … 通年ネタ。いつ公開してもよい
+# 返り値: 0=今が旬（最優先） / 1=通年 / 9=今は季節外れ（見送り）
+season_priority() {
+  local file="$1"
+  local spec
+  # 値以外（引用符・空白・# 以降のコメント）を落として "6-8" や "4-7,9-12" だけを取り出す
+  spec=$(grep -m1 "^season:" "$file" | sed 's/^season: *//' | sed 's/[^0-9,-]//g')
+  [ -z "$spec" ] && { echo 1; return; }
+
+  local m
+  m=$(date '+%m')
+  m=$((10#$m))   # 08 を8進数と誤解されないように10進で扱う
+
+  local range from to
+  for range in ${spec//,/ }; do
+    from=${range%-*}
+    to=${range#*-}
+    if [ "$from" -le "$to" ]; then
+      # 例 6-8 … 年をまたがない
+      if [ "$m" -ge "$from" ] && [ "$m" -le "$to" ]; then echo 0; return; fi
+    else
+      # 例 11-2 … 年をまたぐ
+      if [ "$m" -ge "$from" ] || [ "$m" -le "$to" ]; then echo 0; return; fi
+    fi
+  done
+  echo 9
+}
+
 # --- 0. お休みの日かチェック ---
 # skip-dates.txt に「2026-08-10」のように日付を書いておくと、その日は自動公開しない。
 # （その日に別の記事を個別予約したいときに使う。#で始まる行はメモ扱い）
@@ -53,7 +86,15 @@ for f in content/posts/*.md; do
     if [ -z "$added" ]; then
       added=$(date -r "$f" "+%Y-%m-%dT%H:%M:%S")
     fi
-    echo "$added $f" >> "$TMPFILE"
+    # 季節ネタの優先度を判定する
+    #   0 … 今が旬（season指定があり、今月がその範囲内）→ 最優先
+    #   1 … 通年ネタ（season指定なし）
+    #   9 … 今は季節外れ（season指定があるが今月は範囲外）→ 今回は見送り
+    prio=$(season_priority "$f")
+    if [ "$prio" = "9" ]; then
+      continue
+    fi
+    echo "$prio $added $f" >> "$TMPFILE"
   fi
 done
 
@@ -66,7 +107,7 @@ fi
 
 # --- 2. 先頭から順に、公開できる状態かチェック ---
 TARGET=""
-while read -r added f; do
+while read -r prio added f; do
   # Blogger形式のHTMLが残っている記事は未整形なのでスキップ
   if grep -q "blogger.googleusercontent.com" "$f" || grep -q "data-path-to-node" "$f"; then
     log "スキップ（未整形・Blogger形式）: $f"

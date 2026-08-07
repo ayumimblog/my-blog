@@ -25,8 +25,11 @@ Hugo + PaperMod。Cloudflare Workersでホスティング。運営者はあゆ�
 | `./auto-publish.sh` | 下書きの古い順に1本公開（launchdが月・木9:00に実行） |
 | `./save-eyecatch.sh スラッグ名` | ~/Downloads の最新画像を static/images/ に配置 |
 | `./list-drafts.sh` | 下書き一覧 |
+| `./season-check.sh [月]` | 下書きの「旬」の状態を一覧（旬／通年／季節外れ） |
 
 `skip-dates.txt` に日付を書くと、その日は週次の自動公開をお休みする（個別に予約した記事があるとき用）。
+
+季節ネタは frontmatter の `season: "6-8"` で旬の月を指定する。自動公開は旬の記事を最優先し、季節外れの記事は旬が来るまで公開しない。詳細は[記事の書き方.md](記事の書き方.md)の「季節ネタの扱い」。
 
 ## 記事を1本作るときにやること
 
