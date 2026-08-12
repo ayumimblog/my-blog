@@ -2244,3 +2244,33 @@ by workerd to install the correct binary executable for your current platform.
 Node.js v26.0.0
 ❌ 3回試しても失敗しました: npx --yes wrangler@latest deploy
 [2026-08-06 14:41:29] 公開失敗: 100均で運命の出会い！次男が命名したぬいぐるみの名前が斜め上すぎた話 （詳細は auto-publish.log を確認）
+📝 公開する記事: "「お母さんとだと話しかけづらい」長女の初・友達映画と、100均ネイルの女子力"
+📅 公開日を 2026-08-10 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+[2026-08-10 09:07:52] お休み指定日（2026-08-10）のため自動公開をスキップしました。
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 583 
+ Paginator pages  │  40 
+ Non-page files   │   0 
+ Static files     │ 260 
+ Processed images │   0 
+ Aliases          │ 236 
+ Cleaned          │   0 
+
+Total in 817 ms
+✅ ビルド完了
+[main 8d106349] 記事を公開: "「お母さんとだと話しかけづらい」長女の初・友達映画と、100均ネイルの女子力"
+ 294 files changed, 466 insertions(+), 422 deletions(-)
+ create mode 100644 public/images/kokosei-dokyusei-nomikai.png
+ create mode 100644 public/posts/tyojo-tomodachi-eiga/index.html
+error: unable to rewind rpc post data - try increasing http.postBuffer
+error: unable to rewind rpc post data - try increasing http.postBuffer
