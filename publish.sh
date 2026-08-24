@@ -7,8 +7,10 @@
 # やること:
 #   1. 指定した記事を draft: false にして、公開日を今日の日付に変更
 #   2. Hugoでサイトをビルド（キャッシュクリアあり）
-#   3. git add / commit / push
-#   4. Cloudflareへデプロイ
+#   3. ネットワークがつながるのを待つ（Mac自動起動の直後対策）
+#   4. git add / commit / push
+#   5. Cloudflareへデプロイ
+#   6. 実際にサイトに記事が出ているかを確認して成否を判定する
 
 set -e
 
@@ -58,8 +60,40 @@ retry() {
   done
 }
 
+# Macが自動起動した直後はWi-Fiがまだつながっていないことがある。
+# ネットが使えるようになるまで最大5分待つ（15秒おきに確認）。
+wait_for_network() {
+  local n=1
+  while [ $n -le 20 ]; do
+    if curl -sS -m 10 -o /dev/null https://api.github.com; then
+      [ $n -gt 1 ] && echo "✅ ネットワークにつながりました"
+      return 0
+    fi
+    [ $n -eq 1 ] && echo "⏳ ネットワークの準備を待っています..."
+    sleep 15
+    n=$((n + 1))
+  done
+  echo "⚠️ 5分待ってもネットワークにつながりませんでした。このまま続行します"
+  return 0
+}
+
+# 記事が本当にサイトに出ているかを確認する（最大2分）
+verify_published() {
+  local url="$1" n=1
+  while [ $n -le 12 ]; do
+    if [ "$(curl -sS -m 10 -o /dev/null -w '%{http_code}' "$url")" = "200" ]; then
+      return 0
+    fi
+    sleep 10
+    n=$((n + 1))
+  done
+  return 1
+}
+
+wait_for_network
+
 # git add / commit / push
-git add "$FILE" public/
+git add "$FILE" public/ static/images/
 git commit -m "記事を公開: $TITLE"
 retry git push origin main
 
@@ -67,8 +101,27 @@ echo "✅ git push 完了"
 
 # Cloudflareへデプロイ
 echo "🚀 Cloudflareへデプロイしています..."
-retry npx --yes wrangler@latest deploy
+DEPLOY_OK=1
+retry npx --yes wrangler@latest deploy || DEPLOY_OK=0
+
+# デプロイがエラーを返しても、実際にはアップロードが通っていることがある。
+# 最後は「サイトに記事が出ているか」で判定する。
+SLUG=$(basename "$FILE" .md)
+URL="https://3nin-dotabata.com/posts/$SLUG/"
 
 echo ""
-echo "🎉 公開作業がすべて完了しました！"
-echo "数分後に https://3nin-dotabata.com で確認してみてください。"
+echo "🔎 サイトに反映されたか確認しています: $URL"
+
+if verify_published "$URL"; then
+  if [ "$DEPLOY_OK" = "0" ]; then
+    echo "ℹ️ デプロイ処理はエラーを返しましたが、記事はサイトに出ています（実害なし）"
+  fi
+  echo ""
+  echo "🎉 公開作業がすべて完了しました！"
+  echo "$URL で確認できます。"
+else
+  echo ""
+  echo "❌ 記事がサイトに出ていません。手動での確認が必要です"
+  echo "   もう一度試すには: cd ~/my-blog && npx --yes wrangler@latest deploy"
+  exit 1
+fi

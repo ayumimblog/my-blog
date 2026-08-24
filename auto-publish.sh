@@ -141,11 +141,13 @@ fi
 # --- 3. 公開実行 ---
 log "公開開始: $TARGET ($TITLE)"
 
+# publish.sh は最後に「実際にサイトに記事が出ているか」で成否を判定する。
+# 途中でデプロイがエラーを返しても、記事が出ていれば成功として返ってくる。
 if ./publish.sh "$TARGET" >> "$LOG" 2>&1; then
   log "公開成功: $TITLE"
   notify "✅ 公開しました：$TITLE"
 else
-  log "公開失敗: $TITLE （詳細は auto-publish.log を確認）"
+  log "公開失敗: $TITLE （記事がサイトに出ていません。auto-publish.log を確認）"
   notify "❌ 公開に失敗しました。auto-publish.log を確認してください"
   exit 1
 fi
