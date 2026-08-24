@@ -2658,3 +2658,201 @@ Current Version ID: 8a9eb2e5-f0e5-4bd1-b581-ebde4961c6b0
 
 🎉 公開作業がすべて完了しました！
 数分後に https://3nin-dotabata.com で確認してみてください。
+[2026-08-24 09:05:12] 公開開始: content/posts/makkurameiro-jinan.md (真っ暗迷路、堂々の棄権！次男が見せた潔すぎる「❌ポーズ」に感動した話)
+📝 公開する記事: "真っ暗迷路、堂々の棄権！次男が見せた潔すぎる「❌ポーズ」に感動した話"
+📅 公開日を 2026-08-24 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 590 
+ Paginator pages  │  44 
+ Non-page files   │   0 
+ Static files     │ 265 
+ Processed images │   0 
+ Aliases          │ 236 
+ Cleaned          │   0 
+
+Total in 2660 ms
+✅ ビルド完了
+[main c8f60eb9] 記事を公開: "真っ暗迷路、堂々の棄権！次男が見せた潔すぎる「❌ポーズ」に感動した話"
+ 297 files changed, 481 insertions(+), 444 deletions(-)
+ create mode 100644 public/posts/makkurameiro-jinan/index.html
+To https://github.com/ayumimblog/my-blog.git
+   30e87007..c8f60eb9  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.125.0
+────────────────────
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-08-24_00-16-26_756.log"
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.125.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 2005 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 295 new or modified static assets to upload. Proceeding with upload...
++ /tags/おでかけ/index.xml
++ /tags/満足/index.html
++ /tags/爆笑/index.html
++ /tags/憧れ/index.html
++ /tags/簡単/index.html
++ /tags/納豆/index.html
++ /tags/女子力/index.html
++ /tags/財布/index.html
++ /tags/ファンサ/index.html
++ /tags/型抜き/index.html
++ /tags/シール/index.html
++ /tags/バラード/index.html
++ /tags/花粉のせい/index.html
++ /tags/給食参観/index.html
++ /tags/卒園式/index.html
++ /tags/子育て日記/index.html
++ /tags/男子育児/index.html
++ /tags/gemini/index.html
++ /tags/成長/index.html
++ /tags/次なる目標/index.html
++ /tags/6歳男子-/index.html
++ /tags/コーヒー/index.html
++ /tags/鏡の前での修行/index.html
++ /tags/春祭り/index.html
++ /tags/100均/index.html
++ /tags/お菓子作り/index.html
++ /tags/七夕/index.html
++ /tags/見習いたい母/index.html
++ /tags/憧れの職場/index.html
++ /tags/春休み/index.html
++ /tags/後日談/index.html
++ /tags/言い間違い/index.html
++ /tags/謎の儀式/index.html
++ /tags/宅トレ/index.html
++ /tags/松屋の牛丼/index.html
++ /tags/芋石爆誕/index.html
++ /tags/手作りこたつ/index.html
++ /tags/タイピング/index.html
++ /tags/立派に成長/index.html
++ /tags/育児/index.html
++ /tags/我が家のルール/index.html
++ /tags/季節の行事/index.html
++ /tags/自宅バリスタ/index.html
++ /tags/3人きょうだい/index.html
++ /tags/創造性/index.html
++ /tags/子どもの発想/index.html
++ /tags/ジャックスパロウ/index.html
++ /tags/女子力向上中/index.html
++ /tags/パニック/index.html
++ /tags/おやすみの儀式-/index.html
++ /tags/成長記録/index.html
++ /tags/aiパーソナル/index.html
++ /tags/ガチャガチャ/index.html
++ /tags/完コピ次男/index.html
++ /tags/子どもの発想力/index.html
++ /tags/絶望からの大逆転/index.html
++ /tags/ルーティン/index.html
++ /tags/長男の神フォロー/index.html
++ /tags/友達の母からの連絡/index.html
++ /tags/感情のコントロール/index.html
++ /tags/イタリアンブレインロット/index.html
++ /tags/ペンケース/index.html
++ /tags/母は笑いをこらえるのに必死/index.html
++ /tags/変顔/index.html
++ /tags/日常/index.html
++ /tags/パソコン/index.html
++ /tags/笑える話/index.html
++ /tags/公園遊び/index.html
++ /tags/長男/page/6/index.html
++ /tags/きょうだい/index.html
++ /tags/クスッと笑える/page/3/index.html
++ /tags/4年生/index.html
++ /tags/お土産/index.html
++ /tags/子どもの迷言/index.html
++ /tags/子どもの名言/index.html
++ /tags/1年生/index.html
++ /page/12/index.html
++ /tags/次男/page/4/index.html
++ /tags/育児あるある/page/4/index.html
++ /posts/page/8/index.html
++ /tags/男の子育児/index.html
++ /tags/次男/page/3/index.html
++ /tags/育児日記/index.html
++ /posts/page/9/index.html
++ /page/11/index.html
++ /tags/長女/page/2/index.html
++ /posts/page/5/index.html
++ /posts/index.html
++ /tags/小学生ママ/index.html
++ /posts/page/2/index.html
++ /tags/夏休み/index.html
++ /tags/役立ち情報/index.html
++ /posts/page/4/index.html
++ /page/4/index.html
++ /tags/育児あるある/page/2/index.html
++ /tags/ドタバタ日常/page/2/index.html
++ /posts/tyonan-kansobun-output/index.html
++ /posts/index.xml
++ /archives/index.html
++ /404.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 98 of 295 assets
+Uploaded 196 of 295 assets
+Uploaded 295 of 295 assets
+✨ Success! Uploaded 295 files (842 already uploaded) (2.86 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (476.07 sec)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-08-24_05-13-29_520.log"
+⚠️ 失敗しました（2回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.125.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-08-24_09-59-10_177.log"
+❌ 3回試しても失敗しました: npx --yes wrangler@latest deploy
+[2026-08-24 19:12:32] 公開失敗: 真っ暗迷路、堂々の棄権！次男が見せた潔すぎる「❌ポーズ」に感動した話 （詳細は auto-publish.log を確認）

@@ -8,9 +8,10 @@
 #   1. 指定した記事を draft: false にして、公開日を今日の日付に変更
 #   2. Hugoでサイトをビルド（キャッシュクリアあり）
 #   3. ネットワークがつながるのを待つ（Mac自動起動の直後対策）
-#   4. git add / commit / push
-#   5. Cloudflareへデプロイ
-#   6. 実際にサイトに記事が出ているかを確認して成否を判定する
+#   4. インスタ投稿スケジュールの「ブログ投稿日」を実際の公開日に合わせる
+#   5. git add / commit / push
+#   6. Cloudflareへデプロイ
+#   7. 実際にサイトに記事が出ているかを確認して成否を判定する
 
 set -e
 
@@ -92,8 +93,12 @@ verify_published() {
 
 wait_for_network
 
+# インスタ投稿スケジュールの「ブログ投稿日」を実際の公開日に合わせる
+echo "🔄 インスタ投稿スケジュールの公開日を更新しています..."
+python3 sync-schedule.py || echo "⚠️ スケジュールの更新に失敗しました（公開自体は続行します）"
+
 # git add / commit / push
-git add "$FILE" public/ static/images/
+git add "$FILE" public/ static/images/ "インスタ投稿スケジュール_ドタバタ母さんブログ.xlsx"
 git commit -m "記事を公開: $TITLE"
 retry git push origin main
 

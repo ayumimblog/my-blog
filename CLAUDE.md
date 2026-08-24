@@ -27,6 +27,7 @@ Hugo + PaperMod。Cloudflare Workersでホスティング。運営者はあゆ�
 | `./save-eyecatch.sh スラッグ名` | ~/Downloads の最新画像を static/images/ に配置 |
 | `./list-drafts.sh` | 下書き一覧 |
 | `./season-check.sh [月]` | 下書きの「旬」の状態を一覧（旬／通年／季節外れ） |
+| `python3 sync-schedule.py --check` | インスタ投稿スケジュールのブログ投稿日のズレを確認 |
 
 `skip-dates.txt` に日付を書くと、その日は週次の自動公開をお休みする（個別に予約した記事があるとき用）。
 
@@ -36,6 +37,8 @@ Hugo + PaperMod。Cloudflare Workersでホスティング。運営者はあゆ�
 
 1. `content/posts/スラッグ.md` を作成（`draft: true`）
 2. `インスタ投稿スケジュール_ドタバタ母さんブログ.xlsx` に行を追加（No.・タイトル・インスタ予定日・キャプション下書き）
+   ※ブログ投稿日（C列）は空欄でよい。公開時に `publish.sh` が自動で入れる
+   ※**xlsxのタイトルは記事のtitleと完全に一致させる**（照合キーになっている）
 3. 関連する過去記事があれば**両方向に**内部リンクを張る
 4. `hugo` でビルドが通るか確認 → commit → push
 5. アイキャッチ生成用のプロンプトを渡す
