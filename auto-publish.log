@@ -2856,3 +2856,570 @@ Uploaded my-blog (476.07 sec)
 🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-08-24_09-59-10_177.log"
 ❌ 3回試しても失敗しました: npx --yes wrangler@latest deploy
 [2026-08-24 19:12:32] 公開失敗: 真っ暗迷路、堂々の棄権！次男が見せた潔すぎる「❌ポーズ」に感動した話 （詳細は auto-publish.log を確認）
+[2026-08-27 09:02:50] 公開開始: content/posts/tyojo-swiming.md (「やめたい」と言っていたはずの長女、泳力テスト合格で急に「1級まで頑張る」宣言)
+📝 公開する記事: "「やめたい」と言っていたはずの長女、泳力テスト合格で急に「1級まで頑張る」宣言"
+📅 公開日を 2026-08-27 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 592 
+ Paginator pages  │  47 
+ Non-page files   │   0 
+ Static files     │ 266 
+ Processed images │   0 
+ Aliases          │ 236 
+ Cleaned          │   0 
+
+Total in 3286 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.98  2026/06/23 → 2026/08/27   「やめたい」と言っていたはずの長女、泳力テスト合格で急に「1級まで頑
+[main 11d94f89] 記事を公開: "「やめたい」と言っていたはずの長女、泳力テスト合格で急に「1級まで頑張る」宣言"
+ 304 files changed, 535 insertions(+), 456 deletions(-)
+ create mode 100644 public/posts/tyojo-swiming/index.html
+ create mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/4/index.html"
+ create mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/5/index.html"
+ create mode 100644 "public/tags/\351\225\267\345\245\263/page/4/index.html"
+error: RPC failed; curl 56 Recv failure: Operation timed out
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+⚠️ 失敗しました（1回目）。60秒待って再試行します: git push origin main
+Everything up-to-date
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.127.1
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-08-28_21-32-53_034.log"
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.127.1
+────────────────────
+🌀 Building list of assets...
+✨ Read 2016 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-08-29_01-45-31_887.log"
+⚠️ 失敗しました（2回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.127.1
+────────────────────
+🌀 Building list of assets...
+✨ Read 2016 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 298 new or modified static assets to upload. Proceeding with upload...
++ /tags/スイミング/index.xml
++ /tags/満足/index.html
++ /tags/爆笑/index.html
++ /tags/憧れ/index.html
++ /tags/簡単/index.html
++ /tags/納豆/index.html
++ /tags/女子力/index.html
++ /tags/財布/index.html
++ /tags/ファンサ/index.html
++ /tags/型抜き/index.html
++ /tags/踏み絵/index.html
++ /tags/食育/index.html
++ /tags/グータッチ/index.html
++ /tags/休日/index.html
++ /tags/反省/index.html
++ /tags/緊張感ゼロ/index.html
++ /tags/気持ちがいい/index.html
++ /tags/無謀/index.html
++ /tags/異臭騒ぎ/index.html
++ /tags/保育園/index.html
++ /tags/好きを深掘り/index.html
++ /tags/プレゼン/index.html
++ /tags/現実逃避/index.html
++ /tags/モデルごっこ/index.html
++ /tags/小学生/index.html
++ /tags/盛った話/index.html
++ /tags/おやすみの儀式/index.html
++ /tags/いろんな確認/index.html
++ /tags/歌舞伎/index.html
++ /tags/朝の風景/index.html
++ /tags/家族の時間/index.html
++ /tags/スタバ再現/index.html
++ /tags/お財布事件簿/index.html
++ /tags/かめはめ波-/index.html
++ /tags/波動の余韻-/index.html
++ /tags/謎の距離/index.html
++ /tags/こだわり強め/index.html
++ /tags/男の子育児--/index.html
++ /tags/長女/page/4/index.html
++ /tags/育児/index.html
++ /tags/我が家のルール/index.html
++ /tags/季節の行事/index.html
++ /tags/自宅バリスタ/index.html
++ /tags/3人きょうだい/index.html
++ /tags/創造性/index.html
++ /tags/子どもの発想/index.html
++ /tags/ジャックスパロウ/index.html
++ /tags/女子力向上中/index.html
++ /tags/息子のミステリー/index.html
++ /tags/スケーターズワルツ/index.html
++ /tags/夜のスカイダイビング/index.html
++ /tags/ぬいぐるみ/index.html
++ /tags/誰かに相談/index.html
++ /tags/劇的な筋肉痛/index.html
++ /tags/寝る前の全力投球-/index.html
++ /tags/お菓子パーティー/index.html
++ /tags/育児日記/page/3/index.html
++ /tags/クルトガダイブ/index.html
++ /tags/オールインワンクリーム/index.html
++ /tags/メディアコントロールデイ/index.html
++ /tags/地味にダサい長女/index.html
++ /tags/身の丈に合わないゲーム/index.html
++ /tags/母は笑いをこらえるのに必死/index.html
++ /tags/変顔/index.html
++ /tags/日常/index.html
++ /tags/パソコン/index.html
++ /tags/笑える話/index.html
++ /tags/公園遊び/index.html
++ /tags/親子のはなし/index.html
++ /tags/スイミング/index.html
++ /tags/クスッと笑える/page/3/index.html
++ /tags/デジタルリテラシー/index.html
++ /tags/小学３年生/index.html
++ /tags/文房具/index.html
++ /tags/おでかけ/index.html
++ /tags/マラソン大会/index.html
++ /tags/3人育児/index.html
++ /tags/ドタバタ日常/index.xml
++ /page/12/index.html
++ /posts/page/8/index.html
++ /posts/page/10/index.html
++ /posts/page/11/index.html
++ /posts/page/6/index.html
++ /page/9/index.html
++ /page/6/index.html
++ /posts/index.html
++ /tags/夏休み/page/2/index.html
++ /posts/page/5/index.html
++ /tags/ドタバタ日常/page/3/index.html
++ /tags/クスッと笑える/page/2/index.html
++ /tags/小学生ママ/index.html
++ /posts/page/3/index.html
++ /page/3/index.html
++ /tags/ドタバタ日常/index.html
++ /page/2/index.html
++ /tags/育児あるある/page/3/index.html
++ /tags/ドタバタ日常/page/2/index.html
++ /posts/tyonan-kansobun-kanryo/index.html
++ /posts/index.xml
++ /archives/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 99 of 298 assets
+Uploaded 199 of 298 assets
+Uploaded 298 of 298 assets
+✨ Success! Uploaded 298 files (845 already uploaded) (2.32 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (8.44 sec)
+Deployed my-blog triggers (1.17 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 060eb227-8534-42e9-a2b2-4d07ef2ef522
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/tyojo-swiming/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/tyojo-swiming/ で確認できます。
+[2026-08-29 11:17:55] 公開成功: 「やめたい」と言っていたはずの長女、泳力テスト合格で急に「1級まで頑張る」宣言
+[2026-08-31 09:06:30] 公開開始: content/posts/tyojo-gyaruninaru.md (台風で練習が中止、長女が突然「ギャルになろうと思う」と宣言した日)
+📝 公開する記事: "台風で練習が中止、長女が突然「ギャルになろうと思う」と宣言した日"
+📅 公開日を 2026-08-31 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 597 
+ Paginator pages  │  50 
+ Non-page files   │   0 
+ Static files     │ 268 
+ Processed images │   0 
+ Aliases          │ 237 
+ Cleaned          │   0 
+
+Total in 2095 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.105  2026/06/25 → 2026/08/31   台風で練習が中止、長女が突然「ギャルになろうと思う」と宣言した日
+[main 642972a0] 記事を公開: "台風で練習が中止、長女が突然「ギャルになろうと思う」と宣言した日"
+ 305 files changed, 540 insertions(+), 496 deletions(-)
+ create mode 100644 public/posts/tyojo-gyaruninaru/index.html
+To https://github.com/ayumimblog/my-blog.git
+   481efdc1..642972a0  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.127.1
+────────────────────
+🌀 Building list of assets...
+✨ Read 2036 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 303 new or modified static assets to upload. Proceeding with upload...
++ /404.html
++ /tags/67/index.html
++ /tags/入場/index.html
++ /tags/夢遊病/index.html
++ /tags/小3/index.html
++ /tags/リテイク/index.html
++ /tags/豆知識/index.html
++ /tags/名言/index.html
++ /tags/足し算/index.html
++ /tags/母不在/index.html
++ /tags/ノーミス/index.html
++ /tags/物知り博士/index.html
++ /tags/学校行事/index.html
++ /tags/ポツン/index.html
++ /tags/パパ/index.html
++ /tags/大丈夫か/index.html
++ /tags/小学5年生/index.html
++ /tags/砂場/index.html
++ /tags/幻想即興曲/index.html
++ /tags/修了式/index.html
++ /tags/首までが顔/index.html
++ /tags/研修講師/index.html
++ /tags/管理能力/index.html
++ /tags/運動/index.html
++ /tags/相棒/index.html
++ /tags/ピアノ発表会/index.html
++ /tags/お金の教育/index.html
++ /tags/節約/index.html
++ /tags/ナマコ/index.html
++ /tags/朝の風景/index.html
++ /tags/家族の時間/index.html
++ /tags/スタバ再現/index.html
++ /tags/お財布事件簿/index.html
++ /tags/かめはめ波-/index.html
++ /tags/波動の余韻-/index.html
++ /tags/謎の距離/index.html
++ /tags/こだわり強め/index.html
++ /tags/男の子育児--/index.html
++ /tags/友達/index.html
++ /tags/おじいちゃん/index.html
++ /tags/セルフポートレイト/index.html
++ /tags/静かなる実験/index.html
++ /tags/チート/index.html
++ /tags/鋼のメンタル/index.html
++ /tags/想像力/index.html
++ /tags/パンダの乗り物/index.html
++ /tags/朝の出来事/index.html
++ /tags/洗面所は聖域/index.html
++ /tags/おやすみの儀式-/index.html
++ /tags/成長記録/index.html
++ /tags/aiパーソナル/index.html
++ /tags/ガチャガチャ/index.html
++ /tags/完コピ次男/index.html
++ /tags/子どもの発想力/index.html
++ /tags/絶望からの大逆転/index.html
++ /tags/ルーティン/index.html
++ /tags/子どもの成長/page/3/index.html
++ /tags/クルトガダイブ/index.html
++ /tags/オールインワンクリーム/index.html
++ /tags/仕事/index.html
++ /tags/サッカー/index.html
++ /tags/母は笑いをこらえるのに必死/index.html
++ /tags/変顔/index.html
++ /tags/忘れ物番長/index.html
++ /tags/保湿と愛嬌/index.html
++ /tags/お弁当/index.html
++ /tags/３人育児/index.html
++ /tags/女の子ママ/index.html
++ /tags/親子のはなし/index.html
++ /tags/スイミング/index.html
++ /tags/ロブロックス/index.html
++ /tags/デジタルリテラシー/index.html
++ /tags/小学３年生/index.html
++ /tags/お土産/index.html
++ /tags/育児あるある/page/5/index.html
++ /tags/友人/index.html
++ /tags/マラソン大会/index.html
++ /tags/3人育児/index.html
++ /tags/ドタバタ日常/index.xml
++ /tags/男の子育児/index.html
++ /posts/page/9/index.html
++ /tags/次男/page/4/index.html
++ /page/10/index.html
++ /tags/育児日記/index.html
++ /tags/長男/page/5/index.html
++ /posts/index.html
++ /tags/夏休み/page/2/index.html
++ /tags/長女/page/2/index.html
++ /tags/育児あるある/index.html
++ /tags/長男/page/3/index.html
++ /tags/次男/page/2/index.html
++ /page/3/index.html
++ /tags/夏休み/index.html
++ /tags/クスッと笑える/page/2/index.html
++ /tags/長男/page/2/index.html
++ /page/2/index.html
++ /posts/page/4/index.html
++ /tags/ドタバタ日常/page/2/index.html
++ /tags/長男/index.xml
++ /posts/kaigohoken-mae-tsuin-tsukisoi/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 101 of 303 assets
+Uploaded 202 of 303 assets
+Uploaded 303 of 303 assets
+✨ Success! Uploaded 303 files (851 already uploaded) (2.36 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (7.98 sec)
+Deployed my-blog triggers (1.76 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 616524bb-cb90-43a3-b4ac-a820a5eb65ca
+npm notice
+npm notice New major version of npm available! 11.12.1 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/tyojo-gyaruninaru/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/tyojo-gyaruninaru/ で確認できます。
+[2026-08-31 09:22:34] 公開成功: 台風で練習が中止、長女が突然「ギャルになろうと思う」と宣言した日
+📝 公開する記事: "「クルトガダイブ」を手にした12歳の顔。3か月の約束を果たした長男の誕生日"
+📅 公開日を 2026-09-01 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 598 
+ Paginator pages  │  50 
+ Non-page files   │   0 
+ Static files     │ 270 
+ Processed images │   0 
+ Aliases          │ 237 
+ Cleaned          │   0 
+
+Total in 2507 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.155  (空) → 2026/09/01   「クルトガダイブ」を手にした12歳の顔。3か月の約束を果たした長男の
+[main 4eb54b9a] 記事を公開: "「クルトガダイブ」を手にした12歳の顔。3か月の約束を果たした長男の誕生日"
+ 308 files changed, 522 insertions(+), 475 deletions(-)
+ create mode 100644 public/images/tyojo-tanjobi-squishy-soudan.png
+ create mode 100644 public/images/tyonan-12sai-kurutoga-dive.png
+ create mode 100644 public/posts/tyonan-12sai-kurutoga-dive/index.html
+error: unable to rewind rpc post data - try increasing http.postBuffer
+error: unable to rewind rpc post data - try increasing http.postBuffer
+📝 公開する記事: "「欲しいものを買ってもらえる経験を買う」8000円のスクイーズを前に夫婦で話したこと"
+📅 公開日を 2026-09-03 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 599 
+ Paginator pages  │  50 
+ Non-page files   │   0 
+ Static files     │ 270 
+ Processed images │   0 
+ Aliases          │ 237 
+ Cleaned          │   0 
+
+Total in 2074 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.156  (空) → 2026/09/03   「欲しいものを買ってもらえる経験を買う」8000円のスクイーズを前に
+[main 59ece57c] 記事を公開: "「欲しいものを買ってもらえる経験を買う」8000円のスクイーズを前に夫婦で話したこと"
+ 304 files changed, 484 insertions(+), 450 deletions(-)
+ create mode 100644 public/posts/tyojo-tanjobi-squishy-soudan/index.html
+To https://github.com/ayumimblog/my-blog.git
+   4eb54b9a..59ece57c  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.128.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+🌀 Building list of assets...
+✨ Read 2042 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 308 new or modified static assets to upload. Proceeding with upload...
++ /tags/親子のはなし/index.xml
++ /404.html
++ /tags/67/index.html
++ /tags/入場/index.html
++ /tags/夢遊病/index.html
++ /tags/小3/index.html
++ /tags/リテイク/index.html
++ /tags/豆知識/index.html
++ /tags/名言/index.html
++ /tags/足し算/index.html
++ /tags/母不在/index.html
++ /tags/ノーミス/index.html
++ /tags/物知り博士/index.html
++ /tags/学校行事/index.html
++ /tags/ポツン/index.html
++ /tags/パパ/index.html
++ /tags/大丈夫か/index.html
++ /tags/小学5年生/index.html
++ /tags/砂場/index.html
++ /tags/幻想即興曲/index.html
++ /tags/修了式/index.html
++ /tags/首までが顔/index.html
++ /tags/研修講師/index.html
++ /tags/管理能力/index.html
++ /tags/運動/index.html
++ /tags/相棒/index.html
++ /tags/ピアノ発表会/index.html
++ /tags/お金の教育/index.html
++ /tags/節約/index.html
++ /tags/ナマコ/index.html
++ /tags/朝の風景/index.html
++ /tags/家族の時間/index.html
++ /tags/スタバ再現/index.html
++ /tags/お財布事件簿/index.html
++ /tags/かめはめ波-/index.html
++ /tags/波動の余韻-/index.html
++ /tags/謎の距離/index.html
++ /tags/こだわり強め/index.html
++ /tags/男の子育児--/index.html
++ /tags/友達/index.html
++ /tags/おじいちゃん/index.html
++ /tags/セルフポートレイト/index.html
++ /tags/静かなる実験/index.html
++ /tags/チート/index.html
++ /tags/鋼のメンタル/index.html
++ /tags/想像力/index.html
++ /tags/パンダの乗り物/index.html
++ /tags/朝の出来事/index.html
++ /tags/洗面所は聖域/index.html
++ /tags/おやすみの儀式-/index.html
++ /tags/成長記録/index.html
++ /tags/aiパーソナル/index.html
++ /tags/ガチャガチャ/index.html
++ /tags/完コピ次男/index.html
++ /tags/子どもの発想力/index.html
++ /tags/絶望からの大逆転/index.html
++ /tags/ルーティン/index.html
++ /tags/長男の神フォロー/index.html
++ /tags/友達の母からの連絡/index.html
++ /tags/感情のコントロール/index.html
++ /tags/イタリアンブレインロット/index.html
++ /tags/ペンケース/index.html
++ /tags/リビングはダンスホール/index.html
++ /tags/女の子育児/index.html
++ /tags/お風呂タイム/index.html
++ /tags/甥っ子/index.html
++ /tags/３人育児/index.html
++ /tags/女の子ママ/index.html
++ /tags/きょうだい/index.html
++ /tags/スマホデビュー/index.html
++ /tags/訪問看護/index.html
++ /tags/小学３年生/index.html
++ /tags/親子のはなし/index.html
++ /tags/おうちごはん/index.html
++ /tags/おでかけ/index.html
++ /posts/page/13/index.html
++ /tags/マラソン大会/index.html
++ /tags/1年生/index.html
++ /tags/3人育児/index.html
++ /posts/page/11/index.html
++ /page/9/index.html
++ /tags/次男/page/4/index.html
++ /tags/長女/page/3/index.html
++ /page/10/index.html
++ /posts/index.html
++ /tags/ドタバタ母さん/index.html
++ /tags/ドタバタ日常/index.xml
++ /page/12/index.html
++ /tags/育児あるある/page/4/index.html
++ /tags/育児あるある/index.html
++ /index.html
++ /posts/page/2/index.html
++ /tags/子どもの成長/index.html
++ /tags/夏休み/index.html
++ /tags/クスッと笑える/page/2/index.html
++ /page/3/index.html
++ /tags/ドタバタ日常/index.html
++ /posts/page/4/index.html
++ /tags/ドタバタ日常/page/2/index.html
++ /posts/tyojo-tanjobi-squishy-soudan/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 102 of 308 assets
+Uploaded 205 of 308 assets
+Uploaded 308 of 308 assets
+✨ Success! Uploaded 308 files (850 already uploaded) (3.04 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (7.93 sec)
+Deployed my-blog triggers (1.02 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 1330110d-1ba3-4792-917f-574a1b844cc9
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/tyojo-tanjobi-squishy-soudan/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/tyojo-tanjobi-squishy-soudan/ で確認できます。
+[2026-09-03 09:00:05] お休み指定日（2026-09-03）のため自動公開をスキップしました。
