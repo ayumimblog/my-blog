@@ -36,9 +36,15 @@ TITLE=$(grep -m1 '^title:' "$FILE" | sed 's/title: //')
 echo "📝 公開する記事: $TITLE"
 echo "📅 公開日を $TODAY に設定します"
 
-# draft: true → false、date を今日の日付に更新
-sed -i '' "s/^draft: true/draft: false/" "$FILE"
-sed -i '' "s|^date: .*|date: $NOW|" "$FILE"
+# draft: true → false、date を今日の日時に更新
+# すでに公開済み（draft: false）の記事は、日付を書き換えない。
+# 公開後に修正して再デプロイするだけのときに、日付が今日にずれてしまうのを防ぐ。
+if grep -q "^draft: true" "$FILE"; then
+  sed -i '' "s/^draft: true/draft: false/" "$FILE"
+  sed -i '' "s|^date: .*|date: $NOW|" "$FILE"
+else
+  echo "ℹ️ すでに公開済みの記事です。日付はそのままにして、再デプロイのみ行います"
+fi
 
 echo "✅ フロントマターを更新しました"
 
