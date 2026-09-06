@@ -23,6 +23,8 @@ fi
 
 FILE="$1"
 TODAY=$(date +%Y-%m-%d)
+# 同じ日に2本公開しても並び順が狂わないよう、時刻まで入れる
+NOW=$(date +%Y-%m-%dT%H:%M:%S%z | sed -E 's/([0-9]{2})([0-9]{2})$/\1:\2/')
 
 if [ ! -f "$FILE" ]; then
   echo "❌ ファイルが見つかりません: $FILE"
@@ -36,7 +38,7 @@ echo "📅 公開日を $TODAY に設定します"
 
 # draft: true → false、date を今日の日付に更新
 sed -i '' "s/^draft: true/draft: false/" "$FILE"
-sed -i '' "s/^date: .*/date: $TODAY/" "$FILE"
+sed -i '' "s|^date: .*|date: $NOW|" "$FILE"
 
 echo "✅ フロントマターを更新しました"
 
