@@ -3423,3 +3423,167 @@ Current Version ID: 1330110d-1ba3-4792-917f-574a1b844cc9
 🎉 公開作業がすべて完了しました！
 https://3nin-dotabata.com/posts/tyojo-tanjobi-squishy-soudan/ で確認できます。
 [2026-09-03 09:00:05] お休み指定日（2026-09-03）のため自動公開をスキップしました。
+[2026-09-07 09:07:45] お休み指定日（2026-09-07）のため自動公開をスキップしました。
+📝 公開する記事: "「7時43分にやる」小1次男が自分で決めた時刻と、落花生ひと粒のパワーチャージ"
+📅 公開日を 2026-09-07 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 604 
+ Paginator pages  │  52 
+ Non-page files   │   0 
+ Static files     │ 274 
+ Processed images │   0 
+ Aliases          │ 238 
+ Cleaned          │   0 
+
+Total in 2446 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 2件
+  No.157  (空) → 2026/09/07T09:07:45+09:00   「7時43分にやる」小1次男が自分で決めた時刻と、落花生ひと粒のパワ
+  No.160  2026/09/07T07:20:53+09:00 → 2026/09/06T18:00:00+09:00   抱きかかえられて登場した次男、リベンジを申し出た長女。3人とも最後ま
+[main c28ff03a] 記事を公開: "「7時43分にやる」小1次男が自分で決めた時刻と、落花生ひと粒のパワーチャージ"
+ 896 files changed, 7109 insertions(+), 177380 deletions(-)
+ create mode 100644 public/posts/jinan-ondoku-jibun-de-kimeru/index.html
+ create mode 100644 "public/tags/\345\255\220\350\202\262\343\201\246/page/2/index.html"
+To https://github.com/ayumimblog/my-blog.git
+   4857da94..c28ff03a  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.129.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 2062 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 310 new or modified static assets to upload. Proceeding with upload...
++ /tags/ピアノ/index.xml
++ /404.html
++ /tags/67/index.html
++ /tags/入場/index.html
++ /tags/夢遊病/index.html
++ /tags/小3/index.html
++ /tags/リテイク/index.html
++ /tags/豆知識/index.html
++ /tags/名言/index.html
++ /tags/足し算/index.html
++ /tags/母不在/index.html
++ /tags/ノーミス/index.html
++ /tags/物知り博士/index.html
++ /tags/学校行事/index.html
++ /tags/ポツン/index.html
++ /tags/パパ/index.html
++ /tags/大丈夫か/index.html
++ /tags/小学5年生/index.html
++ /tags/砂場/index.html
++ /tags/幻想即興曲/index.html
++ /tags/修了式/index.html
++ /tags/首までが顔/index.html
++ /tags/研修講師/index.html
++ /tags/管理能力/index.html
++ /tags/運動/index.html
++ /tags/相棒/index.html
++ /tags/ピアノ発表会/index.html
++ /tags/お金の教育/index.html
++ /tags/節約/index.html
++ /tags/ナマコ/index.html
++ /tags/朝の風景/index.html
++ /tags/家族の時間/index.html
++ /tags/スタバ再現/index.html
++ /tags/お財布事件簿/index.html
++ /tags/かめはめ波-/index.html
++ /tags/波動の余韻-/index.html
++ /tags/謎の距離/index.html
++ /tags/こだわり強め/index.html
++ /tags/男の子育児--/index.html
++ /tags/友達/index.html
++ /tags/おじいちゃん/index.html
++ /tags/セルフポートレイト/index.html
++ /tags/静かなる実験/index.html
++ /tags/チート/index.html
++ /tags/鋼のメンタル/index.html
++ /tags/想像力/index.html
++ /tags/パンダの乗り物/index.html
++ /tags/朝の出来事/index.html
++ /tags/洗面所は聖域/index.html
++ /tags/おやすみの儀式-/index.html
++ /tags/スケーターズワルツ/index.html
++ /tags/夜のスカイダイビング/index.html
++ /tags/ぬいぐるみ/index.html
++ /tags/誰かに相談/index.html
++ /tags/劇的な筋肉痛/index.html
++ /tags/寝る前の全力投球-/index.html
++ /tags/お菓子パーティー/index.html
++ /tags/育児日記/page/3/index.html
++ /tags/クルトガダイブ/index.html
++ /tags/オールインワンクリーム/index.html
++ /tags/仕事/index.html
++ /tags/サッカー/index.html
++ /tags/母は笑いをこらえるのに必死/index.html
++ /tags/変顔/index.html
++ /tags/忘れ物番長/index.html
++ /tags/保湿と愛嬌/index.html
++ /tags/お弁当/index.html
++ /tags/兄妹げんか/index.html
++ /tags/真ん中っ子/index.html
++ /tags/スイミング/index.html
++ /tags/ロブロックス/index.html
++ /tags/4年生/index.html
++ /tags/男子あるある/index.html
++ /tags/おうちごはん/index.html
++ /tags/おでかけ/index.html
++ /tags/マラソン大会/index.html
++ /tags/親子のはなし/index.html
++ /tags/文房具/index.html
++ /tags/長女/page/4/index.html
++ /posts/page/13/index.html
++ /posts/page/11/index.html
++ /tags/男の子育児/index.html
++ /posts/page/8/index.html
++ /tags/次男/page/3/index.html
++ /posts/page/12/index.html
++ /page/12/index.html
++ /posts/index.html
++ /tags/夏休み/page/2/index.html
++ /tags/長男/index.html
++ /page/2/index.html
++ /tags/長女/index.html
++ /tags/育児あるある/page/4/index.html
++ /tags/長女/index.xml
++ /tags/夏休み/index.html
++ /page/4/index.html
++ /tags/長男/page/2/index.html
++ /posts/page/3/index.html
++ /page/3/index.html
++ /tags/子どもの成長/page/2/index.html
++ /tags/ドタバタ日常/page/2/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 103 of 310 assets
+Uploaded 206 of 310 assets
+Uploaded 310 of 310 assets
+✨ Success! Uploaded 310 files (860 already uploaded) (2.51 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (7.29 sec)
+Deployed my-blog triggers (0.91 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 7e8a3c0c-1c00-463e-83b8-1d6cd37e32e3
+npm notice
+npm notice New major version of npm available! 11.12.1 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/jinan-ondoku-jibun-de-kimeru/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/jinan-ondoku-jibun-de-kimeru/ で確認できます。
