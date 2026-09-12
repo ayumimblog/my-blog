@@ -3587,3 +3587,174 @@ npm notice
 
 🎉 公開作業がすべて完了しました！
 https://3nin-dotabata.com/posts/jinan-ondoku-jibun-de-kimeru/ で確認できます。
+[2026-09-10 09:08:45] お休み指定日（2026-09-10）のため自動公開をスキップしました。
+📝 公開する記事: "「知らなかった、教えてくれてありがとう」宿題から逃げる小1次男の隣で、私も本を開いた日"
+📅 公開日を 2026-09-10 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 605 
+ Paginator pages  │  53 
+ Non-page files   │   0 
+ Static files     │ 275 
+ Processed images │   0 
+ Aliases          │ 238 
+ Cleaned          │   0 
+
+Total in 2298 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.158  (空) → 2026/09/10T09:08:45+09:00   「知らなかった、教えてくれてありがとう」宿題から逃げる小1次男の隣で
+[main 4575b4d8] 記事を公開: "「知らなかった、教えてくれてありがとう」宿題から逃げる小1次男の隣で、私も本を開いた日"
+ 309 files changed, 516 insertions(+), 456 deletions(-)
+ create mode 100644 public/images/tyojo-kasa-katsu.png
+ create mode 100644 public/posts/jinan-tonari-de-hon-wo-hiraku/index.html
+ create mode 100644 "public/tags/\345\275\271\347\253\213\343\201\241\346\203\205\345\240\261/page/3/index.html"
+fatal: unable to access 'https://github.com/ayumimblog/my-blog.git/': Recv failure: Operation timed out
+⚠️ 失敗しました（1回目）。60秒待って再試行します: git push origin main
+error: RPC failed; curl 56 Recv failure: Connection reset by peer
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+⚠️ 失敗しました（2回目）。60秒待って再試行します: git push origin main
+Everything up-to-date
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+npm error code EIDLETIMEOUT
+npm error Idle timeout reached for host `registry.npmjs.org:443`
+npm error A complete log of this run can be found in: /Users/moritouayumi/.npm/_logs/2026-09-10T05_57_12_848Z-debug-0.log
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.130.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+🌀 Building list of assets...
+✨ Read 2067 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 305 new or modified static assets to upload. Proceeding with upload...
++ /tags/親子のはなし/index.xml
++ /tags/満足/index.html
++ /tags/爆笑/index.html
++ /tags/憧れ/index.html
++ /tags/簡単/index.html
++ /tags/納豆/index.html
++ /tags/女子力/index.html
++ /tags/財布/index.html
++ /tags/ファンサ/index.html
++ /tags/型抜き/index.html
++ /tags/踏み絵/index.html
++ /tags/食育/index.html
++ /tags/グータッチ/index.html
++ /tags/休日/index.html
++ /tags/反省/index.html
++ /tags/緊張感ゼロ/index.html
++ /tags/気持ちがいい/index.html
++ /tags/無謀/index.html
++ /tags/異臭騒ぎ/index.html
++ /tags/保育園/index.html
++ /tags/好きを深掘り/index.html
++ /tags/プレゼン/index.html
++ /tags/現実逃避/index.html
++ /tags/モデルごっこ/index.html
++ /tags/小学生/index.html
++ /tags/盛った話/index.html
++ /tags/おやすみの儀式/index.html
++ /tags/いろんな確認/index.html
++ /tags/歌舞伎/index.html
++ /tags/親の介護/index.html
++ /tags/後日談/index.html
++ /tags/言い間違い/index.html
++ /tags/謎の儀式/index.html
++ /tags/宅トレ/index.html
++ /tags/松屋の牛丼/index.html
++ /tags/芋石爆誕/index.html
++ /tags/手作りこたつ/index.html
++ /tags/タイピング/index.html
++ /tags/立派に成長/index.html
++ /tags/育児/index.html
++ /tags/我が家のルール/index.html
++ /tags/季節の行事/index.html
++ /tags/自宅バリスタ/index.html
++ /tags/3人きょうだい/index.html
++ /tags/創造性/index.html
++ /tags/子どもの発想/index.html
++ /tags/ジャックスパロウ/index.html
++ /tags/女子力向上中/index.html
++ /tags/息子のミステリー/index.html
++ /tags/子育て/page/2/index.html
++ /tags/ワーママ/index.html
++ /tags/キャッシュカード/index.html
++ /tags/爆笑エピソード/index.html
++ /tags/母腹筋崩壊/index.html
++ /tags/ブロッコリーご飯/index.html
++ /tags/あみじゃが/index.html
++ /tags/シュールにゆらゆら/index.html
++ /tags/こなれ感長男/index.html
++ /tags/無限の可能性/index.html
++ /tags/メディアコントロールデイ/index.html
++ /tags/地味にダサい長女/index.html
++ /tags/役立ち情報/page/3/index.html
++ /tags/リビングはダンスホール/index.html
++ /tags/女の子育児/index.html
++ /tags/日常/index.html
++ /tags/パソコン/index.html
++ /tags/笑える話/index.html
++ /tags/公園遊び/index.html
++ /tags/晩酌/index.html
++ /tags/スマホデビュー/index.html
++ /tags/訪問看護/index.html
++ /tags/小学３年生/index.html
++ /tags/おうちごはん/index.html
++ /tags/友人/index.html
++ /tags/子どもの名言/index.html
++ /tags/子どもの成長/page/3/index.html
++ /tags/1年生/index.html
++ /tags/長女/page/4/index.html
++ /tags/子どもの成長/index.xml
++ /posts/page/13/index.html
++ /page/9/index.html
++ /page/11/index.html
++ /posts/page/12/index.html
++ /posts/page/7/index.html
++ /page/10/index.html
++ /page/7/index.html
++ /posts/index.html
++ /tags/長男/page/4/index.html
++ /posts/page/6/index.html
++ /tags/長女/page/2/index.html
++ /tags/育児あるある/index.html
++ /tags/子どもの成長/index.html
++ /posts/page/4/index.html
++ /tags/役立ち情報/index.html
++ /tags/長男/page/3/index.html
++ /tags/ドタバタ日常/index.html
++ /tags/育児あるある/page/2/index.html
++ /posts/page/5/index.html
++ /tags/役立ち情報/page/2/index.html
++ /posts/jinan-ondoku-jibun-de-kimeru/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 101 of 305 assets
+Uploaded 203 of 305 assets
+Uploaded 305 of 305 assets
+✨ Success! Uploaded 305 files (868 already uploaded) (4.73 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (18.90 sec)
+Deployed my-blog triggers (0.99 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: b1adf7cd-dcb5-4726-8ff8-18aa8ae1d08d
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/jinan-tonari-de-hon-wo-hiraku/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/jinan-tonari-de-hon-wo-hiraku/ で確認できます。
