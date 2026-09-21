@@ -4192,3 +4192,238 @@ Node.js v26.0.0
 
 🎉 公開作業がすべて完了しました！
 https://3nin-dotabata.com/posts/jinan-asa5ji-ni-okoshite/ で確認できます。
+📝 公開する記事: "アイスベストは入浴介助で雲泥の差。訪問看護師が1年使ってわかったこと"
+📅 公開日を 2026-09-19 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 609 
+ Paginator pages  │  55 
+ Non-page files   │   0 
+ Static files     │ 280 
+ Processed images │   0 
+ Aliases          │ 238 
+ Cleaned          │   0 
+
+Total in 2433 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.163  (空) → 2026/09/19T09:06:07+09:00   アイスベストは入浴介助で雲泥の差。訪問看護師が1年使ってわかったこと
+[main 72cf2a10] 記事を公開: "アイスベストは入浴介助で雲泥の差。訪問看護師が1年使ってわかったこと"
+ 309 files changed, 487 insertions(+), 451 deletions(-)
+ create mode 100644 public/posts/icevest-houmon-kango/index.html
+To https://github.com/ayumimblog/my-blog.git
+   7516e4a0..72cf2a10  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.135.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+🌀 Building list of assets...
+✨ Read 2084 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 306 new or modified static assets to upload. Proceeding with upload...
++ /tags/仕事/index.xml
++ /categories/index.html
++ /tags/裏拳/index.html
++ /tags/牛と豚/index.html
++ /tags/入学式/index.html
++ /tags/名言爆誕/index.html
++ /tags/公園/index.html
++ /tags/自立/index.html
++ /tags/歯磨き/index.html
++ /tags/参観会/index.html
++ /tags/シール/index.html
++ /tags/バラード/index.html
++ /tags/花粉のせい/index.html
++ /tags/給食参観/index.html
++ /tags/卒園式/index.html
++ /tags/子育て日記/index.html
++ /tags/男子育児/index.html
++ /tags/gemini/index.html
++ /tags/成長/index.html
++ /tags/次なる目標/index.html
++ /tags/6歳男子-/index.html
++ /tags/コーヒー/index.html
++ /tags/鏡の前での修行/index.html
++ /tags/春祭り/index.html
++ /tags/100均/index.html
++ /tags/お菓子作り/index.html
++ /tags/七夕/index.html
++ /tags/見習いたい母/index.html
++ /tags/憧れの職場/index.html
++ /tags/春休み/index.html
++ /tags/お茶体験/index.html
++ /tags/お金の管理/index.html
++ /tags/格差社会/index.html
++ /tags/ランチビュッフェ/index.html
++ /tags/抹茶トリュフ/index.html
++ /tags/砂のお城/index.html
++ /tags/冬の過ごし方/index.html
++ /tags/ずる賢い/index.html
++ /tags/ありがとう/index.html
++ /tags/晩酌タイム/index.html
++ /tags/見習いたい姿/index.html
++ /tags/子の成長/index.html
++ /tags/小孥5年生/index.html
++ /tags/父娘の日常/index.html
++ /tags/アート/index.html
++ /tags/フットクリーム/index.html
++ /tags/5時起き/index.html
++ /tags/ミッション/index.html
++ /tags/パニック/index.html
++ /tags/ご褒美作戦/index.html
++ /tags/成長記録/index.html
++ /tags/aiパーソナル/index.html
++ /tags/ガチャガチャ/index.html
++ /tags/完コピ次男/index.html
++ /tags/子どもの発想力/index.html
++ /tags/絶望からの大逆転/index.html
++ /tags/ルーティン/index.html
++ /tags/長男の神フォロー/index.html
++ /tags/友達の母からの連絡/index.html
++ /tags/感情のコントロール/index.html
++ /tags/地味にダサい長女/index.html
++ /tags/身の丈に合わないゲーム/index.html
++ /tags/子どものネーミングセンス/index.html
++ /tags/ピアノ/index.html
++ /tags/お風呂タイム/index.html
++ /tags/甥っ子/index.html
++ /tags/３人育児/index.html
++ /tags/女の子ママ/index.html
++ /tags/スイミング/index.html
++ /tags/ロブロックス/index.html
++ /tags/4年生/index.html
++ /tags/小学３年生/index.html
++ /tags/お土産/index.html
++ /tags/子どもの迷言/index.html
++ /tags/子どもの名言/index.html
++ /tags/1年生/index.html
++ /tags/3人育児/index.html
++ /tags/育児あるある/page/5/index.html
++ /tags/子どもの成長/page/3/index.html
++ /tags/長男/page/6/index.html
++ /page/12/index.html
++ /tags/次男/page/4/index.html
++ /page/9/index.html
++ /page/11/index.html
++ /page/7/index.html
++ /posts/page/13/index.html
++ /tags/ドタバタ母さん/index.html
++ /tags/夏休み/page/2/index.html
++ /tags/育児日記/page/2/index.html
++ /tags/次男/index.html
++ /tags/子どもの成長/index.html
++ /tags/子育て/index.html
++ /posts/page/4/index.html
++ /page/4/index.html
++ /tags/長女/page/2/index.html
++ /tags/育児あるある/page/2/index.html
++ /tags/ドタバタ日常/index.html
++ /tags/クスッと笑える/page/2/index.html
++ /posts/page/5/index.html
++ /tags/ドタバタ日常/page/2/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 102 of 306 assets
+Uploaded 204 of 306 assets
+Uploaded 306 of 306 assets
+✨ Success! Uploaded 306 files (878 already uploaded) (2.83 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (7.50 sec)
+Deployed my-blog triggers (0.76 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 8be11f14-6aaf-4d51-bc61-7f85b1d7df3e
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/icevest-houmon-kango/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/icevest-houmon-kango/ で確認できます。
+[2026-09-21 09:06:28] 公開開始: content/posts/thonan-hasibako.md (箸箱、洗ってないやん！割り箸でごまかそうとした長男の「肝の据わり方」がすごかった)
+📝 公開する記事: "箸箱、洗ってないやん！割り箸でごまかそうとした長男の「肝の据わり方」がすごかった"
+📅 公開日を 2026-09-21 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 610 
+ Paginator pages  │  55 
+ Non-page files   │   0 
+ Static files     │ 280 
+ Processed images │   0 
+ Aliases          │ 238 
+ Cleaned          │   0 
+
+Total in 2380 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.90  2026/06/19 → 2026/09/21T09:06:28+09:00   箸箱、洗ってないやん！割り箸でごまかそうとした長男の「肝の据わり方」
+[main a806aa4b] 記事を公開: "箸箱、洗ってないやん！割り箸でごまかそうとした長男の「肝の据わり方」がすごかった"
+ 311 files changed, 539 insertions(+), 502 deletions(-)
+ create mode 100644 public/posts/thonan-hasibako/index.html
+To https://github.com/ayumimblog/my-blog.git
+   ac7b0bc6..a806aa4b  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.135.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-09-21_00-06-38_813.log"
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.135.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-09-21_02-36-52_706.log"
+⚠️ 失敗しました（2回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.135.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-09-21_03-54-26_496.log"
+❌ 3回試しても失敗しました: npx --yes wrangler@latest deploy
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/thonan-hasibako/
+ℹ️ デプロイ処理はエラーを返しましたが、記事はサイトに出ています（実害なし）
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/thonan-hasibako/ で確認できます。
+[2026-09-21 12:54:27] 公開成功: 箸箱、洗ってないやん！割り箸でごまかそうとした長男の「肝の据わり方」がすごかった
