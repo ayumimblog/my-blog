@@ -4659,3 +4659,239 @@ Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more
 🎉 公開作業がすべて完了しました！
 https://3nin-dotabata.com/posts/jinan-undertale-dance/ で確認できます。
 [2026-09-23 09:16:37] 公開成功: 朝5時半起きの次男、アンダーテイルで全力ダンス。学校まで30分歩く前にスタミナ尽きないか心配になった話
+📝 公開する記事: "「これにレリッシュとブラックペッパー合わせたら絶対美味しいんじゃない？」小6長男が大人の舌すぎる件"
+📅 公開日を 2026-09-25 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 612 
+ Paginator pages  │  55 
+ Non-page files   │   0 
+ Static files     │ 284 
+ Processed images │   0 
+ Aliases          │ 238 
+ Cleaned          │   0 
+
+Total in 2399 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.164  (空) → 2026/09/25T09:06:26+09:00   「これにレリッシュとブラックペッパー合わせたら絶対美味しいんじゃない
+[main afe23134] 記事を公開: "「これにレリッシュとブラックペッパー合わせたら絶対美味しいんじゃない？」小6長男が大人の舌すぎる件"
+ 1061 files changed, 7662 insertions(+), 232352 deletions(-)
+ create mode 100644 public/images/houmonkango-ai-jimu.png
+ delete mode 100644 public/page/15/index.html
+ delete mode 100644 public/page/16/index.html
+ delete mode 100644 public/page/17/index.html
+ delete mode 100644 public/page/18/index.html
+ delete mode 100644 public/page/19/index.html
+ delete mode 100644 public/posts/asa-game-jikan-koushou/index.html
+ delete mode 100644 public/posts/asakaraniwatorika/index.html
+ delete mode 100644 public/posts/asakaratoystory3/index.html
+ delete mode 100644 public/posts/bouningen-kyoso/index.html
+ delete mode 100644 public/posts/butenaro-spray/index.html
+ delete mode 100644 public/posts/chanan-piano-moteru/index.html
+ delete mode 100644 public/posts/goonies-mini-theater/index.html
+ delete mode 100644 public/posts/gumi-party/index.html
+ delete mode 100644 public/posts/gym-beer-dotabata/index.html
+ delete mode 100644 public/posts/jim-jibunnihakushu/index.html
+ delete mode 100644 public/posts/jinan-asobuyakusoku/index.html
+ delete mode 100644 public/posts/jinan-ha-ga-nuketa/index.html
+ delete mode 100644 public/posts/jinan-imokenpi-shishitsu/index.html
+ delete mode 100644 public/posts/jinan-inunosippo/index.html
+ delete mode 100644 public/posts/jinan-ningyou/index.html
+ delete mode 100644 public/posts/jinan-oni-ni-naranaika/index.html
+ delete mode 100644 public/posts/jinan-soudayo-mondai/index.html
+ delete mode 100644 public/posts/jiyu-toko-asobi-miokuri/index.html
+ delete mode 100644 public/posts/kata-nori-panda/index.html
+ delete mode 100644 public/posts/media-toritai-gassen/index.html
+ delete mode 100644 public/posts/musume-ojisan-kantei/index.html
+ delete mode 100644 public/posts/obaachan-inu-sanpo/index.html
+ delete mode 100644 public/posts/offkai-ai-blog/index.html
+ delete mode 100644 public/posts/oikko-wifi/index.html
+ delete mode 100644 public/posts/ooinunofuguri/index.html
+ delete mode 100644 public/posts/page/15/index.html
+ delete mode 100644 public/posts/page/16/index.html
+ delete mode 100644 public/posts/page/17/index.html
+ delete mode 100644 public/posts/page/18/index.html
+ delete mode 100644 public/posts/page/19/index.html
+ delete mode 100644 public/posts/post-20260611-1/index.html
+ delete mode 100644 public/posts/sakotsu-made-ga-kao/index.html
+ delete mode 100644 public/posts/tyojo-dance-angirls/index.html
+ delete mode 100644 public/posts/tyojo-engisidou/index.html
+ delete mode 100644 public/posts/tyojo-kougaigakushu-jinanbinjo/index.html
+ delete mode 100644 public/posts/tyojo-poolbag/index.html
+ delete mode 100644 public/posts/tyojo-sign/index.html
+ delete mode 100644 public/posts/tyonan-bellingham/index.html
+ delete mode 100644 public/posts/tyonan-nazokake/index.html
+ create mode 100644 public/posts/tyonan-otona-no-shita-relish/index.html
+ delete mode 100644 public/posts/tyonan-piano-happyo/index.html
+ delete mode 100644 public/posts/tyonan-piano-koga-wo-oikakete/index.html
+ delete mode 100644 public/posts/tyonan-saba-yomi/index.html
+ delete mode 100644 public/posts/tyonan-shoukanituite/index.html
+ delete mode 100644 public/posts/yoga-offkai-shigeki/index.html
+ delete mode 100644 public/posts/yubi-chino-umi/index.html
+ delete mode 100644 public/posts/yumeno-shokugyo/index.html
+ delete mode 100644 public/tags/ai/index.html
+ delete mode 100644 public/tags/ai/index.xml
+ delete mode 100644 public/tags/ai/page/1/index.html
+ delete mode 100644 public/tags/nhk/index.html
+ delete mode 100644 public/tags/nhk/index.xml
+ delete mode 100644 public/tags/nhk/page/1/index.html
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/index.html"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/index.html"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\252\343\203\225\344\274\232/index.html"
+ delete mode 100644 "public/tags/\343\202\252\343\203\225\344\274\232/index.xml"
+ delete mode 100644 "public/tags/\343\202\252\343\203\225\344\274\232/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\257\343\202\271\343\203\203\343\201\250\347\254\221\343\201\210\343\202\213/page/4/index.html"
+ delete mode 100644 "public/tags/\343\202\257\343\202\271\343\203\203\343\201\250\347\254\221\343\201\210\343\202\213/page/5/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/index.xml"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/index.xml"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/index.html"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/index.xml"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\270\343\203\240/index.html"
+ delete mode 100644 "public/tags/\343\202\270\343\203\240/index.xml"
+ delete mode 100644 "public/tags/\343\202\270\343\203\240/page/1/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/5/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/6/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/7/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/8/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\203\251\343\202\244\343\203\226/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\203\251\343\202\244\343\203\226/index.xml"
+ delete mode 100644 "public/tags/\343\203\211\343\203\251\343\202\244\343\203\226/page/1/index.html"
+ delete mode 100644 "public/tags/\343\203\226\343\203\255\343\202\260/index.html"
+ delete mode 100644 "public/tags/\343\203\226\343\203\255\343\202\260/index.xml"
+ delete mode 100644 "public/tags/\343\203\226\343\203\255\343\202\260/page/1/index.html"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/index.html"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/index.xml"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/page/1/index.html"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/index.html"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/index.xml"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/page/1/index.html"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/index.html"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/index.xml"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/page/1/index.html"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/index.html"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/index.xml"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/page/1/index.html"
+ delete mode 100644 "public/tags/\345\217\216\347\233\212\345\214\226/index.html"
+ delete mode 100644 "public/tags/\345\217\216\347\233\212\345\214\226/index.xml"
+ delete mode 100644 "public/tags/\345\217\216\347\233\212\345\214\226/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\346\210\220\351\225\267/page/4/index.html"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/index.html"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/index.xml"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\220\350\202\262\343\201\246\343\201\250\350\266\243\345\221\263/index.html"
+ delete mode 100644 "public/tags/\345\255\220\350\202\262\343\201\246\343\201\250\350\266\243\345\221\263/index.xml"
+ delete mode 100644 "public/tags/\345\255\220\350\202\262\343\201\246\343\201\250\350\266\243\345\221\263/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\220\350\202\262\343\201\246\343\203\226\343\203\255\343\202\260/index.html"
+ delete mode 100644 "public/tags/\345\255\220\350\202\262\343\201\246\343\203\226\343\203\255\343\202\260/index.xml"
+ delete mode 100644 "public/tags/\345\255\220\350\202\262\343\201\246\343\203\226\343\203\255\343\202\260/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/index.html"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/index.xml"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/index.html"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/index.xml"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/page/1/index.html"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/index.html"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\345\260\217\345\255\246\347\224\237\343\203\236\343\203\236/page/2/index.html"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/index.html"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/index.xml"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/page/1/index.html"
+ delete mode 100644 "public/tags/\346\254\241\347\224\267/page/6/index.html"
+ delete mode 100644 "public/tags/\346\254\241\347\224\267/page/7/index.html"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/index.html"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/index.xml"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/page/1/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/6/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/7/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/8/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/9/index.html"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/index.html"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/index.xml"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/page/1/index.html"
+ delete mode 100644 "public/tags/\351\225\267\345\245\263/page/5/index.html"
+ delete mode 100644 "public/tags/\351\225\267\345\245\263/page/6/index.html"
+ delete mode 100644 "public/tags/\351\225\267\347\224\267/page/7/index.html"
+ delete mode 100644 "public/tags/\351\225\267\347\224\267/page/8/index.html"
+To https://github.com/ayumimblog/my-blog.git
+   3af0f845..afe23134  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.139.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-09-25_03-58-18_091.log"
+npm notice
+npm notice New major version of npm available! 11.12.1 -> 12.1.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.1.0
+npm notice To update run: npm install -g npm@12.1.0
+npm notice
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.139.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-09-25_03-59-20_662.log"
+⚠️ 失敗しました（2回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.139.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-09-25_04-00-22_291.log"
+❌ 3回試しても失敗しました: npx --yes wrangler@latest deploy
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/tyonan-otona-no-shita-relish/
+ℹ️ デプロイ処理はエラーを返しましたが、記事はサイトに出ています（実害なし）
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/tyonan-otona-no-shita-relish/ で確認できます。
