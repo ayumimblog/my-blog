@@ -1,7 +1,7 @@
 ---
 title: "背中と胸をしばいて、ビールで回収。それが私の休日の正解です"
-date: 2026-06-01
-draft: true
+date: 2026-10-05T09:07:36+09:00
+draft: false
 tags: ["筋トレ", "ジム", "晩酌", "ドタバタ日常", "子育てと趣味"]
 cover:
   image: "/images/gym-beer.png"
