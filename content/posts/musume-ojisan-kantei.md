@@ -1,7 +1,7 @@
 ---
 title: "娘の「おじさん鑑定」が鋭すぎた話"
-date: 2026-06-03
-draft: true
+date: 2026-10-07T09:05:13+09:00
+draft: false
 tags: ["長女", "子育て", "日常", "笑える話", "ドライブ"]
 cover:
   image: "/images/musume-ojisan.png"
