@@ -9,6 +9,8 @@ cover:
   alt: "記事のアイキャッチ画像"
 ---
 
+※本記事にはプロモーション（アフィリエイト広告）を含みます
+
 こんにちは！ドタバタ母さんです。
 
 今日は、**次男（小1）の姿勢**の話です。
@@ -89,6 +91,21 @@ cover:
 - 次男の体に**サイズがぴったり**
 - 座面が小さいので、**深く座っても足が床につく**
 - **中に物をしまえる**ので、場所も無駄になりません
+
+我が家で使っているものに近いのは、こういうタイプです。
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"楽天1位受賞 選べる素材20カラー 収納ベンチ 収納スツール 室内 収納ボックス ふた付き ベンチ 長方形 正方形 木製 フタ付き 頑丈 布 おしゃれ 折りたたみ 椅子 収納ケース 立方体 レザー調 座れる オットマン PVCレザー ファブリック 椅子 スツール ヌック ブークレ調","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/noone\/cabinet\/zakka\/sbo2025","p":["\/sbo2025-nmain.jpg","\/sbo2025-pvcs.jpg","\/sbo2025-fbcs.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/noone\/combo-s\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/noone\/combo-s\/","a_id":5686030,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1},{"id":2,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1&p=%E6%A5%BD%E5%A4%A91%E4%BD%8D%E5%8F%97%E8%B3%9E%20%E9%81%B8%E3%81%B9%E3%82%8B%E7%B4%A0%E6%9D%9020%E3%82%AB%E3%83%A9%E3%83%BC%20%E5%8F%8E%E7%B4%8D%E3%83%99%E3%83%B3%E3%83%81%20%E5%8F%8E%E7%B4%8D%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB%20%E5%AE%A4%E5%86%85%20%E5%8F%8E%E7%B4%8D%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%20%E3%81%B5%E3%81%9F%E4%BB%98%E3%81%8D%20%E3%83%99%E3%83%B3%E3%83%81%20%E9%95%B7%E6%96%B9%E5%BD%A2%20%E6%AD%A3%E6%96%B9%E5%BD%A2%20%E6%9C%A8%E8%A3%BD%20%E3%83%95%E3%82%BF%E4%BB%98%E3%81%8D%20%E9%A0%91%E4%B8%88%20%E5%B8%83%20%E3%81%8A%E3%81%97%E3%82%83%E3%82%8C%20%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%20%E6%A4%85%E5%AD%90%20%E5%8F%8E%E7%B4%8D%E3%82%B1%E3%83%BC%E3%82%B9%20%E7%AB%8B%E6%96%B9%E4%BD%93%20%E3%83%AC%E3%82%B6%E3%83%BC%E8%AA%BF%20%E5%BA%A7%E3%82%8C%E3%82%8B%20%E3%82%AA%E3%83%83%E3%83%88%E3%83%9E%E3%83%B3%20PVC%E3%83%AC%E3%82%B6%E3%83%BC%20%E3%83%95%E3%82%A1%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF%20%E6%A4%85%E5%AD%90%20%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB%20%E3%83%8C%E3%83%83%E3%82%AF%20%E3%83%96%E3%83%BC%E3%82%AF%E3%83%AC%E8%AA%BF","a_id":5686032,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":2}],"eid":"AEGW3","s":"s"});
+</script>
+<div id="msmaflink-AEGW3">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 そしてもうひとつ、我が家には有利な条件がありました。
 
