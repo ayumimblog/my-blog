@@ -69,3 +69,15 @@ timeZone = "Asia/Tokyo"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 # updated 2026年 6月 4日 木曜日 07時25分20秒 JST
+
+# タグ・シリーズのページを検索結果に出さない（2026-10-15）
+# 268個のタグのうち205個が記事1本だけの薄いページで、
+# Search Consoleで「クロール済み - インデックス未登録」107件の原因になっていた。
+# サイト内の回遊用には残すので、読者の見え方は変わらない。
+[[cascade]]
+  [cascade.params]
+    robotsNoIndex = true
+  [cascade.sitemap]
+    disable = true
+  [cascade._target]
+    kind = "{taxonomy,term}"
