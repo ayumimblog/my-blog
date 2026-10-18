@@ -7,13 +7,15 @@
 
 ~/Downloads/インスタ予約_YYYY-MM-DD/ に、投稿日ごとのフォルダを作る。
 各フォルダの中身:
-    1_アイキャッチ.png   … ブログのアイキャッチ
+    1_アイキャッチ.png             … ブログのアイキャッチ
+    1_アイキャッチ_タイトル入り.png  … 下にタイトルを入れた版（どちらか使う）
     2_<名前>.png        … 表などの追加画像（あれば）
     キャプション.txt      … xlsxのキャプションをそのまま
     _情報.txt            … 投稿日・記事タイトル・ブログURL
 """
 import openpyxl, glob, re, os, shutil, sys, unicodedata
 from datetime import date
+from make_insta_title import make as make_title
 
 BLOG = os.path.dirname(os.path.abspath(__file__))
 XLSX = os.path.join(BLOG, 'インスタ投稿スケジュール_ドタバタ母さんブログ.xlsx')
@@ -75,6 +77,12 @@ for i, p in enumerate(pending, 1):
 
     if img:
         shutil.copy(img, os.path.join(folder, '1_アイキャッチ' + os.path.splitext(img)[1]))
+        # タイトルを下に入れた版も作る（アイキャッチに文字が入っていない記事用）
+        try:
+            make_title(img, real_title or p['title'],
+                       os.path.join(folder, '1_アイキャッチ_タイトル入り.png'))
+        except Exception as e:
+            print('  タイトル版が作れませんでした:', e)
     else:
         missing.append(f"{p['date']}  アイキャッチなし  {p['title'][:34]}")
 
