@@ -2,7 +2,7 @@
 """インスタの予約投稿用に、画像とキャプションを1か所にまとめる。
 
 使い方:
-    python3 prep-instagram.py          # 次の5本ぶん
+    python3 prep-instagram.py          # 次の4本ぶん（予約できる上限）
     python3 prep-instagram.py 8        # 次の8本ぶん
 
 ~/Downloads/インスタ予約_YYYY-MM-DD/ に、投稿日ごとのフォルダを作る。
@@ -20,7 +20,7 @@ XLSX = os.path.join(BLOG, 'インスタ投稿スケジュール_ドタバタ母�
 OUT_ROOT = os.path.expanduser('~/Downloads')
 EXTRA_DIR = os.path.expanduser('~/Downloads')   # 表の画像などを置いてある場所
 
-N = int(sys.argv[1]) if len(sys.argv) > 1 else 5
+N = int(sys.argv[1]) if len(sys.argv) > 1 else 4
 
 
 def norm(s):
