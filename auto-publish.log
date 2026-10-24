@@ -7310,3 +7310,287 @@ Current Version ID: dec69556-66e3-4623-836f-654f9cbce2bf
 
 🎉 公開作業がすべて完了しました！
 https://3nin-dotabata.com/posts/koji-souji-jikan-no-tsukurikata/ で確認できます。
+📝 公開する記事: "「俺踊る！」一度も練習しなかった次男と、「横断中」の旗で練習する長男。運動会前の我が家です"
+📅 公開日を 2026-10-23 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: cascade._target was deprecated in Hugo v0.156.0 and will be removed in a future release. Use cascade.target instead, see https://gohugo.io/content-management/front-matter/#target
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 652 
+ Paginator pages  │  66 
+ Non-page files   │   0 
+ Static files     │ 314 
+ Processed images │   0 
+ Aliases          │ 249 
+ Cleaned          │   0 
+
+Total in 1323 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.191  (空) → 2026/10/23T09:03:43+09:00   「俺踊る！」一度も練習しなかった次男と、「横断中」の旗で練習する長男
+
+記事が見つからない行: 2件（タイトルを変更した記事かもしれません）
+  No.126  5家族22人でBBQお泊まり会。1棟貸し「伊豆クリスタル迎賓館」が大
+  No.127  文具好き小6男子の愛用品レビュー。S20・フリクション・スマッシュ・
+[main c328ec84d] 記事を公開: "「俺踊る！」一度も練習しなかった次男と、「横断中」の旗で練習する長男。運動会前の我が家です"
+ 1090 files changed, 8402 insertions(+), 245310 deletions(-)
+ delete mode 100644 public/page/17/index.html
+ delete mode 100644 public/page/18/index.html
+ delete mode 100644 public/page/19/index.html
+ delete mode 100644 public/page/20/index.html
+ delete mode 100644 public/posts/asa-game-jikan-koushou/index.html
+ delete mode 100644 public/posts/asakaraniwatorika/index.html
+ delete mode 100644 public/posts/asakaratoystory3/index.html
+ delete mode 100644 public/posts/bouningen-kyoso/index.html
+ delete mode 100644 public/posts/butenaro-spray/index.html
+ delete mode 100644 public/posts/chanan-piano-moteru/index.html
+ delete mode 100644 public/posts/goonies-mini-theater/index.html
+ delete mode 100644 public/posts/gumi-party/index.html
+ delete mode 100644 public/posts/jim-jibunnihakushu/index.html
+ delete mode 100644 public/posts/jinan-asobuyakusoku/index.html
+ delete mode 100644 public/posts/jinan-ha-ga-nuketa/index.html
+ delete mode 100644 public/posts/jinan-imokenpi-shishitsu/index.html
+ delete mode 100644 public/posts/jinan-inunosippo/index.html
+ delete mode 100644 public/posts/jinan-ningyou/index.html
+ delete mode 100644 public/posts/jinan-oni-ni-naranaika/index.html
+ delete mode 100644 public/posts/jinan-soudayo-mondai/index.html
+ delete mode 100644 public/posts/jiyu-toko-asobi-miokuri/index.html
+ delete mode 100644 public/posts/kata-nori-panda/index.html
+ delete mode 100644 public/posts/media-toritai-gassen/index.html
+ delete mode 100644 public/posts/obaachan-inu-sanpo/index.html
+ delete mode 100644 public/posts/oikko-wifi/index.html
+ delete mode 100644 public/posts/ooinunofuguri/index.html
+ delete mode 100644 public/posts/page/17/index.html
+ delete mode 100644 public/posts/page/18/index.html
+ delete mode 100644 public/posts/page/19/index.html
+ delete mode 100644 public/posts/page/20/index.html
+ delete mode 100644 public/posts/post-20260611-1/index.html
+ delete mode 100644 public/posts/sakotsu-made-ga-kao/index.html
+ delete mode 100644 public/posts/tyojo-dance-angirls/index.html
+ delete mode 100644 public/posts/tyojo-engisidou/index.html
+ delete mode 100644 public/posts/tyojo-poolbag/index.html
+ delete mode 100644 public/posts/tyojo-sign/index.html
+ delete mode 100644 public/posts/tyonan-bellingham/index.html
+ delete mode 100644 public/posts/tyonan-nazokake/index.html
+ delete mode 100644 public/posts/tyonan-piano-happyo/index.html
+ delete mode 100644 public/posts/tyonan-piano-koga-wo-oikakete/index.html
+ delete mode 100644 public/posts/tyonan-saba-yomi/index.html
+ delete mode 100644 public/posts/tyonan-shoukanituite/index.html
+ delete mode 100644 public/posts/yoga-offkai-shigeki/index.html
+ delete mode 100644 public/posts/yubi-chino-umi/index.html
+ delete mode 100644 public/posts/yumeno-shokugyo/index.html
+ delete mode 100644 public/tags/nhk/index.html
+ delete mode 100644 public/tags/nhk/index.xml
+ delete mode 100644 public/tags/nhk/page/1/index.html
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/index.html"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/index.html"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\257\343\202\271\343\203\203\343\201\250\347\254\221\343\201\210\343\202\213/page/5/index.html"
+ delete mode 100644 "public/tags/\343\202\257\343\202\271\343\203\203\343\201\250\347\254\221\343\201\210\343\202\213/page/6/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/index.xml"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/index.xml"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/index.html"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/index.xml"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/page/1/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/10/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/7/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/8/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/9/index.html"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/index.html"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/index.xml"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/page/1/index.html"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/index.html"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/index.xml"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/page/1/index.html"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/index.html"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/index.xml"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/page/1/index.html"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/index.html"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/index.xml"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\346\210\220\351\225\267/page/4/index.html"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/index.html"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/index.xml"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/index.html"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/index.xml"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/index.html"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/index.xml"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/page/1/index.html"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/index.html"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\345\260\217\345\255\246\347\224\237\343\203\236\343\203\236/page/2/index.html"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/index.html"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/index.xml"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/page/1/index.html"
+ delete mode 100644 "public/tags/\346\254\241\347\224\267/page/7/index.html"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/index.html"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/index.xml"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/page/1/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/6/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/7/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/8/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/9/index.html"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/index.html"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/index.xml"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/page/1/index.html"
+ delete mode 100644 "public/tags/\351\225\267\345\245\263/page/6/index.html"
+ delete mode 100644 "public/tags/\351\225\267\347\224\267/page/8/index.html"
+ delete mode 100644 "public/tags/\351\225\267\347\224\267/page/9/index.html"
+error: RPC failed; curl 56 Recv failure: Operation timed out
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+⚠️ 失敗しました（1回目）。60秒待って再試行します: git push origin main
+Everything up-to-date
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.152.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mYour auth token has expired and could not be refreshed because the Cloudflare auth server could not be reached. This is usually a network problem (connectivity, proxy, or IPv6), not an invalid login: your stored credentials were left unchanged. Check your connection and try again.[0m
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-10-23_16-11-00_837.log"
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.152.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-10-23_17-35-51_648.log"
+⚠️ 失敗しました（2回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.152.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-10-23_18-54-44_573.log"
+❌ 3回試しても失敗しました: npx --yes wrangler@latest deploy
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/undokai-renshu-3nin/
+curl: (28) Connection timed out after 1074629 milliseconds
+ℹ️ デプロイ処理はエラーを返しましたが、記事はサイトに出ています（実害なし）
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/undokai-renshu-3nin/ で確認できます。
+📝 公開する記事: "毎晩数分の音読を2か月続けたら、驚くほど上手になりました。おまけに字まで"
+📅 公開日を 2026-10-24 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: cascade._target was deprecated in Hugo v0.156.0 and will be removed in a future release. Use cascade.target instead, see https://gohugo.io/content-management/front-matter/#target
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 653 
+ Paginator pages  │  66 
+ Non-page files   │   0 
+ Static files     │ 314 
+ Processed images │   0 
+ Aliases          │ 249 
+ Cleaned          │   0 
+
+Total in 2462 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.176  (空) → 2026/10/24T09:07:51+09:00   毎晩数分の音読を2か月続けたら、驚くほど上手になりました。おまけに字
+
+記事が見つからない行: 2件（タイトルを変更した記事かもしれません）
+  No.126  5家族22人でBBQお泊まり会。1棟貸し「伊豆クリスタル迎賓館」が大
+  No.127  文具好き小6男子の愛用品レビュー。S20・フリクション・スマッシュ・
+[main 28f285392] 記事を公開: "毎晩数分の音読を2か月続けたら、驚くほど上手になりました。おまけに字まで"
+ 332 files changed, 559 insertions(+), 519 deletions(-)
+ create mode 100644 public/posts/jinan-ondoku-2kagetsu/index.html
+To https://github.com/ayumimblog/my-blog.git
+   c328ec84d..28f285392  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.152.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-10-24_00-08-00_670.log"
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.152.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-10-24_01-56-29_621.log"
+⚠️ 失敗しました（2回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.152.0
+────────────────────
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+  
+  To continue without logging in, rerun this command with `--temporary`. Wrangler will use a temporary account and print a claim URL.
+
+
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-10-24_02-05-34_540.log"
+❌ 3回試しても失敗しました: npx --yes wrangler@latest deploy
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/jinan-ondoku-2kagetsu/
+ℹ️ デプロイ処理はエラーを返しましたが、記事はサイトに出ています（実害なし）
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/jinan-ondoku-2kagetsu/ で確認できます。
