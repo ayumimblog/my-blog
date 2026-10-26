@@ -29,6 +29,9 @@ cover:
 
 安くなったのは間違いありません。でも、**それと引き換えに諦めていることもあります。** その両方を書きます。
 
+※料金プランやキャンペーンの最新情報は、公式サイトでご確認ください。→ <a href="https://px.a8.net/svt/ejp?a8mat=4BCJJY+25EDF6+5W58+5YRHE" rel="nofollow">【楽天モバイル】</a>
+<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BCJJY+25EDF6+5W58+5YRHE" alt="">
+
 ## ソフトバンクから乗り換えて3年
 
 我が家が楽天モバイルにしたのは、**3年前**です。それまではソフトバンクを使っていました。
@@ -244,6 +247,12 @@ cover:
 - **外にいる時間が長い人には向く。ビルの中や地下が長い人には向かない**
 
 安さだけで決めると、レジの前で困ります。**どこで困るかを先に知ったうえで**選ぶのが、いちばんいいと思います。
+
+<div style="text-align:center; margin:32px 0;">
+<a href="https://px.a8.net/svt/ejp?a8mat=4BCJJY+25EDF6+5W58+5YZ75" rel="nofollow">
+<img border="0" width="300" height="250" alt="楽天モバイル" src="https://www20.a8.net/svt/bgt?aid=260925694130&wid=001&eno=01&mid=s00000027494001003000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BCJJY+25EDF6+5W58+5YZ75" alt="">
+</div>
 
 ---
 
