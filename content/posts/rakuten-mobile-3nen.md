@@ -250,7 +250,7 @@ cover:
 
 <div style="text-align:center; margin:32px 0;">
 <a href="https://px.a8.net/svt/ejp?a8mat=4BCJJY+25EDF6+5W58+5YZ75" rel="nofollow">
-<img border="0" width="300" height="250" alt="楽天モバイル" src="https://www20.a8.net/svt/bgt?aid=260925694130&wid=001&eno=01&mid=s00000027494001003000&mc=1"></a>
+<img border="0" width="300" height="250" alt="" src="https://www20.a8.net/svt/bgt?aid=260925694130&wid=001&eno=01&mid=s00000027494001003000&mc=1"></a>
 <img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BCJJY+25EDF6+5W58+5YZ75" alt="">
 </div>
 
