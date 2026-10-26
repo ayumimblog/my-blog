@@ -10,10 +10,19 @@
 #   3. ネットワークがつながるのを待つ（Mac自動起動の直後対策）
 #   4. インスタ投稿スケジュールの「ブログ投稿日」を実際の公開日に合わせる
 #   5. git add / commit / push
-#   6. Cloudflareへデプロイ
+#   6. Cloudflareへデプロイ（認証は ~/.config/dotabata/cloudflare.env のAPIトークン）
 #   7. 実際にサイトに記事が出ているかを確認して成否を判定する
 
 set -e
+
+# Cloudflareの認証（APIトークン）を読み込む。
+# OAuthはブラウザでのログインが必要で、launchdのような画面のない環境では
+# 期限切れのときに失敗する（2026-10-23〜26に3本の公開が止まった）。
+# トークンはリポジトリの外に置いてある（権限600）。GitHubには上がらない。
+CF_ENV="$HOME/.config/dotabata/cloudflare.env"
+if [ -f "$CF_ENV" ]; then
+  set -a; . "$CF_ENV"; set +a
+fi
 
 if [ -z "$1" ]; then
   echo "❌ 公開する記事のパスを指定してください"
@@ -136,5 +145,8 @@ else
   echo ""
   echo "❌ 記事がサイトに出ていません。手動での確認が必要です"
   echo "   もう一度試すには: cd ~/my-blog && npx --yes wrangler@latest deploy"
+  # 失敗は黙って終わらせない。気づけないと公開が止まったままになる
+  # （2026-10-23〜26に3本、認証切れで止まっていたのに通知が出なかった）
+  osascript -e 'display notification "記事がサイトに出ていません。手動で確認してください" with title "⚠️ ブログ公開に失敗" sound name "Basso"' 2>/dev/null || true
   exit 1
 fi
