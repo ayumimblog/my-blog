@@ -7801,3 +7801,642 @@ npm notice
 
 🎉 公開作業がすべて完了しました！
 https://3nin-dotabata.com/posts/kyukyubako-kusuribako-seiri/ で確認できます。
+[2026-10-28 09:05:37] お休み指定日（2026-10-28）のため自動公開をスキップしました。
+📝 公開する記事: "「紙を見てよー」の一言で済むようになりました。朝のやることリストを貼ってからの経過報告"
+📅 公開日を 2026-10-28 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: cascade._target was deprecated in Hugo v0.156.0 and will be removed in a future release. Use cascade.target instead, see https://gohugo.io/content-management/front-matter/#target
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 655 
+ Paginator pages  │  68 
+ Non-page files   │   0 
+ Static files     │ 316 
+ Processed images │   0 
+ Aliases          │ 249 
+ Cleaned          │   0 
+
+Total in 2715 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.184  (空) → 2026/10/28T09:05:37+09:00   「紙を見てよー」の一言で済むようになりました。朝のやることリストを貼
+
+記事が見つからない行: 2件（タイトルを変更した記事かもしれません）
+  No.126  5家族22人でBBQお泊まり会。1棟貸し「伊豆クリスタル迎賓館」が大
+  No.127  文具好き小6男子の愛用品レビュー。S20・フリクション・スマッシュ・
+[main 916a250a8] 記事を公開: "「紙を見てよー」の一言で済むようになりました。朝のやることリストを貼ってからの経過報告"
+ 1096 files changed, 8506 insertions(+), 248414 deletions(-)
+ delete mode 100644 public/page/17/index.html
+ delete mode 100644 public/page/18/index.html
+ delete mode 100644 public/page/19/index.html
+ delete mode 100644 public/page/20/index.html
+ delete mode 100644 public/page/21/index.html
+ delete mode 100644 public/posts/asa-game-jikan-koushou/index.html
+ delete mode 100644 public/posts/asakaraniwatorika/index.html
+ delete mode 100644 public/posts/asakaratoystory3/index.html
+ delete mode 100644 public/posts/bouningen-kyoso/index.html
+ delete mode 100644 public/posts/butenaro-spray/index.html
+ delete mode 100644 public/posts/chanan-piano-moteru/index.html
+ delete mode 100644 public/posts/goonies-mini-theater/index.html
+ delete mode 100644 public/posts/gumi-party/index.html
+ delete mode 100644 public/posts/jim-jibunnihakushu/index.html
+ delete mode 100644 public/posts/jinan-asobuyakusoku/index.html
+ delete mode 100644 public/posts/jinan-ha-ga-nuketa/index.html
+ delete mode 100644 public/posts/jinan-imokenpi-shishitsu/index.html
+ delete mode 100644 public/posts/jinan-inunosippo/index.html
+ delete mode 100644 public/posts/jinan-ningyou/index.html
+ delete mode 100644 public/posts/jinan-oni-ni-naranaika/index.html
+ delete mode 100644 public/posts/jinan-soudayo-mondai/index.html
+ delete mode 100644 public/posts/jiyu-toko-asobi-miokuri/index.html
+ delete mode 100644 public/posts/kata-nori-panda/index.html
+ delete mode 100644 public/posts/media-toritai-gassen/index.html
+ delete mode 100644 public/posts/obaachan-inu-sanpo/index.html
+ delete mode 100644 public/posts/oikko-wifi/index.html
+ delete mode 100644 public/posts/ooinunofuguri/index.html
+ delete mode 100644 public/posts/page/17/index.html
+ delete mode 100644 public/posts/page/18/index.html
+ delete mode 100644 public/posts/page/19/index.html
+ delete mode 100644 public/posts/page/20/index.html
+ delete mode 100644 public/posts/page/21/index.html
+ delete mode 100644 public/posts/post-20260611-1/index.html
+ delete mode 100644 public/posts/sakotsu-made-ga-kao/index.html
+ delete mode 100644 public/posts/tyojo-dance-angirls/index.html
+ delete mode 100644 public/posts/tyojo-engisidou/index.html
+ delete mode 100644 public/posts/tyojo-poolbag/index.html
+ delete mode 100644 public/posts/tyojo-sign/index.html
+ delete mode 100644 public/posts/tyonan-bellingham/index.html
+ delete mode 100644 public/posts/tyonan-nazokake/index.html
+ delete mode 100644 public/posts/tyonan-piano-happyo/index.html
+ delete mode 100644 public/posts/tyonan-piano-koga-wo-oikakete/index.html
+ delete mode 100644 public/posts/tyonan-saba-yomi/index.html
+ delete mode 100644 public/posts/tyonan-shoukanituite/index.html
+ delete mode 100644 public/posts/yoga-offkai-shigeki/index.html
+ delete mode 100644 public/posts/yubi-chino-umi/index.html
+ delete mode 100644 public/posts/yumeno-shokugyo/index.html
+ delete mode 100644 public/tags/nhk/index.html
+ delete mode 100644 public/tags/nhk/index.xml
+ delete mode 100644 public/tags/nhk/page/1/index.html
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\201\206\343\201\241\346\231\202\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\201\231\343\201\231\343\202\201\343\202\260\343\203\203\343\202\272/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/index.html"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\343\202\204\343\201\244/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/index.html"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/index.xml"
+ delete mode 100644 "public/tags/\343\201\212\346\211\213\344\274\235\343\201\204/page/1/index.html"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/index.html"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\343\201\265\343\201\250\343\201\227\343\201\237\347\236\254\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\257\343\202\271\343\203\203\343\201\250\347\254\221\343\201\210\343\202\213/page/5/index.html"
+ delete mode 100644 "public/tags/\343\202\257\343\202\271\343\203\203\343\201\250\347\254\221\343\201\210\343\202\213/page/6/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/index.xml"
+ delete mode 100644 "public/tags/\343\202\260\343\203\237/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/index.html"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/index.xml"
+ delete mode 100644 "public/tags/\343\202\260\343\203\274\343\203\213\343\203\274\343\202\272/page/1/index.html"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/index.html"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/index.xml"
+ delete mode 100644 "public/tags/\343\202\263\343\203\237\343\203\245\343\203\213\343\202\261\343\203\274\343\202\267\343\203\247\343\203\263/page/1/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/10/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/7/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/8/index.html"
+ delete mode 100644 "public/tags/\343\203\211\343\202\277\343\203\220\343\202\277\346\227\245\345\270\270/page/9/index.html"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/index.html"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/index.xml"
+ delete mode 100644 "public/tags/\343\203\241\343\203\207\343\202\243\343\202\242\343\203\253\343\203\274\343\203\253/page/1/index.html"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/index.html"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/index.xml"
+ delete mode 100644 "public/tags/\343\203\250\343\202\254/page/1/index.html"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/index.html"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/index.xml"
+ delete mode 100644 "public/tags/\345\200\213\344\272\272\344\272\213\346\245\255/page/1/index.html"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/index.html"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/index.xml"
+ delete mode 100644 "public/tags/\345\211\257\346\245\255/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/index.html"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/index.xml"
+ delete mode 100644 "public/tags/\345\255\220\343\201\251\343\202\202\343\201\256\351\201\212\343\201\263/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/index.html"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/index.xml"
+ delete mode 100644 "public/tags/\345\255\246\343\201\263/page/1/index.html"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/index.html"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/index.xml"
+ delete mode 100644 "public/tags/\345\255\246\346\240\241/page/1/index.html"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/index.html"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/index.xml"
+ delete mode 100644 "public/tags/\345\256\266\346\227\217\346\231\202\351\226\223/page/1/index.html"
+ delete mode 100644 "public/tags/\345\260\217\345\255\246\347\224\237\343\203\236\343\203\236/page/2/index.html"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/index.html"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/index.xml"
+ delete mode 100644 "public/tags/\346\230\240\347\224\273/page/1/index.html"
+ delete mode 100644 "public/tags/\346\254\241\347\224\267/page/7/index.html"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/index.html"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/index.xml"
+ delete mode 100644 "public/tags/\346\260\227\343\201\245\343\201\215/page/1/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/6/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/7/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/8/index.html"
+ delete mode 100644 "public/tags/\350\202\262\345\205\220\343\201\202\343\202\213\343\201\202\343\202\213/page/9/index.html"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/index.html"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/index.xml"
+ delete mode 100644 "public/tags/\350\246\263\345\257\237\346\227\245\350\250\230/page/1/index.html"
+ delete mode 100644 "public/tags/\351\225\267\345\245\263/page/6/index.html"
+ delete mode 100644 "public/tags/\351\225\267\347\224\267/page/8/index.html"
+ delete mode 100644 "public/tags/\351\225\267\347\224\267/page/9/index.html"
+fatal: unable to access 'https://github.com/ayumimblog/my-blog.git/': Recv failure: Operation timed out
+⚠️ 失敗しました（1回目）。60秒待って再試行します: git push origin main
+To https://github.com/ayumimblog/my-blog.git
+   e16bc9431..916a250a8  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.154.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+🌀 Building list of assets...
+✨ Read 2260 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 344 new or modified static assets to upload. Proceeding with upload...
++ /tags/おうちのこと/index.xml
++ /tags/親子のはなし/index.xml
++ /tags/満足/index.html
++ /tags/爆笑/index.html
++ /tags/ai/index.html
++ /tags/入学式/index.html
++ /tags/名言爆誕/index.html
++ /tags/公園/index.html
++ /tags/ドライブ/index.html
++ /tags/名言/index.html
++ /tags/足し算/index.html
++ /tags/母不在/index.html
++ /tags/ノーミス/index.html
++ /tags/物知り博士/index.html
++ /tags/ジム/index.html
++ /tags/休日/index.html
++ /tags/オフ会/index.html
++ /tags/反省/index.html
++ /tags/緊張感ゼロ/index.html
++ /tags/男子育児/index.html
++ /tags/無謀/index.html
++ /tags/異臭騒ぎ/index.html
++ /tags/保育園/index.html
++ /tags/好きを深掘り/index.html
++ /tags/プレゼン/index.html
++ /tags/現実逃避/index.html
++ /tags/モデルごっこ/index.html
++ /tags/100均/index.html
++ /tags/ピアノ発表会/index.html
++ /tags/お金の教育/index.html
++ /tags/節約/index.html
++ /tags/ナマコ/index.html
++ /tags/朝の風景/index.html
++ /tags/家族の時間/index.html
++ /tags/スタバ再現/index.html
++ /tags/謎の儀式/index.html
++ /tags/かめはめ波-/index.html
++ /tags/波動の余韻-/index.html
++ /tags/謎の距離/index.html
++ /tags/こだわり強め/index.html
++ /tags/男の子育児--/index.html
++ /tags/友達/index.html
++ /tags/おじいちゃん/index.html
++ /tags/我が家のルール/index.html
++ /tags/季節の行事/index.html
++ /tags/子育てブログ/index.html
++ /tags/父娘の日常/index.html
++ /tags/アート/index.html
++ /tags/フットクリーム/index.html
++ /tags/子育てと趣味/index.html
++ /tags/朝の出来事/index.html
++ /tags/洗面所は聖域/index.html
++ /tags/おやすみの儀式-/index.html
++ /tags/aiパーソナル/index.html
++ /tags/夜のスカイダイビング/index.html
++ /tags/ガチャガチャ/index.html
++ /tags/完コピ次男/index.html
++ /tags/子どもの発想力/index.html
++ /tags/絶望からの大逆転/index.html
++ /tags/ルーティン/index.html
++ /tags/子どもの成長/page/4/index.html
++ /tags/クルトガダイブ/index.html
++ /tags/オールインワンクリーム/index.html
++ /tags/イタリアンブレインロット/index.html
++ /tags/親子のはなし/page/2/index.html
++ /tags/母は笑いをこらえるのに必死/index.html
++ /tags/変顔/index.html
++ /tags/忘れ物番長/index.html
++ /tags/パソコン/index.html
++ /tags/小学生/index.html
++ /tags/公園遊び/index.html
++ /tags/誕生日/index.html
++ /tags/子育て/page/2/index.html
++ /tags/日常/index.html
++ /tags/笑える話/index.html
++ /tags/晩酌/index.html
++ /tags/おうちのこと/index.html
++ /tags/おでかけ/index.html
++ /tags/子どもの名言/index.html
++ /tags/1年生/index.html
++ /tags/仕事/index.html
++ /tags/訪問看護/index.html
++ /tags/6年生/index.html
++ /page/12/index.html
++ /posts/page/13/index.html
++ /posts/page/14/index.html
++ /tags/次男/page/4/index.html
++ /page/14/index.html
++ /tags/長女/page/4/index.html
++ /tags/ドタバタ母さん/index.html
++ /tags/3人育児/index.html
++ /tags/長男/page/5/index.html
++ /tags/育児日記/page/2/index.html
++ /tags/育児あるある/page/5/index.html
++ /tags/長男/index.html
++ /tags/子育て/index.html
++ /tags/長男/page/4/index.html
++ /tags/長女/page/2/index.html
++ /tags/長男/page/2/index.html
++ /tags/子どもの成長/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 115 of 344 assets
+Uploaded 229 of 344 assets
+Uploaded 344 of 344 assets
+✨ Success! Uploaded 344 files (946 already uploaded) (4.00 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (11.06 sec)
+Deployed my-blog triggers (0.87 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 561521ca-b5e9-4a8b-926f-c4ddb8cacbcd
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/yarukoto-list-keika/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/yarukoto-list-keika/ で確認できます。
+📝 公開する記事: "「どうして俺たちのはないの？」長女に、と思ってもらったカチカチキーホルダーが、結局3人で分けることになった話"
+📅 公開日を 2026-10-30 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: cascade._target was deprecated in Hugo v0.156.0 and will be removed in a future release. Use cascade.target instead, see https://gohugo.io/content-management/front-matter/#target
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 657 
+ Paginator pages  │  71 
+ Non-page files   │   0 
+ Static files     │ 318 
+ Processed images │   0 
+ Aliases          │ 249 
+ Cleaned          │   0 
+
+Total in 2579 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.177  (空) → 2026/10/30T09:07:15+09:00   「どうして俺たちのはないの？」長女に、と思ってもらったカチカチキーホ
+
+記事が見つからない行: 2件（タイトルを変更した記事かもしれません）
+  No.126  5家族22人でBBQお泊まり会。1棟貸し「伊豆クリスタル迎賓館」が大
+  No.127  文具好き小6男子の愛用品レビュー。S20・フリクション・スマッシュ・
+[main c39ad7111] 記事を公開: "「どうして俺たちのはないの？」長女に、と思ってもらったカチカチキーホルダーが、結局3人で分けることになった話"
+ 338 files changed, 616 insertions(+), 578 deletions(-)
+ create mode 100644 public/posts/kachikachi-keyholder/index.html
+To https://github.com/ayumimblog/my-blog.git
+   834fd1151..c39ad7111  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.156.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+🌀 Building list of assets...
+✨ Read 2272 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 336 new or modified static assets to upload. Proceeding with upload...
++ /tags/きょうだい/index.xml
++ /tags/満足/index.html
++ /tags/爆笑/index.html
++ /tags/ai/index.html
++ /tags/入学式/index.html
++ /tags/名言爆誕/index.html
++ /tags/公園/index.html
++ /tags/ドライブ/index.html
++ /tags/名言/index.html
++ /tags/足し算/index.html
++ /tags/母不在/index.html
++ /tags/ノーミス/index.html
++ /tags/物知り博士/index.html
++ /tags/ジム/index.html
++ /tags/休日/index.html
++ /tags/オフ会/index.html
++ /tags/反省/index.html
++ /tags/緊張感ゼロ/index.html
++ /tags/男子育児/index.html
++ /tags/無謀/index.html
++ /tags/異臭騒ぎ/index.html
++ /tags/保育園/index.html
++ /tags/好きを深掘り/index.html
++ /tags/プレゼン/index.html
++ /tags/現実逃避/index.html
++ /tags/モデルごっこ/index.html
++ /tags/100均/index.html
++ /tags/ピアノ発表会/index.html
++ /tags/お金の教育/index.html
++ /tags/節約/index.html
++ /tags/ナマコ/index.html
++ /tags/朝の風景/index.html
++ /tags/家族の時間/index.html
++ /tags/スタバ再現/index.html
++ /tags/謎の儀式/index.html
++ /tags/かめはめ波-/index.html
++ /tags/波動の余韻-/index.html
++ /tags/謎の距離/index.html
++ /tags/こだわり強め/index.html
++ /tags/男の子育児--/index.html
++ /tags/友達/index.html
++ /tags/おじいちゃん/index.html
++ /tags/我が家のルール/index.html
++ /tags/季節の行事/index.html
++ /tags/子育てブログ/index.html
++ /tags/父娘の日常/index.html
++ /tags/アート/index.html
++ /tags/フットクリーム/index.html
++ /tags/子育てと趣味/index.html
++ /tags/朝の出来事/index.html
++ /tags/洗面所は聖域/index.html
++ /tags/おやすみの儀式-/index.html
++ /tags/aiパーソナル/index.html
++ /tags/ワーママ/index.html
++ /tags/ぬいぐるみ/index.html
++ /tags/誰かに相談/index.html
++ /tags/劇的な筋肉痛/index.html
++ /tags/寝る前の全力投球-/index.html
++ /tags/お菓子パーティー/index.html
++ /tags/育児日記/page/3/index.html
++ /tags/クルトガダイブ/index.html
++ /tags/オールインワンクリーム/index.html
++ /tags/イタリアンブレインロット/index.html
++ /tags/親子のはなし/page/2/index.html
++ /tags/母は笑いをこらえるのに必死/index.html
++ /tags/変顔/index.html
++ /tags/ピアノ/index.html
++ /tags/保湿と愛嬌/index.html
++ /tags/お弁当/index.html
++ /tags/３人育児/index.html
++ /tags/女の子ママ/index.html
++ /tags/スイミング/index.html
++ /tags/子育て/page/2/index.html
++ /tags/日常/index.html
++ /tags/小学３年生/index.html
++ /tags/筋トレ/index.html
++ /tags/子どもの迷言/index.html
++ /tags/子どもの名言/index.html
++ /tags/1年生/index.html
++ /tags/仕事/index.html
++ /tags/ドタバタ日常/page/6/index.html
++ /tags/長男/page/7/index.html
++ /tags/長女/page/5/index.html
++ /tags/男の子育児/index.html
++ /page/12/index.html
++ /posts/page/14/index.html
++ /page/14/index.html
++ /posts/page/16/index.html
++ /tags/長女/page/4/index.html
++ /page/11/index.html
++ /posts/page/4/index.html
++ /tags/夏休み/page/2/index.html
++ /page/4/index.html
++ /page/2/index.html
++ /tags/子育て/index.html
++ /page/9/index.html
++ /tags/長女/index.html
++ /page/3/index.html
++ /tags/子どもの成長/index.html
++ /page/7/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 112 of 336 assets
+Uploaded 224 of 336 assets
+Uploaded 336 of 336 assets
+✨ Success! Uploaded 336 files (961 already uploaded) (3.57 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (9.44 sec)
+Deployed my-blog triggers (0.80 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 9a4d42d3-12f0-4e18-a609-c0fba5e7cfdb
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/kachikachi-keyholder/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/kachikachi-keyholder/ で確認できます。
+📝 公開する記事: "「姿勢よく食べよう」と言い続けても直らなかった次男。椅子を変えたら、その日から一度も膝を立てませんでした"
+📅 公開日を 2026-10-31 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: cascade._target was deprecated in Hugo v0.156.0 and will be removed in a future release. Use cascade.target instead, see https://gohugo.io/content-management/front-matter/#target
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 658 
+ Paginator pages  │  71 
+ Non-page files   │   0 
+ Static files     │ 319 
+ Processed images │   0 
+ Aliases          │ 249 
+ Cleaned          │   0 
+
+Total in 2708 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.179  (空) → 2026/10/31T09:07:23+09:00   「姿勢よく食べよう」と言い続けても直らなかった次男。椅子を変えたら、
+
+記事が見つからない行: 2件（タイトルを変更した記事かもしれません）
+  No.126  5家族22人でBBQお泊まり会。1棟貸し「伊豆クリスタル迎賓館」が大
+  No.127  文具好き小6男子の愛用品レビュー。S20・フリクション・スマッシュ・
+[main 30d390e0c] 記事を公開: "「姿勢よく食べよう」と言い続けても直らなかった次男。椅子を変えたら、その日から一度も膝を立てませんでした"
+ 340 files changed, 614 insertions(+), 574 deletions(-)
+ create mode 100644 public/images/tyojo-mongen-list-hyo.png
+ create mode 100644 public/posts/jinan-shisei-isu/index.html
+ create mode 100644 static/images/tyojo-mongen-list-hyo.png
+To https://github.com/ayumimblog/my-blog.git
+   c39ad7111..30d390e0c  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.156.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 2275 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 336 new or modified static assets to upload. Proceeding with upload...
++ /tags/親子のはなし/index.xml
++ /tags/満足/index.html
++ /tags/爆笑/index.html
++ /tags/ai/index.html
++ /tags/入学式/index.html
++ /tags/名言爆誕/index.html
++ /tags/公園/index.html
++ /tags/ドライブ/index.html
++ /tags/名言/index.html
++ /tags/足し算/index.html
++ /tags/母不在/index.html
++ /tags/ノーミス/index.html
++ /tags/物知り博士/index.html
++ /tags/ジム/index.html
++ /tags/休日/index.html
++ /tags/オフ会/index.html
++ /tags/反省/index.html
++ /tags/緊張感ゼロ/index.html
++ /tags/男子育児/index.html
++ /tags/無謀/index.html
++ /tags/異臭騒ぎ/index.html
++ /tags/保育園/index.html
++ /tags/好きを深掘り/index.html
++ /tags/プレゼン/index.html
++ /tags/現実逃避/index.html
++ /tags/モデルごっこ/index.html
++ /tags/100均/index.html
++ /tags/ピアノ発表会/index.html
++ /tags/お金の教育/index.html
++ /tags/節約/index.html
++ /tags/ナマコ/index.html
++ /tags/朝の風景/index.html
++ /tags/家族の時間/index.html
++ /tags/スタバ再現/index.html
++ /tags/謎の儀式/index.html
++ /tags/かめはめ波-/index.html
++ /tags/波動の余韻-/index.html
++ /tags/謎の距離/index.html
++ /tags/こだわり強め/index.html
++ /tags/男の子育児--/index.html
++ /tags/友達/index.html
++ /tags/おじいちゃん/index.html
++ /tags/我が家のルール/index.html
++ /tags/季節の行事/index.html
++ /tags/子育てブログ/index.html
++ /tags/父娘の日常/index.html
++ /tags/アート/index.html
++ /tags/フットクリーム/index.html
++ /tags/子育てと趣味/index.html
++ /tags/朝の出来事/index.html
++ /tags/洗面所は聖域/index.html
++ /tags/おやすみの儀式-/index.html
++ /tags/aiパーソナル/index.html
++ /tags/ワーママ/index.html
++ /tags/ぬいぐるみ/index.html
++ /tags/誰かに相談/index.html
++ /tags/劇的な筋肉痛/index.html
++ /tags/寝る前の全力投球-/index.html
++ /tags/お菓子パーティー/index.html
++ /tags/育児日記/page/3/index.html
++ /tags/クルトガダイブ/index.html
++ /tags/オールインワンクリーム/index.html
++ /tags/イタリアンブレインロット/index.html
++ /tags/ペンケース/index.html
++ /tags/リビングはダンスホール/index.html
++ /tags/女の子育児/index.html
++ /tags/お風呂タイム/index.html
++ /tags/甥っ子/index.html
++ /tags/３人育児/index.html
++ /tags/女の子ママ/index.html
++ /tags/スイミング/index.html
++ /tags/親子のはなし/page/2/index.html
++ /tags/日常/index.html
++ /posts/page/17/index.html
++ /tags/男子あるある/index.html
++ /tags/筋トレ/index.html
++ /tags/子どもの迷言/index.html
++ /tags/子どもの名言/index.html
++ /tags/1年生/index.html
++ /tags/仕事/index.html
++ /tags/訪問看護/index.html
++ /tags/6年生/index.html
++ /tags/長女/page/5/index.html
++ /page/15/index.html
++ /tags/次男/page/5/index.html
++ /page/12/index.html
++ /posts/page/10/index.html
++ /page/10/index.html
++ /tags/長女/page/4/index.html
++ /page/16/index.html
++ /posts/page/5/index.html
++ /page/5/index.html
++ /tags/3人育児/index.html
++ /tags/長男/index.html
++ /page/2/index.html
++ /tags/次男/page/4/index.html
++ /page/3/index.html
++ /posts/page/7/index.html
++ /index.html
++ /tags/ドタバタ日常/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 112 of 336 assets
+Uploaded 224 of 336 assets
+Uploaded 336 of 336 assets
+✨ Success! Uploaded 336 files (963 already uploaded) (2.57 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-10-31_00-55-49_747.log"
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.156.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 2275 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+No updated asset files to upload. Proceeding with deployment...
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (5.84 sec)
+Deployed my-blog triggers (0.63 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 238879bf-ca1e-4e82-bca4-9ee88c50c211
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/jinan-shisei-isu/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/jinan-shisei-isu/ で確認できます。
