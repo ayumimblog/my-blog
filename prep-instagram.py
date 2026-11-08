@@ -72,13 +72,12 @@ def make_portrait(src_path, title, out_path, with_title=True):
         canvas.save(out_path, quality=90, optimize=True)
         return
 
-    IMGBOX = 700
-    sc = min(W / src.width, IMGBOX / src.height)
-    nw, nh = int(src.width * sc), int(src.height * sc)
-    canvas.paste(src.resize((nw, nh), Image.LANCZOS), ((W - nw) // 2, (IMGBOX - nh) // 2))
-    d.rectangle([0, IMGBOX, W, IMGBOX + 10], fill=BAND)
+    # タイトルを先に組んで、その高さぶんを引いた残りを絵に使う。
+    # 絵の高さを固定していた頃は、タイトルが短いと下に大きな余白ができていた
+    # （2026-11-08にごまさんから「イラストが小さく見える」と指摘を受けて修正）。
+    PAD_X, TOP, BOTTOM = 65, 56, 150     # BOTTOMはドメイン表示のぶん
+    size, maxw = 58, W - PAD_X * 2
 
-    size, maxw = 58, W - 130
     def wrap(txt, fo):
         lines, line = [], ''
         for ch in txt:
@@ -86,35 +85,64 @@ def make_portrait(src_path, title, out_path, with_title=True):
                 lines.append(line); line = ch
             else:
                 line += ch
-        lines.append(line); return lines
+        lines.append(line)
+        return lines
+
     lines = wrap(title, f(size))
-    while len(lines) > 6 and size > 36:
+    while len(lines) > 4 and size > 40:
         size -= 3
         lines = wrap(title, f(size))
+    lh = int(size * 1.42)
+    band_h = TOP + lh * len(lines) + BOTTOM
+    img_h = H - band_h
 
-    y = IMGBOX + 70
+    # 絵は横幅いっぱいに使い、はみ出した上下を切る（余白で埋めない）
+    sc = max(W / src.width, img_h / src.height)
+    nw, nh = int(src.width * sc), int(src.height * sc)
+    resized = src.resize((nw, nh), Image.LANCZOS)
+    left, top = (nw - W) // 2, (nh - img_h) // 2
+    canvas.paste(resized.crop((left, top, left + W, top + img_h)), (0, 0))
+    d.rectangle([0, img_h, W, img_h + 10], fill=BAND)
+
+    y = img_h + TOP
     for ln in lines:
-        d.text((65, y), ln, font=f(size), fill=INK)
-        y += int(size * 1.42)
+        d.text((PAD_X, y), ln, font=f(size), fill=INK)
+        y += lh
     t = '3nin-dotabata.com'
-    d.text((W - 65 - d.textlength(t, font=f(28)), H - 72), t, font=f(28), fill=AC)
+    d.text((W - PAD_X - d.textlength(t, font=f(28)), H - 60), t, font=f(28), fill=AC)
     canvas.save(out_path, quality=90, optimize=True)
 
 
-# 2026-09-01 より前に作られたアイキャッチは、絵の中にタイトルが入っている
-# （Blogger時代＋初期のもの）。それ以降は「文字を入れない」指定で生成しているので入っていない。
-TEXTLESS_SINCE = datetime(2026, 9, 1).timestamp()
+# 絵の中にすでにタイトルが入っている画像の一覧。
+#
+# 以前は「2026-09-01より前の画像にはタイトルが入っている」と更新日で判定していたが、
+# これは誤りだった。同じ2026年6月でも、タイトル入りの絵（butenarock.png）と
+# セリフだけの絵（otetudaipoint.png）が混在している。
+# 2026-11-08にごまさんから指摘を受けて、推測をやめて明示リストに変更した。
+TITLED_LIST = os.path.join(BLOG, 'タイトル入り画像.txt')
+
+
+def load_titled():
+    names = set()
+    if os.path.exists(TITLED_LIST):
+        for line in open(TITLED_LIST, encoding='utf-8'):
+            line = line.strip()
+            if line and not line.startswith('#'):
+                names.add(line)
+    return names
+
+
+TITLED = load_titled()
+
 
 def has_text_in_image(img_path):
-    """絵の中にすでにタイトルが入っているか（更新日で判定）"""
-    try:
-        return os.path.getmtime(img_path) < TEXTLESS_SINCE
-    except OSError:
-        return False
+    """絵の中にすでにタイトルが入っているか（明示リストで判定）"""
+    return os.path.basename(img_path) in TITLED
 
 
 # --- 記事タイトル → (スラッグ, アイキャッチの実ファイル, 正式タイトル) ---
 articles = {}
+drafts = {}
 for path in glob.glob(os.path.join(BLOG, 'content/posts/*.md')):
     src = open(path, encoding='utf-8').read()
     head = src.split('---', 2)[1] if src.startswith('---') else src[:1200]
@@ -123,6 +151,12 @@ for path in glob.glob(os.path.join(BLOG, 'content/posts/*.md')):
     if not t:
         continue
     slug = os.path.basename(path)[:-3]
+    # 下書き（draft: true）はブログ上に存在しない。
+    # info.txt にURLを書いても404になるので、Instagramには回さない。
+    # 2026-11-08にごまさんの指摘で発覚（READY4本すべてが下書きだった）。
+    if re.search(r'^draft:\s*true', head, re.M):
+        drafts[norm(t.group(1))] = slug
+        continue
     img = None
     if c:
         p = os.path.join(BLOG, 'static', c.group(1).lstrip('/'))
@@ -154,7 +188,12 @@ if not os.path.isdir(DRIVE):
 made, skipped, warned = [], [], []
 
 for p in pending:
-    slug, img, real_title = articles.get(norm(p['title']), (None, None, None))
+    key = norm(p['title'])
+    if key in drafts:
+        warned.append(f"{p['date']}  {p['title'][:30]}  ← ブログが下書きのまま。"
+                      f"公開してから回してください（{drafts[key]}）")
+        continue
+    slug, img, real_title = articles.get(key, (None, None, None))
     ymd = p['date'].replace('/', '-')
     name = f"{ymd}_{slug or 'unknown'}"
     folder = os.path.join(DRIVE, name)
@@ -179,6 +218,11 @@ for p in pending:
 
     # キャプション
     cap = p['caption']
+    # xlsxのキャプションはトップページのURLで作ってある。記事URLに差し替える。
+    # （2026-11-08にごまさんから info.txt と揃っていないと指摘を受けた）
+    if slug:
+        cap = re.sub(r'https://3nin-dotabata\.com/?(?!posts)\s*$',
+                     f'{SITE}/posts/{slug}/', cap, flags=re.M)
     if len(cap) > 2200:
         warned.append(f'{name}  キャプションが {len(cap)}字（2,200字超）')
     with open(os.path.join(folder, 'caption.txt'), 'w', encoding='utf-8') as f:
