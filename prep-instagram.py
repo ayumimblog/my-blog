@@ -96,12 +96,16 @@ def make_portrait(src_path, title, out_path, with_title=True):
     band_h = TOP + lh * len(lines) + BOTTOM
     img_h = H - band_h
 
-    # 絵は横幅いっぱいに使い、はみ出した上下を切る（余白で埋めない）
-    sc = max(W / src.width, img_h / src.height)
+    # 絵は「切らずに全部入れる」。
+    #
+    #   2026-11-08に、下の余白を減らすため横幅いっぱいに使って上下を切る方式にしたが、
+    #   絵の中にセリフやタイトルが入っている画像だと、その文字ごと切れてしまった。
+    #   2026-11-11にごまさんから12/5と12/12の2本で指摘を受けて、切らない方式に戻した。
+    #   余白が少し残っても、文字が欠けるよりはいい。
+    sc = min(W / src.width, img_h / src.height)
     nw, nh = int(src.width * sc), int(src.height * sc)
     resized = src.resize((nw, nh), Image.LANCZOS)
-    left, top = (nw - W) // 2, (nh - img_h) // 2
-    canvas.paste(resized.crop((left, top, left + W, top + img_h)), (0, 0))
+    canvas.paste(resized, ((W - nw) // 2, (img_h - nh) // 2))
     d.rectangle([0, img_h, W, img_h + 10], fill=BAND)
 
     y = img_h + TOP
