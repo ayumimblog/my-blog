@@ -16,9 +16,11 @@ rc=0
 echo "🔍 サイトへの反映を確認しています..."
 
 # 1. コミットしていない変更
-if [ -n "$(git status --porcelain)" ]; then
+# themes/stack は元からある未追跡フォルダなので除く
+CHANGES=$(git status --porcelain | grep -v 'themes/stack')
+if [ -n "$CHANGES" ]; then
   echo "⚠️  コミットしていない変更があります"
-  git status -s | head -10
+  echo "$CHANGES" | head -10
   rc=1
 fi
 
