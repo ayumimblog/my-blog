@@ -9271,3 +9271,425 @@ Current Version ID: 91ab974b-2b3f-4fe7-882f-8967c6546604
 
 🎉 公開作業がすべて完了しました！
 https://3nin-dotabata.com/posts/jinan-keisan-card-kuyashinamida/ で確認できます。
+[2026-11-09 09:05:23] お休み指定日（2026-11-09）のため自動公開をスキップしました。
+📝 公開する記事: "「鼻からなら楽」と聞いていたのに痛かった。鼻が狭い人の胃カメラと、夜まで続いた鼻血の話"
+📅 公開日を 2026-11-09 に設定します
+✅ フロントマターを更新しました
+🔨 サイトをビルドしています...
+WARN  deprecated: cascade._target was deprecated in Hugo v0.156.0 and will be removed in a future release. Use cascade.target instead, see https://gohugo.io/content-management/front-matter/#target
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 678 
+ Paginator pages  │  75 
+ Non-page files   │   0 
+ Static files     │ 326 
+ Processed images │   0 
+ Aliases          │ 255 
+ Cleaned          │   0 
+
+Total in 3352 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+直した行: 1件
+  No.193  (空) → 2026/11/09T09:05:23+09:00   「鼻からなら楽」と聞いていたのに痛かった。鼻が狭い人の胃カメラと、夜
+
+記事が見つからない行: 4件（タイトルを変更した記事かもしれません）
+  No.122  小学生のスマホデビュー、我が家は「お下がりiPhone＋格安SIM 
+  No.126  5家族22人でBBQお泊まり会。1棟貸し「伊豆クリスタル迎賓館」が大
+  No.127  文具好き小6男子の愛用品レビュー。S20・フリクション・スマッシュ・
+  No.201  紙を貼っても、門限は守れませんでした。対策を本人に立ててもらった話【
+[main 061cf2fd9] 記事を公開: "「鼻からなら楽」と聞いていたのに痛かった。鼻が狭い人の胃カメラと、夜まで続いた鼻血の話"
+ 350 files changed, 580 insertions(+), 529 deletions(-)
+ create mode 100644 public/images/bousai-kemuri-taiken.png
+ create mode 100644 public/images/tyojo-mongen-keika.png
+ create mode 100644 public/posts/keibi-naishikyo-itakatta/index.html
+ create mode 100644 "public/tags/\345\201\245\345\272\267/index.html"
+ create mode 100644 "public/tags/\345\201\245\345\272\267/index.xml"
+ create mode 100644 "public/tags/\345\201\245\345\272\267/page/1/index.html"
+ create mode 100644 static/images/bousai-kemuri-taiken.png
+ create mode 100644 static/images/tyojo-mongen-keika.png
+To https://github.com/ayumimblog/my-blog.git
+   202a5320b..061cf2fd9  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.158.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 2342 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 343 new or modified static assets to upload. Proceeding with upload...
++ /tags/健康/page/1/index.html
++ /categories/index.html
++ /tags/裏拳/index.html
++ /tags/牛と豚/index.html
++ /tags/夢遊病/index.html
++ /tags/小3/index.html
++ /tags/リテイク/index.html
++ /tags/豆知識/index.html
++ /tags/財布/index.html
++ /tags/ファンサ/index.html
++ /tags/型抜き/index.html
++ /tags/踏み絵/index.html
++ /tags/健康/index.html
++ /tags/花粉のせい/index.html
++ /tags/学校行事/index.html
++ /tags/ポツン/index.html
++ /tags/ブログ/index.html
++ /tags/パパ/index.html
++ /tags/大丈夫か/index.html
++ /tags/気持ちがいい/index.html
++ /tags/砂場/index.html
++ /tags/幻想即興曲/index.html
++ /tags/修了式/index.html
++ /tags/首までが顔/index.html
++ /tags/研修講師/index.html
++ /tags/管理能力/index.html
++ /tags/相棒/index.html
++ /tags/節約/index.html
++ /tags/ピアノ発表会/index.html
++ /tags/お金の教育/index.html
++ /tags/憧れの職場/index.html
++ /tags/春休み/index.html
++ /tags/お茶体験/index.html
++ /tags/お金の管理/index.html
++ /tags/格差社会/index.html
++ /tags/お財布事件簿/index.html
++ /tags/抹茶トリュフ/index.html
++ /tags/砂のお城/index.html
++ /tags/冬の過ごし方/index.html
++ /tags/ずる賢い/index.html
++ /tags/ありがとう/index.html
++ /tags/晩酌タイム/index.html
++ /tags/見習いたい姿/index.html
++ /tags/子の成長/index.html
++ /tags/小孥5年生/index.html
++ /tags/チート/index.html
++ /tags/鋼のメンタル/index.html
++ /tags/想像力/index.html
++ /tags/パンダの乗り物/index.html
++ /tags/ジャックスパロウ/index.html
++ /tags/ふるさと納税/index.html
++ /tags/パニック/index.html
++ /tags/おやすみの儀式-/index.html
++ /tags/スケーターズワルツ/index.html
++ /tags/3人育児/page/2/index.html
++ /tags/キャッシュカード/index.html
++ /tags/爆笑エピソード/index.html
++ /tags/母腹筋崩壊/index.html
++ /tags/ブロッコリーご飯/index.html
++ /tags/あみじゃが/index.html
++ /tags/シュールにゆらゆら/index.html
++ /tags/こなれ感長男/index.html
++ /tags/無限の可能性/index.html
++ /tags/感情のコントロール/index.html
++ /tags/地味にダサい長女/index.html
++ /tags/身の丈に合わないゲーム/index.html
++ /tags/ドタバタ日常/page/7/index.html
++ /tags/変顔/index.html
++ /tags/忘れ物番長/index.html
++ /tags/パソコン/index.html
++ /page/18/index.html
++ /tags/女の子ママ/index.html
++ /tags/誕生日/index.html
++ /tags/ロブロックス/index.html
++ /tags/ピアノ/index.html
++ /tags/小学３年生/index.html
++ /tags/晩酌/index.html
++ /tags/お土産/index.html
++ /tags/おでかけ/index.html
++ /tags/マラソン大会/index.html
++ /tags/きょうだい/index.html
++ /tags/おうちごはん/index.html
++ /tags/子どもの成長/page/4/index.html
++ /tags/6年生/index.html
++ /sitemap.xml
++ /posts/page/13/index.html
++ /page/13/index.html
++ /posts/page/15/index.html
++ /tags/次男/page/5/index.html
++ /posts/page/17/index.html
++ /tags/長女/page/4/index.html
++ /tags/ドタバタ母さん/index.html
++ /posts/page/5/index.html
++ /tags/育児あるある/page/5/index.html
++ /page/5/index.html
++ /posts/page/3/index.html
++ /page/10/index.html
++ /page/4/index.html
++ /tags/長女/page/2/index.html
++ /tags/ドタバタ日常/page/6/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 114 of 343 assets
+Uploaded 228 of 343 assets
+Uploaded 343 of 343 assets
+✨ Success! Uploaded 343 files (993 already uploaded) (2.52 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (7.40 sec)
+Deployed my-blog triggers (0.50 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 3e24c173-2de1-4902-b567-b0cf64611972
+npm notice
+npm notice New major version of npm available! 11.12.1 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/keibi-naishikyo-itakatta/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/keibi-naishikyo-itakatta/ で確認できます。
+📝 公開する記事: "門限を守れないのは、時計を持っていなかったからでした。小4長女と作った「友だちの家に行くとき」のリスト"
+📅 公開日を 2026-11-11 に設定します
+✅ フロントマターを更新しました
+🔗 リンクを確認しています...
+✅ リンク切れはありません（1記事を確認）
+🔨 サイトをビルドしています...
+WARN  deprecated: cascade._target was deprecated in Hugo v0.156.0 and will be removed in a future release. Use cascade.target instead, see https://gohugo.io/content-management/front-matter/#target
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+[2026-11-11 09:07:25] 公開開始: content/posts/daidogei-shimai-kazoku.md (「子どもがたくさんで大変ね」5人の母と間違われた日。姉家族と行く大道芸が、毎年の楽しみです)
+📝 公開する記事: "「子どもがたくさんで大変ね」5人の母と間違われた日。姉家族と行く大道芸が、毎年の楽しみです"
+📅 公開日を 2026-11-11 に設定します
+✅ フロントマターを更新しました
+🔗 リンクを確認しています...
+⚠️  まだ下書きの記事にリンクしています（今は404になります）
+   daidogei-shimai-kazoku  →  /posts/kazoku-strengths-check/   （公開予定 2026-12-04）
+   daidogei-shimai-kazoku  →  /posts/tyojo-kouheisei-wiener/   （公開予定 2026-11-20）
+   その記事が公開されれば直ります。急ぐならリンクを外してください。
+
+🔨 サイトをビルドしています...
+WARN  deprecated: cascade._target was deprecated in Hugo v0.156.0 and will be removed in a future release. Use cascade.target instead, see https://gohugo.io/content-management/front-matter/#target
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.162.1+extended+withdeploy darwin/arm64 BuildDate=2026-05-28T17:40:44Z VendorInfo=Homebrew
+
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 680 
+ Paginator pages  │  76 
+ Non-page files   │   0 
+ Static files     │ 327 
+ Processed images │   0 
+ Aliases          │ 255 
+ Cleaned          │   0 
+
+Total in 2873 ms
+✅ ビルド完了
+WARN  deprecated: .Language.LanguageDirection was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Direction instead.
+WARN  deprecated: .Language.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Language.Locale instead.
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+
+                  │ JA  
+──────────────────┼─────
+ Pages            │ 680 
+ Paginator pages  │  76 
+ Non-page files   │   0 
+ Static files     │ 327 
+ Processed images │   0 
+ Aliases          │ 255 
+ Cleaned          │   0 
+
+Total in 1834 ms
+✅ ビルド完了
+🔄 インスタ投稿スケジュールの公開日を更新しています...
+Traceback (most recent call last):
+  File "/Users/moritouayumi/my-blog/sync-schedule.py", line 87, in <module>
+    sys.exit(main())
+  File "/Users/moritouayumi/my-blog/sync-schedule.py", line 49, in main
+    wb = openpyxl.load_workbook(XLSX)
+  File "/Users/moritouayumi/Library/Python/3.9/lib/python/site-packages/openpyxl/reader/excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "/Users/moritouayumi/Library/Python/3.9/lib/python/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "/Users/moritouayumi/Library/Python/3.9/lib/python/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1257, in __init__
+    self._RealGetContents()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1324, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+⚠️ スケジュールの更新に失敗しました（公開自体は続行します）
+直した行: 2件
+  No.195  (空) → 2026/11/11T09:07:23+09:00   門限を守れないのは、時計を持っていなかったからでした。小4長女と作っ
+  No.197  (空) → 2026/11/11T09:07:25+09:00   「子どもがたくさんで大変ね」5人の母と間違われた日。姉家族と行く大道
+
+記事が見つからない行: 4件（タイトルを変更した記事かもしれません）
+  No.122  小学生のスマホデビュー、我が家は「お下がりiPhone＋格安SIM 
+  No.126  5家族22人でBBQお泊まり会。1棟貸し「伊豆クリスタル迎賓館」が大
+  No.127  文具好き小6男子の愛用品レビュー。S20・フリクション・スマッシュ・
+  No.201  紙を貼っても、門限は守れませんでした。対策を本人に立ててもらった話【
+fatal: Unable to create '/Users/moritouayumi/my-blog/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, or the lock file may be stale
+[main e19f4d278] 記事を公開: "「子どもがたくさんで大変ね」5人の母と間違われた日。姉家族と行く大道芸が、毎年の楽しみです"
+ 354 files changed, 827 insertions(+), 733 deletions(-)
+ create mode 100644 public/images/media-rule-3nin-jibunde.png
+ create mode 100644 public/posts/daidogei-shimai-kazoku/index.html
+ create mode 100644 public/posts/tyojo-mongen-list/index.html
+ create mode 100644 "public/tags/\345\275\271\347\253\213\343\201\241\346\203\205\345\240\261/page/5/index.html"
+ create mode 100644 static/images/media-rule-3nin-jibunde.png
+To https://github.com/ayumimblog/my-blog.git
+   061cf2fd9..e19f4d278  main -> main
+✅ git push 完了
+🚀 Cloudflareへデプロイしています...
+
+ ⛅️ wrangler 4.160.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mA fetch request failed, likely due to a connectivity issue.[0m
+
+  
+  Common causes:
+    - No internet connection or network connectivity problems
+    - Firewall or VPN blocking the request
+    - Network proxy configuration issues
+  
+  Please check your network connection and try again.
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mfetch failed[0m
+
+
+[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose[0m
+🪵  Logs were written to "/Users/moritouayumi/Library/Preferences/.wrangler/logs/wrangler-2026-11-11_00-55-19_505.log"
+⚠️ 失敗しました（1回目）。60秒待って再試行します: npx --yes wrangler@latest deploy
+
+ ⛅️ wrangler 4.160.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 2349 files from the assets directory /Users/moritouayumi/my-blog/public
+🌀 Starting asset upload...
+🌀 Found 348 new or modified static assets to upload. Proceeding with upload...
++ /tags/お出かけ/index.xml
++ /categories/index.html
++ /tags/裏拳/index.html
++ /tags/牛と豚/index.html
++ /tags/夢遊病/index.html
++ /tags/小3/index.html
++ /tags/リテイク/index.html
++ /tags/豆知識/index.html
++ /tags/財布/index.html
++ /tags/ファンサ/index.html
++ /tags/型抜き/index.html
++ /tags/踏み絵/index.html
++ /tags/健康/index.html
++ /tags/花粉のせい/index.html
++ /tags/学校行事/index.html
++ /tags/ポツン/index.html
++ /tags/ブログ/index.html
++ /tags/パパ/index.html
++ /tags/大丈夫か/index.html
++ /tags/気持ちがいい/index.html
++ /tags/砂場/index.html
++ /tags/幻想即興曲/index.html
++ /tags/修了式/index.html
++ /tags/首までが顔/index.html
++ /tags/研修講師/index.html
++ /tags/管理能力/index.html
++ /tags/相棒/index.html
++ /tags/節約/index.html
++ /tags/ピアノ発表会/index.html
++ /tags/お金の教育/index.html
++ /tags/憧れの職場/index.html
++ /tags/春休み/index.html
++ /tags/お茶体験/index.html
++ /tags/お金の管理/index.html
++ /tags/格差社会/index.html
++ /tags/お財布事件簿/index.html
++ /tags/抹茶トリュフ/index.html
++ /tags/砂のお城/index.html
++ /tags/冬の過ごし方/index.html
++ /tags/ずる賢い/index.html
++ /tags/ありがとう/index.html
++ /tags/晩酌タイム/index.html
++ /tags/見習いたい姿/index.html
++ /tags/子の成長/index.html
++ /tags/小孥5年生/index.html
++ /tags/チート/index.html
++ /tags/鋼のメンタル/index.html
++ /tags/想像力/index.html
++ /tags/パンダの乗り物/index.html
++ /tags/ジャックスパロウ/index.html
++ /tags/ふるさと納税/index.html
++ /tags/親子のはなし/index.xml
++ /tags/息子のミステリー/index.html
++ /tags/お手伝い/index.html
++ /tags/成長記録/index.html
++ /tags/キャッシュカード/index.html
++ /tags/爆笑エピソード/index.html
++ /tags/母腹筋崩壊/index.html
++ /tags/ブロッコリーご飯/index.html
++ /tags/あみじゃが/index.html
++ /tags/シュールにゆらゆら/index.html
++ /tags/こなれ感長男/index.html
++ /tags/無限の可能性/index.html
++ /tags/感情のコントロール/index.html
++ /tags/地味にダサい長女/index.html
++ /tags/身の丈に合わないゲーム/index.html
++ /tags/リビングはダンスホール/index.html
++ /tags/女の子育児/index.html
++ /tags/保湿と愛嬌/index.html
++ /tags/お弁当/index.html
++ /tags/女の子ママ/index.html
++ /tags/誕生日/index.html
++ /tags/3人育児/page/2/index.html
++ /tags/ドタバタ日常/page/7/index.html
++ /tags/4年生/index.html
++ /tags/男子あるある/index.html
++ /tags/筋トレ/index.html
++ /tags/子どもの迷言/index.html
++ /posts/page/18/index.html
++ /tags/マラソン大会/index.html
++ /tags/きょうだい/index.html
++ /tags/おうちごはん/index.html
++ /tags/訪問看護/index.html
++ /tags/お出かけ/index.html
++ /sitemap.xml
++ /tags/クスッと笑える/page/4/index.html
++ /page/16/index.html
++ /posts/page/13/index.html
++ /page/13/index.html
++ /page/11/index.html
++ /tags/長女/page/4/index.html
++ /posts/page/3/index.html
++ /tags/長男/page/5/index.html
++ /tags/ドタバタ日常/page/6/index.html
++ /page/3/index.html
++ /page/5/index.html
++ /posts/page/12/index.html
++ /posts/page/4/index.html
++ /tags/長女/page/2/index.html
++ /page/4/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 116 of 348 assets
+Uploaded 232 of 348 assets
+Uploaded 348 of 348 assets
+✨ Success! Uploaded 348 files (992 already uploaded) (2.97 sec)
+
+Total Upload: 0.33 KiB / gzip: 0.24 KiB
+Uploaded my-blog (1029.30 sec)
+Deployed my-blog triggers (0.63 sec)
+  https://my-blog.ayumisenteng.workers.dev
+Current Version ID: 7860b1b1-a315-4010-a0f4-9f3bf2aeea76
+
+🔎 サイトに反映されたか確認しています: https://3nin-dotabata.com/posts/daidogei-shimai-kazoku/
+
+🎉 公開作業がすべて完了しました！
+https://3nin-dotabata.com/posts/daidogei-shimai-kazoku/ で確認できます。
+[2026-11-11 11:57:44] 公開成功: 「子どもがたくさんで大変ね」5人の母と間違われた日。姉家族と行く大道芸が、毎年の楽しみです
