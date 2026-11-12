@@ -65,6 +65,10 @@ echo "✅ フロントマターを更新しました"
 #
 # 公開待ちのリンクは、その記事が出れば直るので止めない（警告だけ）。
 # リンク先の記事そのものが存在しない場合だけ、通知を出す。
+# この記事の公開を待って外しておいたリンクがあれば、戻す。
+# （下書きへのリンクは404になるので、いったん外して「リンク復活待ち.json」に記録してある）
+python3 restore-links.py "$FILE" || true
+
 echo "🔗 リンクを確認しています..."
 if ! python3 check-links.py "$FILE"; then
   osascript -e 'display notification "リンク先の記事が存在しません。auto-publish.log を見てください" with title "⚠️ ブログのリンク切れ" sound name "Basso"' 2>/dev/null || true
