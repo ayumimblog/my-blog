@@ -77,10 +77,25 @@ if [ -f "$SKIP_FILE" ] && grep -q "^${TODAY}\b" "$SKIP_FILE"; then
   exit 0
 fi
 
+# 個別予約（com.dotabata.publish-MMDD）がある日は、書き忘れがあっても休む。
+# skip-dates.txt への記入漏れで、2026-11-11に同じ日に2本公開された。
+if python3 reserved.py --today; then
+  log "今日は個別予約があるため、自動公開をスキップしました。"
+  exit 0
+fi
+
+# 個別予約されている記事は、自動公開の対象から外す。
+# （旬の記事を最優先で選ぶため、予約待ちの新しい記事を横取りしてしまう。
+#   2026-11-11に、11/13予約の大道芸の記事を2日早く出してしまった）
+RESERVED=$(python3 reserved.py)
+
 # --- 1. 下書きを作成順（Gitに追加された順）で並べる ---
 TMPFILE=$(mktemp)
 for f in content/posts/*.md; do
   draft=$(grep -m1 "^draft:" "$f" | awk '{print $2}')
+  if echo "$RESERVED" | grep -qx "$(basename "$f" .md)"; then
+    continue
+  fi
   if [ "$draft" = "true" ]; then
     added=$(git log --diff-filter=A --follow --format=%aI -- "$f" | tail -1)
     if [ -z "$added" ]; then
