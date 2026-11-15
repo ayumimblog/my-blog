@@ -7,6 +7,9 @@ tags: ["兄妹げんか", "子育て", "コミュニケーション", "育児あ
 cover:
   image: "/images/asa-game-jikan.png"
   alt: "朝のゲーム時間を巡る兄妹バトル"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 こんにちは！ドタバタ母さんです。

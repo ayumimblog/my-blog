@@ -6,6 +6,9 @@ tags: ["長女", "子育て", "日常", "笑える話", "ドライブ"]
 cover:
   image: "/images/musume-ojisan.png"
   alt: "娘のおじさん鑑定"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 根拠はなんとも言えないのに、なぜか妙に説得力があった。

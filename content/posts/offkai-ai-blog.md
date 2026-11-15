@@ -7,6 +7,9 @@ tags: ["ブログ", "AI", "オフ会", "収益化", "子育てブログ"]
 cover:
   image: "/images/offkai-ai-blog.png"
   alt: "記事のアイキャッチ画像"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 先日、オフ会に参加してきました。

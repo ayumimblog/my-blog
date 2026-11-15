@@ -7,6 +7,9 @@ tags: ["子育て", "メディアルール", "お手伝い", "ドタバタ日常
 cover:
   image: "/images/otetudaipoint.png"
   alt: "お手伝いポイント制復活"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 こんにちは！ドタバタ母さんです。

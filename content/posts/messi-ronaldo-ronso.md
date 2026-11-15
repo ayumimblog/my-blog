@@ -7,6 +7,9 @@ tags: ["長男", "長女", "次男", "兄妹げんか", "育児あるある", "�
 cover:
   image: "/images/messi-ronaldo-ronso.png"
   alt: "記事のアイキャッチ画像"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 こんにちは！ドタバタ母さんです。

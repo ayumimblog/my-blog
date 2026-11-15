@@ -8,6 +8,9 @@ season: \"7-10\"  # 台風で練習中止。台風シーズン
 cover:
   image: "/images/tyojo-gyaruninaru.png"
   alt: "記事のアイキャッチ画像"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 こんにちは！ドタバタ母さんです。

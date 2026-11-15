@@ -7,6 +7,9 @@ tags: ["長男", "七夕", "育児あるある", "ドタバタ日常", "子ど�
 cover:
   image: "/images/tanabata-negaigoto.png"
   alt: "七夕の願い事について長男に熱く語る母のイメージ"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 こんにちは！ドタバタ母さんです。

@@ -7,6 +7,9 @@ tags: ["次男", "育児あるある", "ドタバタ日常", "おすすめグッ
 cover:
   image: "/images/butenarock.png"
   alt: "記事のアイキャッチ画像"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 ※本記事にはプロモーション（アフィリエイト広告）を含みます。

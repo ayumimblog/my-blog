@@ -7,6 +7,9 @@ tags: ["長男", "育児あるある", "ドタバタ日常", "クスッと笑え
 cover:
   image: "/images/tyonan-seiri-seiton.png"
   alt: "記事のアイキャッチ画像"
+robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 こんにちは！ドタバタ母さんです。
