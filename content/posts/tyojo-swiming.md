@@ -7,7 +7,7 @@ tags: ["長女", "スイミング", "育児あるある", "子どもの成長", 
 season: \"6-9\"  # 泳力テスト。夏の話題
 cover:
   image: "/images/tyojo-swiming.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "「やめたい」と言っていたはずの長女、泳力テスト合格で急に「1級まで頑張る」宣言"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

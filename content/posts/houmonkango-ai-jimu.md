@@ -6,7 +6,7 @@ description: "事務さんが毎月半日かけて作っていた月間訪問ス
 tags: ["訪問看護", "役立ち情報", "仕事"]
 cover:
   image: "/images/houmonkango-ai-jimu.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "Excelもプログラミングも分からない訪問看護師が、AIで事務作業を減らした話"
 ---
 
 こんにちは！ドタバタ母さんです。

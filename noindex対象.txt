@@ -61,3 +61,5 @@ tyojo-swiming
 tyonan-jibun-no-tame-ni
 tyonan-seiri-seiton
 tyonan-sutamen-fuku
+# ↓ 短いからではなく、長い記事（shogakusei-sumaho-keiyaku）と内容が重なるため外した（2026-11-15）。こちらは戻さない
+tyonan-sumaho-debut

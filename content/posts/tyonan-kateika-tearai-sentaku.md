@@ -7,7 +7,7 @@ description: "放置され続けた家庭科の宿題「汚れ物の手洗い」
 tags: ["長男", "次男", "夏休み", "育児あるある", "クスッと笑える"]
 cover:
   image: "/images/tyonan-kateika-tearai-sentaku.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "洗濯洗剤vs食器用洗剤、小6長男が次男の激臭靴下で比較実験した家庭科の宿題"
 ---
 
 こんにちは！ドタバタ母さんです。

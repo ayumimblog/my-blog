@@ -6,7 +6,7 @@ description: "鼻からの胃カメラ（経鼻内視鏡）を鎮静剤なしで
 tags: ["役立ち情報", "健康"]
 cover:
   image: "/images/keibi-naishikyo-itakatta.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "「鼻からなら楽」と聞いていたのに痛かった。鼻が狭い人の胃カメラと、夜まで続いた鼻血の話"
 ---
 
 こんにちは！ドタバタ母さんです。

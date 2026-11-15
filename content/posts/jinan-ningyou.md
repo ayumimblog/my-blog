@@ -6,7 +6,7 @@ description: "子どもたちが見ていたYouTubeで、まるでバービー�
 tags: ["次男", "育児あるある", "ドタバタ日常", "クスッと笑える"]
 cover:
   image: "/images/jinan-ningyou.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "YouTubeの人形ダンスを即模倣、誰にも気づかれず練習していた次男の人形なりきり事件"
 ---
 
 こんにちは！ドタバタ母さんです。

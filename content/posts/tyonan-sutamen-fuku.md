@@ -6,7 +6,7 @@ description: "お気に入りの2セットを交互に着続ける長男に、�
 tags: ["長男", "育児あるある", "ドタバタ日常", "クスッと笑える"]
 cover:
   image: "/images/tyonan-sutamen-fuku.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "「どちら様ですか？」新しい服を着ただけで別人扱いされた長男の、完璧な返し"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

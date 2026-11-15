@@ -7,7 +7,7 @@ tags: ["次男", "おでかけ", "育児あるある", "子どもの成長", "�
 season: \"7-8\"  # 真っ暗迷路。夏のお出かけイベント
 cover:
   image: "/images/makkurameiro-jinan.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "真っ暗迷路、堂々の棄権！次男が見せた潔すぎる「❌ポーズ」に感動した話"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

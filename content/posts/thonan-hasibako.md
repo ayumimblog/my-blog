@@ -7,7 +7,7 @@ tags: ["長男", "育児あるある", "ドタバタ日常", "クスッと笑え
 season: \"4-7,9-12\"  # 給食の箸箱。学期中
 cover:
   image: "/images/thonan-hasibako.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "箸箱、洗ってないやん！割り箸でごまかそうとした長男の「肝の据わり方」がすごかった"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

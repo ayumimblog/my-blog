@@ -6,7 +6,7 @@ description: "次男に続き甥っ子も悩む足の匂い問題。紹介して
 tags: ["次男", "育児あるある", "ドタバタ日常", "おすすめグッズ"]
 cover:
   image: "/images/butenarock.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "足の匂い問題、ついに解決！？「ブテナロック」消臭スプレーが我が家を救った話"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

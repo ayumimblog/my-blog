@@ -6,7 +6,7 @@ description: "県議会議員の仕事を学ぶ親子教室に参加。実際の
 tags: ["長男", "長女", "おでかけ", "夏休み", "子どもの成長"]
 cover:
   image: "/images/kengikai-oyako-kyoshitsu.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "県議会の親子教室で気づいた「当たり前の日常」のありがたさ"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

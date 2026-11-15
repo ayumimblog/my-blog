@@ -6,7 +6,7 @@ draft: false
 tags: ["役立ち情報", "訪問看護", "親の介護"]
 cover:
   image: "/images/kaigohoken-mae-tsuin-tsukisoi.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "介護保険が使えない時期がいちばん大変。訪問看護師が伝えたい4つの選択肢"
 ---
 
 こんにちは！ドタバタ母さんです。訪問看護師として働いています。

@@ -6,7 +6,7 @@ description: "花火大会に友達と行く約束、翌日は学生時代の友
 tags: ["育児あるある", "ドタバタ日常", "友人", "夏休み"]
 cover:
   image: "/images/nastuyasumigatanosimi.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "夏休みが楽しみすぎる長女。でも一番テンションが上がっているのは私かもしれない"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

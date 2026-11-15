@@ -7,7 +7,7 @@ tags: ["長女", "次男", "育児あるある", "ドタバタ日常", "クス�
 season: \"4-7,9-11\"  # 校外学習。学期中の話題
 cover:
   image: "/images/tyojo-kougaigakushu-jinanbinjo.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "「俺もいく？」就寝直前、次男が4年生の校外学習に謎の便乗宣言"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

@@ -6,7 +6,7 @@ description: "1Passwordを導入して半年。使い回していたパスワー
 tags: ["役立ち情報", "お金のこと"]
 cover:
   image: "/images/security-taisaku-1password.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "パスワードを全部強くした1週間。でも金庫の鍵は、ダウンロードフォルダに置いてありました"
 ---
 
 こんにちは！ドタバタ母さんです。

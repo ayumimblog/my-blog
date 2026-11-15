@@ -6,7 +6,10 @@ description: "七夕の短冊に「携帯が欲しい」と書いた小6長男�
 tags: ["長男", "役立ち情報", "スマホデビュー", "小学生ママ", "子どもの成長"]
 cover:
   image: "/images/tyonan-sumaho-debut.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "小6長男、念願のスマホデビュー。親子で決めた「スマホの約束」6つ"
+robotsNoIndex: true  # 2026-11-15 shogakusei-sumaho-keiyaku と内容が重なるため検索対象から外した（記事は残す）
+sitemap:
+  disable: true
 ---
 
 こんにちは！ドタバタ母さんです。

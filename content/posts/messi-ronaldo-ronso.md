@@ -6,7 +6,7 @@ description: "ワールドカップで白熱する我が家。朝から子ども
 tags: ["長男", "長女", "次男", "兄妹げんか", "育児あるある", "ドタバタ日常", "クスッと笑える"]
 cover:
   image: "/images/messi-ronaldo-ronso.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "朝から勃発「メッシvsロナウド論争」。三者三様すぎて誰も噛み合っていない件"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

@@ -6,7 +6,7 @@ description: "金曜ロードショーでトイストーリーを見てから、
 tags: ["長女", "次男", "育児あるある", "ドタバタ日常", "クスッと笑える"]
 cover:
   image: "/images/mugennokanatahe-enginshido.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "「もっと真剣に！」長女が繰り広げる、次男への本格演技指導"
 ---
 
 こんにちは！ドタバタ母さんです。

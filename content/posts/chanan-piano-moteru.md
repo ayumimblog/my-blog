@@ -6,7 +6,7 @@ description: "ピアノでかっこいい曲を弾いてモテたい！そんな
 tags: ["長男", "ピアノ", "育児あるある", "子どもの成長", "ドタバタ日常"]
 cover:
   image: "/images/tyonan-piano.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "「モテたい」がモチベーション。長男のピアノ猛特訓がアツすぎる件"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

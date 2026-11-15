@@ -6,7 +6,7 @@ description: "夏休みも半分。長女は友達と映画、次男は友達の
 tags: ["長男", "育児あるある", "ドタバタ日常", "クスッと笑える", "夏休み"]
 cover:
   image: "/images/tyonan-jibun-no-tame-ni.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "「自分のために時間を使いたいんだ」小6長男の名言、その実態はゲーム三昧"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true

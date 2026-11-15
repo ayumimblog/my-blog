@@ -7,7 +7,7 @@ description: "宿題を前にイヤイヤが止まらず、指摘されると喚
 tags: ["次男", "役立ち情報", "育児あるある", "子どもの成長"]
 cover:
   image: "/images/jinan-shukudai-iyaiya-hanashiai.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "「キツく言われるのはやだ」宿題で泣いた小1次男と、2人で決めたルール"
 ---
 
 こんにちは！ドタバタ母さんです。

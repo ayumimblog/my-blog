@@ -6,7 +6,7 @@ description: "オフ会で聞いた「日記はいい素材ですよ」のひと
 tags: ["ブログ", "AI", "オフ会", "収益化", "子育てブログ"]
 cover:
   image: "/images/offkai-ai-blog.png"
-  alt: "記事のアイキャッチ画像"
+  alt: "オフ会で背中を押してもらった話。「日記はいい素材ですよ」のひと言が私を動かした"
 robotsNoIndex: true  # 2026-11-15 1000字未満のため検索対象から外した（記事は残す）
 sitemap:
   disable: true
