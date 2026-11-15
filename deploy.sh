@@ -28,6 +28,7 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 echo "🔗 リンクを確認しています..."
 python3 check-links.py || true
+python3 check-xlsx.py || true     # タイトルを変えたら、インスタ用の表も直す
 
 echo "🔨 ビルドしています..."
 rm -rf resources/_gen
