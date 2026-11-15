@@ -13,7 +13,8 @@
 #   3nin-dotabata.com は **git push で更新される**（Cloudflare側がプッシュを受けてビルドする）。
 #   根拠：2026-11-14の公開では wrangler deploy が壊れて失敗していたが、
 #   プッシュだけで記事は 3nin-dotabata.com にも workers.dev にも出た。
-#   wrangler deploy は念のための二重化として残している。
+#   ただし2026-10-23〜26には「プッシュ済みなのに出ず、手でwranglerを打ったら出た」記録がある。
+#   どこかの時点で変わった可能性があり未確認。だから wrangler deploy は外さず、必ず両方やる。
 
 set -e
 cd "$(dirname "$0")"
@@ -45,8 +46,7 @@ fi
 echo "⬆️  プッシュしています..."
 git push -q origin main
 
-# サイトは git push だけで更新される（Cloudflare側がプッシュを受けて自分でビルドする）。
-# wrangler deploy は念のための二重化。失敗しても止めないが、隠さずに知らせる。
+# 2026年11月の観察では、サイトは git push で更新されている。wrangler deploy は二重化として続ける。失敗しても止めないが、隠さずに知らせる。
 # （2026-11-14〜15、wranglerのキャッシュが壊れて失敗していたのに、出力の末尾だけ
 #   見ていて気づかなかった。直し方: rm -rf ~/.npm/_npx して実行し直す）
 echo "🚀 Cloudflareへデプロイしています..."
