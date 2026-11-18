@@ -188,7 +188,25 @@ for r in range(2, ws.max_row + 1):
         'title': ws.cell(r, 2).value or '',
         'caption': ws.cell(r, 6).value or '',
     })
-pending = pending[:N]
+# 日付の順に並べて、まだ素材を作っていないものから N 本選ぶ。
+#   以前は表の行の順に上から N 本取っていたが、2026-11-17〜18に表の日付を並べ替えたため、
+#   行の順と日付の順がずれた。そのままだと、作ったあとの記事や、ずっと先の記事を拾ってしまう。
+#   すでにDriveにフォルダがある日と、ブログが下書きの記事は数に入れない。
+def _ymd(v):
+    return str(v)[:10].replace('/', '-')
+existing = {n[:10] for n in os.listdir(DRIVE) if re.match(r'\d{4}-\d{2}-\d{2}_', n)} if os.path.isdir(DRIVE) else set()
+pending.sort(key=lambda p: _ymd(p['date']))
+chosen, early_drafts = [], []
+for p in pending:
+    if _ymd(p['date']) in existing or _ymd(p['date']) < date.today().isoformat():
+        continue
+    if norm(p['title']) in drafts:
+        early_drafts.append(p)
+        continue
+    chosen.append(p)
+    if len(chosen) >= N:
+        break
+pending = early_drafts + chosen
 
 if not pending:
     print('予定の投稿がありません')
