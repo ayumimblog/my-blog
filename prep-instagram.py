@@ -65,8 +65,14 @@ def make_portrait(src_path, title, out_path, with_title=True):
     def f(sz):
         return ImageFont.truetype(MARU, sz, index=0)
 
+    # 文字・吹き出し・大事な部分は、中央75%の幅（810px）に収める。
+    #   Instagramのプロフィールの一覧（3:4）では、4:5の画像の左右が約34pxずつ切れる。
+    #   2026-11-18、ごまさんから「12/19の画像で、タイトルの『足』が左端で切れる」と指摘があり、
+    #   あわせて「文字は中央75%の幅に収める」というルールをもらったので、絵もタイトルもこの幅に収める。
+    SAFE_W = int(W * 0.75)
+
     if not with_title:
-        sc = min(W / src.width, H / src.height)
+        sc = min(SAFE_W / src.width, H / src.height)
         nw, nh = int(src.width * sc), int(src.height * sc)
         canvas.paste(src.resize((nw, nh), Image.LANCZOS), ((W - nw) // 2, (H - nh) // 2))
         canvas.save(out_path, quality=90, optimize=True)
@@ -75,7 +81,7 @@ def make_portrait(src_path, title, out_path, with_title=True):
     # タイトルを先に組んで、その高さぶんを引いた残りを絵に使う。
     # 絵の高さを固定していた頃は、タイトルが短いと下に大きな余白ができていた
     # （2026-11-08にごまさんから「イラストが小さく見える」と指摘を受けて修正）。
-    PAD_X, TOP, BOTTOM = 65, 56, 150     # BOTTOMはドメイン表示のぶん
+    PAD_X, TOP, BOTTOM = (W - SAFE_W) // 2, 56, 70      # BOTTOMはドメイン表示のぶん
     size, maxw = 58, W - PAD_X * 2
 
     def wrap(txt, fo):
@@ -102,18 +108,22 @@ def make_portrait(src_path, title, out_path, with_title=True):
     #   絵の中にセリフやタイトルが入っている画像だと、その文字ごと切れてしまった。
     #   2026-11-11にごまさんから12/5と12/12の2本で指摘を受けて、切らない方式に戻した。
     #   余白が少し残っても、文字が欠けるよりはいい。
-    sc = min(W / src.width, img_h / src.height)
+    sc = min(SAFE_W / src.width, img_h / src.height)
     nw, nh = int(src.width * sc), int(src.height * sc)
     resized = src.resize((nw, nh), Image.LANCZOS)
-    canvas.paste(resized, ((W - nw) // 2, (img_h - nh) // 2))
-    d.rectangle([0, img_h, W, img_h + 10], fill=BAND)
+    # 絵とタイトルをひとまとまりにして、縦の真ん中に置く。
+    # （絵を中央75%に縮めると絵の上下が空くので、絵の下にすき間を作らないようにする）
+    top = max(0, (H - (nh + band_h)) // 2)
+    canvas.paste(resized, ((W - nw) // 2, top))
+    line_y = top + nh
+    d.rectangle([(W - SAFE_W) // 2, line_y, (W + SAFE_W) // 2, line_y + 10], fill=BAND)
 
-    y = img_h + TOP
+    y = line_y + TOP
     for ln in lines:
         d.text((PAD_X, y), ln, font=f(size), fill=INK)
         y += lh
     t = '3nin-dotabata.com'
-    d.text((W - PAD_X - d.textlength(t, font=f(28)), H - 60), t, font=f(28), fill=AC)
+    d.text((W - PAD_X - d.textlength(t, font=f(28)), y + 24), t, font=f(28), fill=AC)
     canvas.save(out_path, quality=90, optimize=True)
 
 
