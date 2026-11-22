@@ -12,7 +12,7 @@ Hugo + PaperMod。Cloudflare Workersでホスティング。運営者はあゆ�
 
 - **タイトルに半角ダブルクォート `"` を入れない**（frontmatterが壊れてビルドが落ちる）。強調は `「」`
 - **公開前にアイキャッチ画像が実在するか確認する**（`static/images/スラッグ.png`）
-- **git commitやwrangler deployを手で打たない**。`./publish.sh` を使う
+- **予約ファイル作成・git commit・wrangler deployを手で打たない**。予約は `./yoyaku.sh`、公開は `./publish.sh`、修正の反映は `./deploy.sh`（詳細は記事の書き方.md 11章）
 - **子どもの顔が写った写真は載せない**
 - **仕事（訪問看護）の話は「制度や仕事」ならOK、「利用者さん」は匿名でもNG**。書く前に[記事の書き方.md](記事の書き方.md)の「仕事のことを書くときの線引き」を読む
 
@@ -21,15 +21,19 @@ Hugo + PaperMod。Cloudflare Workersでホスティング。運営者はあゆ�
 
 | コマンド | 何をするか |
 |---|---|
-| `./publish.sh content/posts/xxx.md` | 1本を公開（draft解除→ビルド→push→デプロイ） |
+| `./yoyaku.sh content/posts/xxx.md 11/30` | **公開を予約する**（その日の8:55。画像・重複・月水・リンク切れまで確認） |
+| `./publish.sh content/posts/xxx.md` | 1本を今すぐ公開（draft解除→ビルド→push→デプロイ） |
+| `./deploy.sh "何を直したか"` | **公開済みの記事や設定の修正を反映**（ビルド→コミット→プッシュ→デプロイ→反映漏れ確認） |
 | `./auto-publish.sh --dry-run` | 次に自動公開される記事を確認 |
-| `./auto-publish.sh` | 下書きの古い順に1本公開（launchdが月・木9:00に実行） |
+| `./auto-publish.sh` | 下書きの古い順に1本公開。**2026-11-15に停止**（在庫が全部短い記事のため。設定は `停止中の設定/`） |
 | `./save-eyecatch.sh スラッグ名` | ~/Downloads の最新画像を static/images/ に配置 |
 | `./list-drafts.sh` | 下書き一覧 |
 | `./season-check.sh [月]` | 下書きの「旬」の状態を一覧（旬／通年／季節外れ） |
 | `python3 sync-schedule.py --check` | インスタ投稿スケジュールのブログ投稿日のズレを確認 |
 
-`skip-dates.txt` に日付を書くと、その日は週次の自動公開をお休みする（個別に予約した記事があるとき用）。
+`skip-dates.txt` に日付を書くと、その日は週次の自動公開をお休みする（自動公開は停止中。`yoyaku.sh` が記録として書き込む）。
+
+**Instagramの素材**は `python3 prep-instagram.py 4` で、Google Drive `Instagram予約投稿/` に置く（予約はごま＝Museが担当）。ごまさん向けの全体像は Drive の `00_ブログの全体像とルール_最新版.md`。
 
 季節ネタは frontmatter の `season: "6-8"` で旬の月を指定する。自動公開は旬の記事を最優先し、季節外れの記事は旬が来るまで公開しない。詳細は[記事の書き方.md](記事の書き方.md)の「季節ネタの扱い」。
 
@@ -48,5 +52,5 @@ Hugo + PaperMod。Cloudflare Workersでホスティング。運営者はあゆ�
    ※ブログ投稿日（C列）は空欄でよい。公開時に `publish.sh` が自動で入れる
    ※**xlsxのタイトルは記事のtitleと完全に一致させる**（照合キーになっている）
 3. 関連する過去記事があれば**両方向に**内部リンクを張る
-4. `hugo` でビルドが通るか確認 → commit → push
-5. アイキャッチ生成用のプロンプトを渡す
+4. アイキャッチ生成用のプロンプトを渡す
+5. 画像を置いたら `./yoyaku.sh` で予約する（ビルド・プッシュは `deploy.sh` で）
